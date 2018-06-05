@@ -23,5 +23,7 @@ cd ..
 cd termite
 config add config
 
-config commit -m 'scripted commit'
+echo commit comment:
+read varcomment
+config commit -m '$varcomment'
 config push -u origin master
