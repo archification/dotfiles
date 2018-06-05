@@ -2,11 +2,12 @@
 operation = action you're taking
 motion = where will the cursor move
 number before operation will repeat that operation that many times
+things are working
+is it working now?
 
 #qute
 m spawn mpv {url}
 M hint links spawn mpv {hint-url}
-:download-clear
 
 #web
 https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md
