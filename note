@@ -1,0 +1,42 @@
+#vim
+operation = action you're taking
+motion = where will the cursor move
+number before operation will repeat that operation that many times
+
+#qute
+m spawn mpv {url}
+M hint links spawn mpv {hint-url}
+:download-clear
+
+#web
+https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md
+https://github.com/ryanoasis/powerline-extra-symbols
+freegogpcgames.com
+
+#package
+imv
+wmctrl
+/home/jaster/stuff/tumblrdownloader.py
+zathura
+youtube-dl
+mpv
+urlview
+wpscan
+nikto
+toilet
+lxappearance
+arc-gtk-theme
+sbd
+
+#commands
+omf update
+lighttpd -D -f /etc/lighttpd/lighttpd.conf
+curl wttr.in
+kill $(ps aux | grep evince | grep -v grep | awk {'print $2'})
+slowloris -dns something.com -port 80 -timeout 30 -num 500 -tcpto 1
+
+#evince updating
+echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p
+
+#prepend $PATH in fish
+set -U fish_user_paths /first/path /second/path /third/one
