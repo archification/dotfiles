@@ -3,9 +3,12 @@
 config add git.fish
 config add .vimrc
 config add note
+config add .xinitrc
+config add .Xmodmap
 
 cd .config
 config add i3blocks.conf
+config add compton.conf
 
 cd fish
 config add config.fish

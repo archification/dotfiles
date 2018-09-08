@@ -5,7 +5,7 @@ execute pathogen#helptags()
 " basics
 set nocompatible
 filetype plugin on
-syntax enable 
+syntax enable
 set autoindent
 set encoding=utf-8
 set number
@@ -13,7 +13,7 @@ set relativenumber
 set background=dark
 colorscheme solarized
 hi Normal ctermbg=NONE guibg = NONE
-let g:airline_theme='base16'
+let g:airline_theme='raven'
 let g:airline_powerline_fonts=1
 set shiftwidth=4
 set tabstop=4
@@ -22,7 +22,7 @@ noremap qq :q<CR>
 let g:powerline_pycmd="py3"
 set laststatus=2
 
-"syntastic
+" syntastic
 let g:syntastic_python_checkers = ['flake8']
 set statusline+=%#warningmsg#
 set statusline+=%{syntasticStatuslineFlag()}
