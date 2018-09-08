@@ -112,7 +112,7 @@ bar {
 	}
 }
 
-exec_always --no-startup-id feh --bg-scale /home/jaster/wallpaper/joker.jpg
+exec_always --no-startup-id feh --bg-scale /home/jaster/wallpaper/nier.jpg
 exec_always --no-startup-id "killall -q compton; compton --config ~/.config/compton.conf"
 
 bindsym $mod+b exec chromium

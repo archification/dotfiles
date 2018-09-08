@@ -21,6 +21,10 @@ cd ..
 cd scripts
 config add disk
 config add load_average
+config add battle.sh
+config add macro.sh
+config add path.sh
+config add pob.sh
 
 cd ..
 cd termite
