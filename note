@@ -9,6 +9,10 @@ https://github.com/ryanoasis/powerline-extra-symbols
 freegogpcgames.com
 
 #package
+xcursor-arch-cursor-complete
+cht.sh
+thefuck
+moka-icon-theme
 pip scrappy
 compton
 fdupes
@@ -24,6 +28,8 @@ libreoffice-fresh
 imv
 
 #commands
+fdupes -rd /home/jaster/stuff/
+systemctl start org.cups.cupsd.service
 curl -s "https://cht.sh/$argv"
 omf update
 lighttpd -D -f /etc/lighttpd/lighttpd.conf
@@ -34,6 +40,16 @@ pip3 install slowloris
 wine PathOfExile.exe -gc2 --softwareaudio
 find . "*.*" | shuf | imv
 
-contact@dibbz.net
+#todo
+ask someone about redwolv regular plus
+
+#pin jefferson financial
+CU 7614 2174
+#login.gov
+TQAFG9QRWS4FXSSM
+#hacker music
+https://www.youtube.com/watch?v=4ZW6Eme9eVY
+#ancient theology 
 https://www.youtube.com/watch?v=AC5hLlh5XpY
+#skyrim proton path
 /home/jaster/.local/share/Steam/steamapps/compatdata/489830/pfx/drive_c/users/steamuser/My Documents/My Games/Skyrim Special Edition

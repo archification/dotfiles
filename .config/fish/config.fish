@@ -3,7 +3,6 @@
 set fish_greeting ""
 fish_vi_key_bindings
 set fish_plugins agnoster
-
 set -g theme_nerd_fonts yes
 
 alias pacaur='yay'

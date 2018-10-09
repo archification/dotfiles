@@ -13,17 +13,20 @@ set relativenumber
 set background=dark
 colorscheme solarized
 hi Normal ctermbg=NONE guibg = NONE
+let g:airline_statusline_funcrefs = get(g:, 'airline_statusline_funcrefs', [])
 let g:airline_theme='raven'
 let g:airline_powerline_fonts=1
 set shiftwidth=4
 set tabstop=4
 noremap ww :w<CR>
-noremap qq :q<CR>
+noremap qq :q!<CR>
 let g:powerline_pycmd="py3"
 set laststatus=2
 
 " syntastic
 let g:syntastic_python_checkers = ['flake8']
+let g:syntastic_python_flake8_post_args='--ignore=E501'
+let g:syntastic_haxe_checkers = ['haxe']
 set statusline+=%#warningmsg#
 set statusline+=%{syntasticStatuslineFlag()}
 set statusline+=%*
