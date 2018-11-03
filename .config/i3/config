@@ -2,13 +2,13 @@ set $mod Mod4
 
 new_window none 
 font pango:Hack 10
-bindsym $mod+Shift+x exec i3lock --color 475263
+bindsym $mod+Shift+x exec "/home/jaster/.config/scripts/lock.sh"
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec termite
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+q kill
@@ -112,10 +112,10 @@ bar {
 	}
 }
 
-exec_always --no-startup-id feh --bg-scale /home/jaster/wallpaper/nier.jpg
+exec_always --no-startup-id feh --bg-scale /home/jaster/wallpaper/tattoo.jpg
 exec_always --no-startup-id "killall -q compton; compton --config ~/.config/compton.conf"
 
 bindsym $mod+b exec chromium
 bindsym $mod+s exec xsel | espeak
-bindsym $mod+x exec bash -c "maim -s --format=png /dev/stdout | xclip -selection clipboard -t image/png -i"
-bindsym $mod+c exec bash -c "maim -s --format=png /dev/stdout | pb | sed 's/.*/\0.png/' | xsel -ib && espeak "ready""
+bindsym $mod+x exec bash -c "maim -s --format=png /dev/stdout | xclip -selection clipboard -t image/png -i && espeak "image""
+bindsym $mod+c exec bash -c "maim -s --format=png /dev/stdout | pb | sed 's/.*/\0.png/' | xsel -ib && espeak "link""

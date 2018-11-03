@@ -1,14 +1,10 @@
-#vim
-operation = action you're taking
-motion = where will the cursor move
-number before operation will repeat that operation that many times
-
 #web
 https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md
 https://github.com/ryanoasis/powerline-extra-symbols
-freegogpcgames.com
 
 #package
+hardinfo
+kitty
 xcursor-arch-cursor-complete
 cht.sh
 thefuck
@@ -38,18 +34,13 @@ kill $(ps aux | grep evince | grep -v grep | awk {'print $2'})
 slowloris -dns something.com -port 80 -timeout 30 -num 500 -tcpto 1
 pip3 install slowloris
 wine PathOfExile.exe -gc2 --softwareaudio
-find . "*.*" | shuf | imv
+imv -t int ~/stuff
 
-#todo
-ask someone about redwolv regular plus
-
-#pin jefferson financial
-CU 7614 2174
-#login.gov
-TQAFG9QRWS4FXSSM
 #hacker music
 https://www.youtube.com/watch?v=4ZW6Eme9eVY
 #ancient theology 
 https://www.youtube.com/watch?v=AC5hLlh5XpY
 #skyrim proton path
 /home/jaster/.local/share/Steam/steamapps/compatdata/489830/pfx/drive_c/users/steamuser/My Documents/My Games/Skyrim Special Edition
+#skyrim audio fix?
+while true; do pasuspender sleep 0.02; sleep 60; done
