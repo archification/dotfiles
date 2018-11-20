@@ -27,8 +27,8 @@ config add path.sh
 config add pob.sh
 
 cd ..
-cd termite
-config add config
+cd kitty
+config add kitty.conf
 
 config commit -m 'scripted commit'
 config push -u origin master
