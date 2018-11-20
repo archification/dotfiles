@@ -115,8 +115,10 @@ bar {
 exec_always --no-startup-id feh --bg-scale /home/jaster/wallpaper/glypharch.jpg
 exec_always --no-startup-id "killall -q compton; compton --config ~/.config/compton.conf"
 
+# apps
 bindsym $mod+b exec chromium
-bindsym $mod+s exec xsel | espeak
-bindsym $mod+x exec bash -c "maim -s --format=png /dev/stdout | xclip -selection clipboard -t image/png -i && espeak "image""
-bindsym $mod+c exec bash -c "maim -s --format=png /dev/stdout | pb | sed 's/.*/\0.png/' | xsel -ib && espeak "link""
 bindsym $mod+g exec bash -c "groff -ms /home/jaster/gruff/thing.ms -T pdf > /home/jaster/gruff/thing.pdf"
+
+# screengrab
+bindsym $mod+x exec bash -c "maim -s --format=png /dev/stdout | xclip -selection clipboard -t image/png -i && espeak "image""
+bindsym $mod+c exec bash -c "maim -s --format=png /dev/stdout | pb | sed 's/.*/\0.png/' | xsel -ib && mpv "/home/jaster/.config/sounds/thing.mp3""
