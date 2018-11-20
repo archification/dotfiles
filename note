@@ -3,9 +3,13 @@ https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md
 https://github.com/ryanoasis/powerline-extra-symbols
 
 #package
+utox
+groff
+cmatrix
+pipes.sh
+gtop
 hardinfo
 kitty
-xcursor-arch-cursor-complete
 cht.sh
 thefuck
 moka-icon-theme
@@ -19,7 +23,6 @@ zathura
 youtube-dl
 mpv
 nikto
-toilet
 libreoffice-fresh
 imv
 
@@ -38,9 +41,3 @@ imv -t int ~/stuff
 
 #hacker music
 https://www.youtube.com/watch?v=4ZW6Eme9eVY
-#ancient theology 
-https://www.youtube.com/watch?v=AC5hLlh5XpY
-#skyrim proton path
-/home/jaster/.local/share/Steam/steamapps/compatdata/489830/pfx/drive_c/users/steamuser/My Documents/My Games/Skyrim Special Edition
-#skyrim audio fix?
-while true; do pasuspender sleep 0.02; sleep 60; done
