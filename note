@@ -3,7 +3,6 @@ https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md
 https://github.com/ryanoasis/powerline-extra-symbols
 
 #package
-supertuxkart
 utox
 groff
 cmatrix
@@ -14,7 +13,6 @@ kitty
 cht.sh
 thefuck
 moka-icon-theme
-pip scrappy
 compton
 fdupes
 wine-staging-pba-git
@@ -29,18 +27,9 @@ imv
 
 #commands
 fdupes -rd /home/jaster/stuff/
-systemctl start org.cups.cupsd.service
 curl -s "https://cht.sh/$argv"
 omf update
 lighttpd -D -f /etc/lighttpd/lighttpd.conf
 curl wttr.in
-kill $(ps aux | grep evince | grep -v grep | awk {'print $2'})
 slowloris -dns something.com -port 80 -timeout 30 -num 500 -tcpto 1
-pip3 install slowloris
-wine PathOfExile.exe -gc2 --softwareaudio
 imv -t int ~/stuff
-
-#hacker music
-https://www.youtube.com/watch?v=4ZW6Eme9eVY
-
-https://www.youtube.com/watch?v=4ZGlC7RVP7c&feature=youtu.be&t=675

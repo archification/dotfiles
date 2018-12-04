@@ -1,16 +1,13 @@
 [options]
 font = Hack Nerd Font 11
-
 [colors]
 foreground = #839496
 foreground_bold = #eee8d5
 #foreground_dim = #888888
 background = rgba(0, 43, 54, 0.8)
 cursor = #839496
-
 # if unset, will reverse foreground and background
 # highlight = #839496
-
 # colors from color0 to color254 can be set
 color0 = #073642
 color1 = #dc322f
