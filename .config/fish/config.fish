@@ -8,6 +8,7 @@ set -g theme_nerd_fonts yes
 alias pacaur='yay'
 alias yaourt='yay'
 alias nano='vim'
+alias emacs='vim'
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias what='/home/jaster/.config/scripts/vimplug.fish'
 alias path='/home/jaster/.config/scripts/path.sh'
