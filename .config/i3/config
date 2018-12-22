@@ -112,7 +112,7 @@ bar {
 	}
 }
 
-exec_always --no-startup-id feh --bg-scale /home/jaster/wallpaper/glypharch.jpg
+exec_always --no-startup-id feh --bg-scale /home/jaster/wallpaper/horns.jpg
 exec_always --no-startup-id "killall -q compton; compton --config ~/.config/compton.conf"
 
 # apps

@@ -24,10 +24,7 @@ config add load_average
 config add lock.sh
 config add git.fish
 config add vimplug.fish
-config add battle.sh
-config add macro.sh
-config add path.sh
-config add pob.sh
+config add discord.sh
 cd ..
 
 cd kitty
