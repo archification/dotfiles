@@ -29,7 +29,7 @@ config add lock.sh
 config add git.sh
 config add gitstuff.sh
 config add update.sh
-config add vimplug.sh
+config add gitstuff.sh
 config add discord.sh
 cd ..
 
