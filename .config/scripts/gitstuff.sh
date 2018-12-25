@@ -16,6 +16,10 @@ cd syntastic
 git pull
 cd ..
 
+cd vim-surround
+git pull
+cd ..
+
 cd vaxe
 git pull
 cd ..
