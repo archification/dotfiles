@@ -3,6 +3,8 @@ https://github.com/ryanoasis/powerline-extra-symbols
 https://www.thegeekdiary.com/how-to-make-alias-command-work-in-bash-script-or-bashrc-file/
 
 #package
+zsh
+oh-my-zsh-git
 nnn
 leafpad
 flatpak
@@ -18,7 +20,6 @@ thefuck
 moka-icon-theme
 compton
 fdupes
-wine-staging-pba-git
 dxvk-win64-bin
 newsboat
 zathura

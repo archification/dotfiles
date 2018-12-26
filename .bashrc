@@ -1,12 +1,16 @@
 #!/usr/bin/env bash
 
 export BASH_IT="/home/jaster/bash-it"
-export BASH_IT_THEME='/home/jaster/agnoster-bash/agnoster.bash'
+export BASH_IT_THEME='iterate'
+if [[ -f $THEME ]]; then
+	export DEFAULT_USER='whoami'
+	source $THEME
+fi
 set -o vi
 set show-mode-in-prompt on
 export GIT_HOSTING='git@gitlab.com'
 unset MAILCHECK
-export IRC_CLIENT='irssi'
+export IRC_CLIENT='weechat'
 export TODO="t"
 export SCM_CHECK=true
 export BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE=1
