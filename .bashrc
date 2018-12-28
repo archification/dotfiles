@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#/usr/bin/env bash
 
 powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
@@ -12,6 +12,7 @@ DEFAULT_USER=jaster
 #	export DEFAULT_USER='whoami'
 #	source $THEME
 #fi
+LS_COLORS=$LS_COLORS:'di=0;36:' ; export LS_COLORS
 set -o vi
 set show-mode-in-prompt on
 unset MAILCHECK
