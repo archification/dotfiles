@@ -32,6 +32,7 @@ libreoffice-fresh
 imv
 
 #commands
+git remote set-url origin git@gitlab.com:archification/dotfiles.git
 fdupes -rd /home/jaster/stuff/
 curl -s "https://cht.sh/$argv"
 omf update
