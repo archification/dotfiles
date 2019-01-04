@@ -31,6 +31,7 @@ config add gitstuff.sh
 config add update.sh
 config add gitstuff.sh
 config add discord.sh
+config add pastefile.sh
 cd ..
 
 cd kitty
