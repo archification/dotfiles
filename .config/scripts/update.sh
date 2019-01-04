@@ -1,6 +1,6 @@
 #!/bin/bash
 
 yay -Syu
-cd /home/jaster/.config/scripts
+cd $HOME/.config/scripts
 ./gitstuff.sh
 ./git.sh

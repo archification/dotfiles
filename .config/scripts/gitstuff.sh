@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/jaster/bash-it
+cd $HOME/bash-it
 git pull
 cd ..
 

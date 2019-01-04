@@ -3,7 +3,7 @@
 shopt -s expand_aliases
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
-cd /home/jaster
+cd $HOME
 config add .bashrc
 config add .vimrc
 config add note
