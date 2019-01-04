@@ -1,7 +1,6 @@
 #!/bin/bash
 read filename
 extension=$(echo $filename | sed 's/^\w\+.//')
-echo $extension
 if [ "$extension" == "sh" ];
 then
 	filetype=bash
@@ -12,3 +11,4 @@ else
 	filetype=text
 fi
 { echo \`\`\`$filetype && cat $filename && echo \`\`\`; } | xsel -ib
+mpv "$HOME/.config/sounds/thing.mp3" &>/dev/null &
