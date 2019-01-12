@@ -8,7 +8,7 @@ bindsym $mod+Shift+x exec "$HOME/.config/scripts/lock.sh"
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec termite
+bindsym $mod+Return exec termite 
 bindsym $mod+y exec edex-ui
 
 # kill focused window
@@ -113,7 +113,7 @@ bar {
 	}
 }
 
-exec_always --no-startup-id feh --bg-scale $HOME/wallpaper/horns.jpg
+exec_always --no-startup-id feh --bg-scale $HOME/wallpaper/forrest.jpg
 exec_always --no-startup-id "killall -q compton; compton --config ~/.config/compton.conf"
 
 # apps
