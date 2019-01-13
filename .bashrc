@@ -1,12 +1,12 @@
 #/usr/bin/env bash
 
-#powerline-daemon -q
-#POWERLINE_BASH_CONTINUATION=1
-#POWERLINE_BASH_SELECT=1
-#. /usr/share/powerline/bindings/bash/powerline.sh
+powerline-daemon -q
+POWERLINE_BASH_CONTINUATION=1
+POWERLINE_BASH_SELECT=1
+. /usr/share/powerline/bindings/bash/powerline.sh
 
 export BASH_IT="/home/jaster/bash-it"
-export BASH_IT_THEME='iterate'
+#export BASH_IT_THEME='iterate'
 DEFAULT_USER=jaster
 if [[ -f $THEME ]]; then
 	export DEFAULT_USER='whoami'
@@ -29,7 +29,5 @@ alias pacaur='yay'
 alias yaourt='yay'
 alias nano='vim'
 alias emacs='vim'
-alias discord='$HOME/.config/scripts/discord.sh'
 alias mine='cd $HOME/mine && java -jar server.jar --nogui'
 alias share='$HOME/.config/scripts/pastefile.sh'
-alias portal='/usr/libexec/flatpak-portal'
