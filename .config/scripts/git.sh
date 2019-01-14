@@ -14,6 +14,10 @@ cd .config
 config add i3blocks.conf
 config add compton.conf
 
+cd polybar
+config add config
+cd ..
+
 cd fish
 config add config.fish
 cd ..
