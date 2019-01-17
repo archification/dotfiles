@@ -34,8 +34,8 @@ config add git.sh
 config add gitstuff.sh
 config add update.sh
 config add gitstuff.sh
-config add discord.sh
 config add pastefile.sh
+config add polybar.sh
 cd ..
 
 cd kitty
