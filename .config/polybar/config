@@ -146,8 +146,8 @@ label = %date%%time%
  
 [module/volume]
 type = internal/volume
-format-volume = <ramp-volume> <bar-volume>
-label-volume = 
+format-volume = <label-volume>
+label-volume =  %percentage%%
 label-volume-foreground = ${root.foreground}
 format-volume-underline = ${colors.foreground}
 format-muted-prefix = " "
