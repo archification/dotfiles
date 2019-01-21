@@ -3,30 +3,30 @@
 shopt -s expand_aliases
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
-pushd $HOME
+cd $HOME
 config add .bashrc
 config add .vimrc
 config add note
 config add .xinitrc
 config add .Xmodmap
 
-pushd .config
+cd .config
 config add i3blocks.conf
 config add compton.conf
 
-pushd polybar
+cd polybar
 config add config
-popd
+cd ..
 
-pushd fish
+cd fish
 config add config.fish
-popd
+cd ..
 
-pushd i3
+cd i3
 config add config
-popd
+cd ..
 
-pushd scripts
+cd scripts
 config add disk
 config add load_average
 config add lock.sh
@@ -35,15 +35,15 @@ config add gitpulls.sh
 config add update.sh
 config add pastefile.sh
 config add polybar.sh
-popd
+cd ..
 
-pushd kitty
+cd kitty
 config add kitty.conf
-popd
+cd ..
 
-pushd termite
+cd termite
 config add config
-popd
+cd ..
 
 config commit -m 'scripted commit'
 config push -u origin master
