@@ -7,7 +7,6 @@ ncpamixer
 go
 mps-youtube (mpsyt)
 hastebin
-dirbuster
 masscan
 fwupd
 vitetris
@@ -34,7 +33,6 @@ newsboat
 zathura
 youtube-dl
 mpv
-nikto
 libreoffice-fresh
 imv
 
