@@ -1,39 +1,39 @@
 #!/bin/bash
 
-pushd $HOME/bash-it
+cd $HOME/bash-it
 git pull
-popd
+cd ..
 
-pushd agnoster-bash
+cd agnoster-bash
 git pull
-popd
+cd ..
 
-pushd .vim/bundle/cheat.sh-vim
+cd .vim/bundle/cheat.sh-vim
 git pull
-popd
+cd ..
 
-pushd syntastic
+cd syntastic
 git pull
-popd
+cd ..
 
-pushd vim-surround
+cd vim-surround
 git pull
-popd
+cd ..
 
-pushd vaxe
+cd vaxe
 git pull
-popd
+cd ..
 
-pushd vim-airline
+cd vim-airline
 git pull
-popd
+cd ..
 
-pushd vim-airline-themes
+cd vim-airline-themes
 git pull
-popd
+cd ..
 
-pushd vim-colors-solarized
+cd vim-colors-solarized
 git pull
-popd
+cd ..
 
 exit
