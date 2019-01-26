@@ -38,10 +38,6 @@ config add pastefile.sh
 config add polybar.sh
 cd ..
 
-cd kitty
-config add kitty.conf
-cd ..
-
 cd termite
 config add config
 cd ..
