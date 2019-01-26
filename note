@@ -1,8 +1,11 @@
 #web
 https://github.com/ryanoasis/powerline-extra-symbols
 https://www.thegeekdiary.com/how-to-make-alias-command-work-in-bash-script-or-bashrc-file/
+https://github.com/bhilburn/powerlevel9k
 
 #package
+zsh-syntax-highlighting
+zsh-theme-powerlevel9k
 ncpamixer
 go
 mps-youtube (mpsyt)
