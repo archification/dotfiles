@@ -115,7 +115,7 @@ bindsym $mod+r mode "resize"
 #}
 
 exec_always --no-startup-id "$HOME/.config/scripts/polybar.sh"
-exec_always --no-startup-id feh --bg-scale $HOME/wallpaper/forrest.jpg
+exec_always --no-startup-id feh --bg-scale $HOME/wallpaper/cyberbar.jpg
 exec_always --no-startup-id "killall -q compton; compton --config ~/.config/compton.conf"
 
 # apps
