@@ -22,6 +22,7 @@ noremap ww :w<CR>
 noremap qq :q!<CR>
 let g:powerline_pycmd="py3"
 set laststatus=2
+set clipboard=unnamedplus
 
 " syntastic
 let g:syntastic_python_checkers = ['flake8']
