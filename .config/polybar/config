@@ -1,12 +1,8 @@
 [colors]
-background = #002b36
-background-alt = #073642
-foreground = #93a1a1
-foreground-alt = #eee8d5
-primary = #ffb52a
-secondary = #e60053
-alert = #bd2c40
-red = dc322f
+background = #003232
+foreground = #00c8c8
+primary = #003232
+secondary = #00c8c8
  
 [bar/itsabar]
 width = 100%
@@ -18,7 +14,7 @@ foreground = ${colors.foreground}
 line-size = 0
 line-color = #f00
 border-size = 0
-border-color = #00000000
+bordee-color = #00000000
 padding-left = 0
 padding-right = 2
 module-margin-left = 1
@@ -44,7 +40,7 @@ label = %title:0:30:...%
 type = internal/xkeyboard
 blacklist-0 = num lock
 format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
+format-prefix-foreground = ${colors.foreground}
 format-prefix-underline = ${colors.secondary}
 label-layout = %layout%
 label-layout-underline = ${colors.secondary}
@@ -114,7 +110,7 @@ interface = enp7s0
 interval = 3.0
 format-connected-underline = ${colors.foreground}
 format-connected-prefix =
-format-connected-prefix-foreground = ${colors.foreground-alt}
+format-connected-prefix-foreground = ${colors.foreground}
 label-connected = %local_ip%
 format-disconnected =
  
@@ -126,7 +122,7 @@ date-alt = " %Y-%m-%d "
 time =  %H:%M
 time-alt =  %H:%M:%S
 format-prefix =
-format-prefix-foreground = ${colors.foreground-alt}
+format-prefix-foreground = ${colors.foreground}
 format-underline = ${colors.foreground}
 label = %date%%time%
  
@@ -186,7 +182,7 @@ label-warn-foreground = ${colors.secondary}
 ramp-0 = 
 ramp-1 = 
 ramp-2 = 
-ramp-foreground = ${colors.foreground-alt}
+ramp-foreground = ${colors.foreground}
  
 [module/xbacklight]
 type = internal/xbacklight
