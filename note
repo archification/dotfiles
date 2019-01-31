@@ -48,3 +48,5 @@ omf update
 lighttpd -D -f /etc/lighttpd/lighttpd.conf
 curl wttr.in
 imv -t int ~/stuff
+flatpak override --user --filesystem=home com.discordapp.Discord
+dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
