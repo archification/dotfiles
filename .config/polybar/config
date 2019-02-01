@@ -32,23 +32,6 @@ scroll-down = i3wm-wsprev
 bottom = true
 monitor = HDMI-0
 
-[module/xwindow]
-type = internal/xwindow
-label = %title:0:30:...%
-
-[module/xkeyboard]
-type = internal/xkeyboard
-blacklist-0 = num lock
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground}
-format-prefix-underline = ${colors.secondary}
-label-layout = %layout%
-label-layout-underline = ${colors.secondary}
-label-indicator-padding = 2
-label-indicator-margin = 1
-label-indicator-background = ${colors.secondary}
-label-indicator-underline = ${colors.secondary}
-
 [module/filesystem]
 type = internal/fs
 interval = 25
@@ -56,7 +39,7 @@ mount-0 = /
 label-mounted = %mountpoint%: %percentage_used%%
 label-mounted-underline = ${colors.foreground}
 label-unmounted = %mountpoint% not mounted
-label-unmounted-foreground = ${colors.foreground-alt}
+label-unmounted-foreground = ${colors.foreground}
  
 [module/i3]
 type = internal/i3
@@ -183,29 +166,6 @@ ramp-0 = 
 ramp-1 = 
 ramp-2 = 
 ramp-foreground = ${colors.foreground}
- 
-[module/xbacklight]
-type = internal/xbacklight
-format-underline = ${colors.foreground}
-label = BL
-bar-width = 10
-bar-indicator = |
-bar-indicator-foreground = #ff
-bar-indicator-font = 2
-bar-fill = ─
-bar-fill-font = 2
-bar-fill-foreground = #55aa55
-bar-empty = ─
-bar-empty-font = 2
-bar-empty-foreground = ${colors.foreground-alt}
- 
-[module/backlight]
-type = custom/script
-scroll-up = exec sudo ~/.config/polybar/uplight.sh
-scroll-down = exec sudo ~/.config/polybar/downlight.sh
-exec = cat /sys/class/backlight/amdgpu_bl0/brightness
-format = <label>
-label = %output%
  
 [settings]
 screenchange-reload = true
