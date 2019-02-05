@@ -1,53 +1,53 @@
-#web
+#web links
 https://github.com/ryanoasis/powerline-extra-symbols
-https://www.thegeekdiary.com/how-to-make-alias-command-work-in-bash-script-or-bashrc-file/
 https://github.com/bhilburn/powerlevel9k
 https://github.com/zsh-users/zsh-syntax-highlighting
 https://www.fileformat.info/info/unicode/utf8test.htm
 
 #package
-chromium-widevine
+#shell
+zsh
 zsh-syntax-highlighting
 zsh-theme-powerlevel9k
-ncpamixer
-go
-mps-youtube (mpsyt)
-hastebin
-masscan
-fwupd
-vitetris
-edex-ui
-zsh
-oh-my-zsh-git
-fff
-leafpad
-flatpak
-utox
-groff
-cmatrix
-pipes.sh
-gtop
-hardinfo
 cht.sh
 thefuck
-moka-icon-theme
-compton
-fdupes
-dxvk-win64-bin
+#terminal apps
+mps-youtube (mpsyt)
+masscan
+ncpamixer
+fff
+pipes.sh
+cmatrix
+gtop
 newsboat
+#pdf
 zathura
+groff
+#utility
+chromium-widevine
 youtube-dl
+compton
+moka-icon-theme
+fwupd
+go
+#programs
+vitetris
+edex-ui
+utox
+hardinfo
 mpv
 libreoffice-fresh
-imv
 
 #commands
+#switch gitlab to ssl certs
 git remote set-url origin git@gitlab.com:archification/dotfiles.git
+#remove dup photos
 fdupes -rd /home/jaster/stuff/
-curl -s "https://cht.sh/$argv"
-omf update
-lighttpd -D -f /etc/lighttpd/lighttpd.conf
-curl wttr.in
+#slideshow
 imv -t int ~/stuff
+#fix discord flatpak stuff
 flatpak override --user --filesystem=home com.discordapp.Discord
 dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
+#misc
+curl wttr.in
+curl -s "https://cht.sh/$argv"

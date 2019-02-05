@@ -4,10 +4,6 @@ cd $HOME/bash-it
 git pull
 cd ..
 
-cd agnoster-bash
-git pull
-cd ..
-
 cd .vim/bundle/cheat.sh-vim
 git pull
 cd ..
