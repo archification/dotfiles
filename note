@@ -37,6 +37,8 @@ utox
 hardinfo
 mpv
 libreoffice-fresh
+#misc
+papirus-icon-theme
 
 #commands
 #switch gitlab to ssl certs
