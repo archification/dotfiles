@@ -6,6 +6,7 @@ https://www.fileformat.info/info/unicode/utf8test.htm
 
 #package
 #shell
+xonsh
 zsh
 zsh-syntax-highlighting
 zsh-theme-powerlevel9k
