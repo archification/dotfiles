@@ -11,6 +11,7 @@ bindkey -e
 
 alias update='/home/jaster/.config/scripts/update.sh'
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias ls='lsd'
 alias h='htop'
 alias H='htop'
 alias g='gtop'

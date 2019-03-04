@@ -23,6 +23,7 @@ export BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE=1
 source "$BASH_IT"/bash_it.sh
 alias update='/home/jaster/.config/scripts/update.sh'
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias ls='lsd'
 alias h='htop'
 alias H='htop'
 alias g='gtop'
