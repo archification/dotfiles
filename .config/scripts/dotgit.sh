@@ -42,5 +42,10 @@ cd termite
 config add config
 cd ..
 
+cd newsboat
+config add config
+config add urls
+cd ..
+
 config commit -m 'scripted commit'
 config push -u origin master
