@@ -52,7 +52,6 @@ fdupes -rd /home/jaster/stuff/
 #slideshow
 imv -t int ~/stuff
 #fix discord flatpak stuff
-flatpak override --user --filesystem=home com.discordapp.Discord
 dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
 #misc
 curl wttr.in
