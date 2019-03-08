@@ -118,7 +118,7 @@ exec_always --no-startup-id feh --bg-scale $HOME/wallpaper/city.jpg
 exec_always --no-startup-id "killall -q compton; compton --config ~/.config/compton.conf"
 
 # apps
-bindsym $mod+b exec chromium
+bindsym $mod+b exec qutebrowser
 bindsym $mod+g exec bash -c "groff -ms $HOME/groff/thing.ms -T pdf > $HOME/groff/thing.pdf"
 
 # screengrab
