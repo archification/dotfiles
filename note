@@ -14,6 +14,7 @@ zsh-theme-powerlevel9k
 cht.sh
 thefuck
 #terminal apps
+asciinema
 w3m
 lsd
 mps-youtube (mpsyt)
@@ -45,6 +46,9 @@ libreoffice-fresh
 papirus-icon-theme
 
 #commands
+#asciinema
+asciinema rec
+ctrl+d
 #switch gitlab to ssl certs
 git remote set-url origin git@gitlab.com:archification/dotfiles.git
 #remove dup photos
