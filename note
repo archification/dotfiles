@@ -14,6 +14,8 @@ zsh-theme-powerlevel9k
 cht.sh
 thefuck
 #terminal apps
+imgur.sh
+jp2a
 asciinema
 w3m
 lsd
@@ -49,6 +51,7 @@ papirus-icon-theme
 #asciinema
 asciinema rec
 ctrl+d
+asciinema play filename.cast
 #switch gitlab to ssl certs
 git remote set-url origin git@gitlab.com:archification/dotfiles.git
 #remove dup photos
