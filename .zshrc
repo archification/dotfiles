@@ -7,7 +7,7 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vi_mode)
 HISTFILE=~/.histfile
 HISTSIZE=250
 SAVEHIST=250
-bindkey -e
+bindkey -v
 
 alias update='/home/jaster/.config/scripts/update.sh'
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
