@@ -63,3 +63,4 @@ dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XA
 #misc
 curl wttr.in
 curl -s "https://cht.sh/$argv"
+/usr/bin/xdg-open: line 929: added qutebrowser
