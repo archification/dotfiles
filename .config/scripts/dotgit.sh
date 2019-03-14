@@ -19,10 +19,6 @@ cd polybar
 config add config
 cd ..
 
-cd fish
-config add config.fish
-cd ..
-
 cd i3
 config add config
 cd ..
