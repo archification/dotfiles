@@ -10,7 +10,7 @@ SAVEHIST=250
 bindkey -v
 
 export FLASK_APP=$HOME/thing/thing.py
-export FLASK_DEBUG=1
+# export FLASK_DEBUG=1
 
 alias update='/home/jaster/.config/scripts/update.sh'
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
@@ -26,4 +26,4 @@ alias emacs='vim'
 alias tb='nc termbin.com 9999'
 alias mine='cd $HOME/mine && java -jar server.jar --nogui'
 alias share='$HOME/.config/scripts/pastefile.sh'
-alias f='flask run'
+alias f='flask run --host=0.0.0.0'
