@@ -30,7 +30,9 @@ newsboat
 #pdf
 zathura
 groff
+latex
 #utility
+python-flask
 wmctrl
 chromium-widevine
 youtube-dl
@@ -38,6 +40,7 @@ compton
 fwupd
 go
 #programs
+qdirstat
 vitetris
 edex-ui
 utox
