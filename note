@@ -32,6 +32,7 @@ zathura
 groff
 latex
 #utility
+pdfjs
 python-flask
 wmctrl
 chromium-widevine
@@ -40,6 +41,8 @@ compton
 fwupd
 go
 #programs
+krita
+darktable
 qdirstat
 vitetris
 edex-ui
@@ -61,8 +64,6 @@ git remote set-url origin git@gitlab.com:archification/dotfiles.git
 fdupes -rd /home/jaster/stuff/
 #slideshow
 imv -t int ~/stuff
-#fix discord flatpak stuff
-dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
 #misc
 curl wttr.in
 curl -s "https://cht.sh/$argv"
