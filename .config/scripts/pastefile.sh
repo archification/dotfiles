@@ -9,5 +9,11 @@ then
 fi
 
 filetype=$(sed 's/^.*\.//' <<< $1)
-{ echo \`\`\`$filetype && cat $1 && echo \`\`\`; } | xsel -ib
+
+xsel -ib <<EOF
+\`\`\`$filetype
+$(< $1)
+\`\`\`
+EOF
+
 mpv "$HOME/.config/sounds/thing.mp3" &>/dev/null &
