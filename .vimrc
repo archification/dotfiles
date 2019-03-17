@@ -36,6 +36,10 @@ let g:syntastic_auto_log_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+" indentline
+let g:indentLine_setColors = 0
+let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+
 " splits
 set splitbelow
 set splitright

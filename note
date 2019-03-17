@@ -32,7 +32,6 @@ zathura
 groff
 latex
 #utility
-pdfjs
 python-flask
 wmctrl
 chromium-widevine

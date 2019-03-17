@@ -10,10 +10,10 @@ fi
 
 filetype=$(sed 's/^.*\.//' <<< $1)
 
-xsel -ib <<EOF
+xsel -ib <<stuff
 \`\`\`$filetype
 $(< $1)
 \`\`\`
-EOF
+stuff
 
 mpv "$HOME/.config/sounds/thing.mp3" &>/dev/null &

@@ -32,4 +32,8 @@ cd vim-colors-solarized
 git pull
 cd ..
 
+cd indentline
+git pull
+cd ..
+
 exit
