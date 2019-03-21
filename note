@@ -14,6 +14,7 @@ zsh-theme-powerlevel9k
 cht.sh
 thefuck
 #terminal apps
+neomutt
 scanmem
 imgur.sh
 jp2a
@@ -33,6 +34,9 @@ zathura
 groff
 latex
 #utility
+dialog
+offlineimap
+msmtp
 python-flask
 wmctrl
 chromium-widevine
