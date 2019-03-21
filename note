@@ -5,69 +5,80 @@ https://github.com/bhilburn/powerlevel9k
 https://github.com/zsh-users/zsh-syntax-highlighting
 https://www.fileformat.info/info/unicode/utf8test.htm
 
-#package
+#packages
+#
 #shell
-xonsh
-zsh
-zsh-syntax-highlighting
-zsh-theme-powerlevel9k
-cht.sh
-thefuck
+zsh #the shell itself
+zsh-syntax-highlighting #zsh highlight commands
+zsh-theme-powerlevel9k #zsh theming
+cht.sh #crazy code helper thing
+thefuck #corrects previous console commands
+xonsh #python + bash
+
 #terminal apps
-neomutt
-scanmem
-imgur.sh
-jp2a
-asciinema
-w3m
-lsd
-mps-youtube (mpsyt)
-masscan
-ncpamixer
-fff
-pipes.sh
-cmatrix
-gtop
-newsboat
+lsd #better ls
+neomutt #email
+newsboat #rss feeds
+asciinema #terminal recorder
+w3m #web browser
+mps-youtube (mpsyt) #youtube
+ncpamixer #pulse mixer
+fff #file manager
+gtop #resource monitor
+scanmem #memory injection
+
+#terminal toys
+cmatrix #matrix code animation
+pipes.sh #procedural pipes animation
+jp2a #convert jpg to ascii
+lolcat #use | for rainbow
+vitetris #tetris with vi controls
+edex-ui #hollywood movie terminal in electron
+
 #pdf
-zathura
-groff
-latex
+zathura #pdf viewer
+groff #markup language
+latex #markup language
+
 #utility
-dialog
-offlineimap
-msmtp
-python-flask
-wmctrl
-chromium-widevine
-youtube-dl
-compton
-fwupd
-go
+imgur.sh #for screenshots
+dialog #mutt-wizard menu
+offlineimap #mutt offline mail
+msmtp #mutt smtp
+python-flask #build websites in python
+chromium-widevine #needed browser plugin for netflix
+youtube-dl #downloads youtube videos
+compton #compositor
+fwupd #updating firmware
+go #google's programming language
+
 #programs
-krita
-darktable
-qdirstat
-vitetris
-edex-ui
-utox
-hardinfo
-mpv
-libreoffice-fresh
+krita #edit images
+darktable #edit images
+qdirstat #visualize storage space
+utox #chat client
+hardinfo #show hardware
+mpv #video player
+
 #icons
 papirus-icon-theme
 
 #commands
+#
 #asciinema
 asciinema rec
 ctrl+d
 asciinema play filename.cast
+
 #switch gitlab to ssl certs
 git remote set-url origin git@gitlab.com:archification/dotfiles.git
+
 #remove dup photos
 fdupes -rd /home/jaster/stuff/
+
 #slideshow
 imv -t int ~/stuff
+
 #misc
 curl wttr.in
 curl -s "https://cht.sh/$argv"

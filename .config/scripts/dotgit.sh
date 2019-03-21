@@ -3,6 +3,9 @@
 shopt -s expand_aliases
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
+cd /etc
+config add libao.conf
+
 cd $HOME
 config add .bashrc
 config add .zshrc
