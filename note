@@ -12,7 +12,6 @@ zsh #the shell itself
 zsh-syntax-highlighting #zsh highlight commands
 zsh-theme-powerlevel9k #zsh theming
 cht.sh #crazy code helper thing
-thefuck #corrects previous console commands
 xonsh #python + bash
 
 #terminal apps
