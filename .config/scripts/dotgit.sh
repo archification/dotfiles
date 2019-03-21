@@ -43,6 +43,10 @@ config add config
 config add urls
 cd ..
 
+cd pianobar
+config add config
+cd ..
+
 cd mutt
 config add muttrc
 config add personal.muttrc
