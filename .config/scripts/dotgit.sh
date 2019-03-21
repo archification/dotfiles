@@ -41,6 +41,10 @@ cd termite
 config add config
 cd ..
 
+cd asciinema
+config add config
+cd ..
+
 cd newsboat
 config add config
 config add urls
