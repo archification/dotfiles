@@ -27,6 +27,16 @@ fff #file manager
 gtop #resource monitor
 scanmem #memory injection
 
+#vim plugins
+cheat.sh-vim
+syntastic
+vim-colors-solarized
+vim-airline
+vim-airline-themes
+vim-surround
+indentline
+vaxe
+
 #terminal toys
 cmatrix #matrix code animation
 pipes.sh #procedural pipes animation
