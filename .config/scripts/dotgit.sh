@@ -43,5 +43,11 @@ config add config
 config add urls
 cd ..
 
+cd mutt
+config add muttrc
+config add personal.muttrc
+cd accounts
+config add archification.muttrc
+
 config commit -m 'scripted commit'
 config push -u origin master
