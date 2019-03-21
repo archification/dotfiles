@@ -14,6 +14,7 @@ zsh-theme-powerlevel9k
 cht.sh
 thefuck
 #terminal apps
+scanmem
 imgur.sh
 jp2a
 asciinema
@@ -32,7 +33,6 @@ zathura
 groff
 latex
 #utility
-scanmem
 python-flask
 wmctrl
 chromium-widevine

@@ -1,7 +1,7 @@
 set $mod Mod4
 
 new_window none 
-font pango:Hack 10
+font pango:Mononaki Nerd Font 10
 bindsym $mod+Shift+x exec "$HOME/.config/scripts/lock.sh"
 
 # Use Mouse+$mod to drag floating windows to their wanted position
