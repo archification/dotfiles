@@ -79,6 +79,11 @@ papirus-icon-theme
 
 #commands
 #
+#nvim plugins
+:PlugUpgrade # update vimplug
+:PlugUpdate # update plugins
+:PlugInstall # install new plugins
+
 #asciinema
 asciinema rec
 ctrl+d
