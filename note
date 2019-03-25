@@ -15,6 +15,9 @@ cht.sh #crazy code helper thing
 xonsh #python + bash
 
 #terminal apps
+vis
+vulscan #nmap vulnerability scanner
+swfmill #decompile swf
 lsd #better ls
 neomutt #email
 newsboat #rss feeds
@@ -43,6 +46,7 @@ jp2a #convert jpg to ascii
 lolcat #use | for rainbow
 vitetris #tetris with vi controls
 edex-ui #hollywood movie terminal in electron
+cowsay #what does the cow say?
 
 #pdf
 zathura #pdf viewer
@@ -55,6 +59,7 @@ dialog #mutt-wizard menu
 offlineimap #mutt offline mail
 msmtp #mutt smtp
 python-flask #build websites in python
+tk #gui in python
 chromium-widevine #needed browser plugin for netflix
 youtube-dl #downloads youtube videos
 compton #compositor
@@ -78,6 +83,9 @@ papirus-icon-theme
 asciinema rec
 ctrl+d
 asciinema play filename.cast
+
+#swfmill
+swfmill swf2xml something.swf something.xml
 
 #switch gitlab to ssl certs
 git remote set-url origin git@gitlab.com:archification/dotfiles.git

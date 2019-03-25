@@ -54,6 +54,10 @@ cd pianobar
 config add config
 cd ..
 
+cd vis
+config add visrc.lua
+cd ..
+
 cd mutt
 config add muttrc
 config add personal.muttrc
