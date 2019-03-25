@@ -16,6 +16,10 @@ config add .Xmodmap
 cd .config
 config add compton.conf
 
+cd nvim
+config add init.vim
+cd ..
+
 cd polybar
 config add config
 cd ..
