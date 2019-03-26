@@ -97,21 +97,7 @@ mode "resize" {
         bindsym Right resize grow width 10 px or 10 ppt
         bindsym $mod+r mode "default"
 }
-
 bindsym $mod+r mode "resize"
-
-# bar
-#bar {
-#  	status_command i3blocks -c $HOME/.config/i3blocks.conf
-#	colors {
-#		background $bg-color
-#	    	separator #757575
-		#                  border             background         text
-#		focused_workspace  $bg-color          $bg-color          $text-color
-#		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
-#		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
-#	}
-#}
 
 exec_always --no-startup-id "$HOME/.config/scripts/polybar.sh"
 exec_always --no-startup-id feh --bg-scale $HOME/wallpaper/city.jpg
