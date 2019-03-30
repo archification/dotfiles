@@ -5,6 +5,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-surround'
 Plug 'yggdroot/indentline'
+Plug 'ntpeters/vim-better-whitespace'
 Plug 'dbeniamine/cheat.sh-vim'
 Plug 'jdonaldson/vaxe'
 call plug#end()
@@ -27,6 +28,10 @@ set shiftwidth=4
 set tabstop=4
 noremap ww :w<CR>
 noremap qq :q!<CR>
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
 let g:powerline_pycmd="py3"
 set laststatus=2
 set clipboard=unnamedplus
