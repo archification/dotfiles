@@ -16,6 +16,10 @@ config add .Xmodmap
 cd .config
 config add compton.conf
 
+cd rofi
+config add rofi.rasi
+cd ..
+
 cd nvim
 config add init.vim
 cd ..

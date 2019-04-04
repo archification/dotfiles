@@ -1,6 +1,6 @@
 set $mod Mod4
 
-new_window none 
+new_window none
 font pango:Mononaki Nerd Font 10
 bindsym $mod+Shift+x exec "$HOME/.config/scripts/lock.sh"
 
@@ -8,14 +8,14 @@ bindsym $mod+Shift+x exec "$HOME/.config/scripts/lock.sh"
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec termite 
+bindsym $mod+Return exec termite
 bindsym $mod+y exec edex-ui
 
 # kill focused window
 bindsym $mod+q kill
 
 # start rofi
-bindsym $mod+d exec rofi -modi drun -show drun -disable-history -show-icons
+bindsym $mod+d exec rofi -modi drun -show drun -disable-history -show-icons -theme rofi
 
 # change focus
 bindsym $mod+h focus left

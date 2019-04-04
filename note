@@ -15,7 +15,8 @@ cht.sh #crazy code helper thing
 xonsh #python + bash
 
 #terminal apps
-vis
+nvtop #htop for nvidia gpu
+protontricks #winetricks for proton
 vulscan #nmap vulnerability scanner
 swfmill #decompile swf
 lsd #better ls
