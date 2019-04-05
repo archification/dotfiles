@@ -41,6 +41,8 @@ indentline
 vaxe
 
 #terminal toys
+ufetch #minimal neofetch
+neofetch #system info in terminal
 cmatrix #matrix code animation
 pipes.sh #procedural pipes animation
 jp2a #convert jpg to ascii

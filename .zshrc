@@ -1,4 +1,3 @@
-# source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
