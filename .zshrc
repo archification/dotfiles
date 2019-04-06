@@ -9,6 +9,7 @@ HISTSIZE=250
 SAVEHIST=250
 bindkey -v
 
+export BROWSER=$HOME/.config/scripts/open.sh
 export FLASK_APP=$HOME/thing/thing.py
 # export FLASK_DEBUG=1
 
