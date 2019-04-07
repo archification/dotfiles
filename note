@@ -137,4 +137,4 @@ imv -t int ~/stuff
 #misc
 curl wttr.in
 curl -s "https://cht.sh/$argv"
-/usr/bin/xdg-open: line 928: added qutebrowser
+/usr/bin/xdg-open: line 929: added qutebrowser

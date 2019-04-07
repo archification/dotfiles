@@ -1,5 +1,6 @@
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.profile
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(background_jobs ssh dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vi_mode)
