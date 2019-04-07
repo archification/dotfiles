@@ -65,6 +65,7 @@ config add dotgit.sh
 config add update.sh
 config add pastefile.sh
 config add polybar.sh
+config add open.sh
 cd ..
 
 config commit -m 'scripted commit'
