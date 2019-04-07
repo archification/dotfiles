@@ -18,6 +18,7 @@ cht.sh #crazy code helper thing
 xonsh #python + bash
 
 #terminal apps
+tmux #connect, disconnect, reconnect, multiplexer
 nvtop #htop for nvidia gpu
 protontricks #winetricks for proton
 vulscan #nmap vulnerability scanner
@@ -60,6 +61,7 @@ groff #markup language
 latex #markup language
 
 #utility
+perl-file-mimeinfo #mime types without desktop environment
 imgur.sh #for screenshots
 dialog #mutt-wizard menu
 offlineimap #mutt offline mail
@@ -90,6 +92,31 @@ papirus-icon-theme
 :PlugUpdate # update plugins
 :PlugInstall # install new plugins
 
+#tmux
+#
+#session management
+tmux ls #list tmux sessions
+tmux new -s session-name #create new session
+tmux attach -t [session name] #attach to session
+tmux kill-session -t session-name #kill session
+#hotkeys
+c #create window
+d #detach current client from session
+l #previously selected window
+p #previous
+n #next
+w #list windows
+number #switch to that number window
+& #kill current window
+, #rename current window
+q #show pane numbers for switching
+o #next pane
+% #split vertically
+:split-window #split horizontally
+{ #move current pane left
+} #move current pane right
+:break-pane #make pane its own window
+
 #asciinema
 asciinema rec
 ctrl+d
@@ -110,4 +137,4 @@ imv -t int ~/stuff
 #misc
 curl wttr.in
 curl -s "https://cht.sh/$argv"
-/usr/bin/xdg-open: line 929: added qutebrowser
+/usr/bin/xdg-open: line 928: added qutebrowser

@@ -3,6 +3,7 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(background_jobs ssh dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vi_mode)
+POWERLEVEL9K_IGNORE_TERM_COLORS=true
 
 HISTFILE=~/.histfile
 HISTSIZE=250

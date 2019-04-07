@@ -12,6 +12,7 @@ config add .zshrc
 config add note
 config add .xinitrc
 config add .Xmodmap
+config add .profile
 
 cd .config
 config add compton.conf
