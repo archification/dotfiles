@@ -87,11 +87,6 @@ papirus-icon-theme
 
 #commands
 #
-#nvim plugins
-:PlugUpgrade # update vimplug
-:PlugUpdate # update plugins
-:PlugInstall # install new plugins
-
 #tmux
 #
 #session management
@@ -117,9 +112,15 @@ o #next pane
 } #move current pane right
 :break-pane #make pane its own window
 
+#nvim plugins
+:PlugUpgrade # update vimplug
+:PlugUpdate # update plugins
+:PlugInstall # install new plugins
+
 #asciinema
 asciinema rec
 ctrl+d
+asciinema rec -c "zsh -l"
 asciinema play filename.cast
 
 #swfmill

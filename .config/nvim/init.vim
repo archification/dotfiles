@@ -1,19 +1,15 @@
-call plug#begin()
-Plug 'neomake/neomake'
-Plug 'altercation/vim-colors-solarized'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'tpope/vim-surround'
-Plug 'yggdroot/indentline'
-Plug 'ntpeters/vim-better-whitespace'
-Plug 'dbeniamine/cheat.sh-vim'
-Plug 'jdonaldson/vaxe'
-call plug#end()
+execute pathogen#infect()
+
+" disable useless keys
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
 
 " basics
 set nocompatible
 filetype plugin on
-syntax enable
+syntax on
 set autoindent
 set encoding=utf-8
 set number
@@ -36,7 +32,7 @@ let g:powerline_pycmd="py3"
 set laststatus=2
 set clipboard=unnamedplus
 
-"neomake
+" neomake
 call neomake#configure#automake('nrwi', 500)
 let g:neomake_open_list = 2
 
