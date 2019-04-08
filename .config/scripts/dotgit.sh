@@ -57,8 +57,6 @@ cd ..
 cd ..
 
 cd scripts
-config add disk
-config add load_average
 config add lock.sh
 config add dotgit.sh
 config add update.sh
