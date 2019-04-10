@@ -35,6 +35,7 @@ set clipboard=unnamedplus
 " neomake
 call neomake#configure#automake('nrwi', 500)
 let g:neomake_open_list = 2
+noremap wr :Neomake rustc<CR>
 
 " indentline
 let g:indentLine_setColors = 0

@@ -45,6 +45,12 @@ indentline
 vaxe
 
 #terminal toys
+tty-clock #clock
+asciiquarium #animated aquarium in ascii
+bullshit #buzz word generator
+toilet #convert string to ascii
+figlet #convert string to ascii with custom fonts
+doge #doge meme generator
 ufetch #minimal neofetch
 neofetch #system info in terminal
 cmatrix #matrix code animation
