@@ -20,6 +20,7 @@ cht.sh #crazy code helper thing
 xonsh #python + bash
 
 #terminal apps
+alacritty #terminal
 tmux #connect, disconnect, reconnect, multiplexer
 nvtop #htop for nvidia gpu
 protontricks #winetricks for proton
@@ -69,6 +70,8 @@ groff #markup language
 latex #markup language
 
 #utility
+dunst #notifications
+unclutter #hide the mouse on delay
 perl-file-mimeinfo #mime types without desktop environment
 imgur.sh #for screenshots
 dialog #mutt-wizard menu
@@ -146,4 +149,4 @@ imv -t int ~/stuff
 #misc
 curl wttr.in
 curl -s "https://cht.sh/$argv"
-/usr/bin/xdg-open: line 929: added qutebrowser
+archlinux-java set java-8-jdk

@@ -4,12 +4,18 @@ new_window none
 font pango:Mononaki Nerd Font 10
 bindsym $mod+Shift+x exec "$HOME/.config/scripts/lock.sh"
 
+# gaps
+smart_gaps on
+bindsym $mod+s gaps inner current plus 5
+bindsym $mod+Shift+s gaps inner current minus 5
+bindsym $mod+y gaps inner current set 10; gaps outer current set 0
+bindsym $mod+Shift+y gaps inner current set 0; gaps outer current set 0
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec termite
-bindsym $mod+y exec edex-ui
 
 # kill focused window
 bindsym $mod+q kill
@@ -32,6 +38,7 @@ bindsym $mod+Shift+l move right
 # split
 bindsym $mod+n split h
 bindsym $mod+m split v
+bindsym $mod+t split toggle
 
 # fullscreen
 bindsym $mod+f fullscreen toggle
@@ -100,8 +107,9 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 exec_always --no-startup-id "$HOME/.config/scripts/polybar.sh"
-exec_always --no-startup-id feh --bg-scale $HOME/wallpaper/city.jpg
+exec_always --no-startup-id feh --bg-scale $HOME/wallpaper/forrest.jpg
 exec_always --no-startup-id "killall -q compton; compton --config ~/.config/compton.conf"
+exec --no-startup-id unclutter
 
 # apps
 bindsym $mod+b exec qutebrowser
