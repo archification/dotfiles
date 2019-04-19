@@ -2,7 +2,6 @@
 godbolt.org
 http://www.catb.org/esr/faqs/smart-questions.html
 https://gist.github.com/Brottweiler/1f6b574eff22bda96176528dd4a0e0ee
-churchofjesuschrist.org
 mastadon.technology
 https://freecarrierlookup.com
 https://github.com/ryanoasis/powerline-extra-symbols
@@ -86,6 +85,7 @@ fwupd #updating firmware
 go #google's programming language
 
 #programs
+enhanceddiscord-git
 krita #edit images
 darktable #edit images
 qdirstat #visualize storage space
