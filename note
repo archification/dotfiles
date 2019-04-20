@@ -1,4 +1,6 @@
 #web links
+https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+archived%3Afalse+label%3Ahelp-wanted
+https://github.com/explore
 godbolt.org
 http://www.catb.org/esr/faqs/smart-questions.html
 https://gist.github.com/Brottweiler/1f6b574eff22bda96176528dd4a0e0ee
@@ -17,6 +19,15 @@ zsh-syntax-highlighting #zsh highlight commands
 zsh-theme-powerlevel9k #zsh theming
 cht.sh #crazy code helper thing
 xonsh #python + bash
+
+#security
+metasploit
+armitage
+postgresql
+sudo systemctl start postgresql.service
+msfconsole
+db_connect msf@msf
+db_rebuild_cache
 
 #terminal apps
 alacritty #terminal
@@ -69,6 +80,7 @@ groff #markup language
 latex #markup language
 
 #utility
+python-pyfiglet
 dunst #notifications
 unclutter #hide the mouse on delay
 perl-file-mimeinfo #mime types without desktop environment
