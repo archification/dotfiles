@@ -114,7 +114,7 @@ exec --no-startup-id unclutter
 
 # apps
 bindsym $mod+b exec qutebrowser
-bindsym $mod+g exec bash -c "groff -ms $HOME/resume/thing.ms -T pdf > $HOME/groff/thing.pdf"
+bindsym $mod+g exec bash -c "groff -ms $HOME/wut/groff/thing.ms -T pdf > $HOME/wut/groff/thing.pdf"
 
 # screengrab
 bindsym $mod+x exec bash -c "maim -s --format=png /dev/stdout | xclip -selection clipboard -t image/png -i && mpv "$HOME/.config/sounds/thing.mp3""

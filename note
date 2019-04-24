@@ -80,6 +80,7 @@ groff #markup language
 latex #markup language
 
 #utility
+ruby-haste
 python-pyfiglet
 dunst #notifications
 unclutter #hide the mouse on delay
