@@ -1,7 +1,8 @@
 [colors]
 background = #00000000
 #background = #003232
-foreground = #00c8c8
+foreground = #00ffff
+#foreground = #00c8c8
 primary = #003232
 secondary = #00c8c8
  
