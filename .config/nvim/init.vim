@@ -55,3 +55,8 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+
+" pdf stuff
+map <leader>c :w! \| !compiler.sh <c-r>%<CR>
+map <leader>p :!opout.sh <c-r>%<CR><CR>
+autocmd VimLeave *.tex !texclear.sh %

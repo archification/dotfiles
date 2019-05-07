@@ -79,7 +79,7 @@ cowsay #what does the cow say?
 #pdf
 zathura #pdf viewer
 groff #markup language
-latex #markup language
+texlive-most #markup language
 
 #utility
 ruby-haste
