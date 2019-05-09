@@ -9,9 +9,9 @@ open() {
 	case "$1" in
 		*youtube.com/watch?v=*|*youtu.be*|*.webm*|*.mp4*|*.avi) mpv "$1" --fs --title="open-float";;
 		#*.png|*.jpeg|*.gif*|*.jpg) feh -B black --title open-float -. "$1";;  # feh -. = opens to fit window.
-		*.png|*.jpeg|*.gif*|*.jpg) open_imv "$1" || qutebrowser "$1";;  # feh -. = opens to fit window.
+		*.png|*.jpeg|*.gif*|*.jpg) open_imv "$1" || surf "$1";;  # feh -. = opens to fit window.
 		#*) qutebrowser $1 &>$HOME/qutebrowser.log;  # For everything else.;
-		*) qutebrowser $1;  # For everything else.;
+		*) surf $1;  # For everything else.;
 	esac
 }
 
