@@ -117,5 +117,5 @@ bindsym $mod+b exec qutebrowser
 bindsym $mod+g exec bash -c "cd /home/jaster/latex && pdflatex thing.tex"
 
 # screengrab
-bindsym $mod+x exec bash -c "maim -s --format=png /dev/stdout | xclip -selection clipboard -t image/png -i && mpv "$HOME/.config/sounds/thing.mp3""
-bindsym $mod+c exec bash -c "maim -s --format=png /dev/stdout | imgur.sh && xclip -o | xsel -ib && mpv "$HOME/.config/sounds/thing.mp3""
+bindsym $mod+x exec grabimage.sh
+bindsym $mod+c exec graburl.sh
