@@ -63,6 +63,11 @@ config add update.sh
 config add pastefile.sh
 config add polybar.sh
 config add open.sh
+config add grabimage.sh
+config add graburl.sh
+config add compiler.sh
+config add opout.sh
+config add texclear.sh
 cd ..
 
 config commit -m 'scripted commit'
