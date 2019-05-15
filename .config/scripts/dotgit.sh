@@ -7,6 +7,7 @@ cd $HOME
 config add .bashrc
 config add .zshrc
 config add note
+config add installnote
 config add .xinitrc
 config add .Xmodmap
 config add .profile
