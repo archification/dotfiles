@@ -1,11 +1,11 @@
-https://www.youtube.com/watch?v=_GmIydUQKgY
 #web links
+https://gist.github.com/Brottweiler/952c8b0de0afc01c6c8ef18b5a1a5294
 https://wescastro.com/codetwink/cheats.codetwink.com/gba/view/5046/default.htm#n2
 https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+archived%3Afalse+label%3Ahelp-wanted
 https://github.com/explore
 godbolt.org
 http://www.catb.org/esr/faqs/smart-questions.html
-https://gist.github.com/Brottweiler/1f6b574eff22bda96176528dd4a0e0ee
+https://webcache.googleusercontent.com/search?q=cache:ONVWCU-QWugJ:https://gist.github.com/Brottweiler/1f6b574eff22bda96176528dd4a0e0ee/manjaro.md
 mastadon.technology
 https://freecarrierlookup.com
 https://github.com/ryanoasis/powerline-extra-symbols
@@ -21,6 +21,7 @@ zsh-syntax-highlighting #zsh highlight commands
 zsh-theme-powerlevel9k #zsh theming
 cht.sh #crazy code helper thing
 xonsh #python + bash
+elvish #another shell with different syntax
 
 #security
 metasploit
