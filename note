@@ -16,6 +16,8 @@ https://www.fileformat.info/info/unicode/utf8test.htm
 #packages
 #
 #shell
+dash #faster bash /bin/sh link
+checkbashisms #check for bashisms before linking dash
 zsh #the shell itself
 zsh-syntax-highlighting #zsh highlight commands
 zsh-theme-powerlevel9k #zsh theming
