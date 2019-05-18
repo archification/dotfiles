@@ -167,3 +167,5 @@ curl wttr.in
 curl -s "https://cht.sh/$argv"
 archlinux-java set java-8-jdk
 cargo install cargo-edit
+cargo add depo
+cargo doc --open
