@@ -8,7 +8,7 @@ noremap <Right> <NOP>
 
 " basics
 set nocompatible
-filetype plugin on
+filetype plugin indent on
 syntax on
 set autoindent
 set encoding=utf-8
@@ -22,6 +22,7 @@ let g:airline_theme='raven'
 let g:airline_powerline_fonts=1
 set shiftwidth=4
 set tabstop=4
+set expandtab
 noremap ww :w<CR>
 noremap qq :q!<CR>
 noremap <Up> <Nop>
