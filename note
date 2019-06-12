@@ -105,7 +105,11 @@ fwupd #updating firmware
 go #google's programming language
 
 #programs
-abiword
+kdenlive #video editor
+frei0r-plugins #optional for kdenlive
+breeze-icons #optional for kdenlive
+terrafirma #terraria world viewer
+abiword #gui text editor (rft)
 surf #minimal browser
 enhanceddiscord-git
 krita #edit images
