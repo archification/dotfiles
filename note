@@ -38,6 +38,7 @@ db_connect msf@msf
 db_rebuild_cache
 
 #terminal apps
+cdrtools #make iso files and stuff
 nethogs #network process viewer
 alacritty #terminal
 tmux #connect, disconnect, reconnect, multiplexer
