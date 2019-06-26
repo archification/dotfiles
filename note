@@ -109,6 +109,7 @@ fwupd #updating firmware
 go #google's programming language
 
 #programs
+pscircle #process tree visualizer
 kdenlive #video editor
 frei0r-plugins #optional for kdenlive
 breeze-icons #optional for kdenlive
@@ -171,6 +172,7 @@ fdupes -rd /home/jaster/stuff/
 imv -t int ~/stuff
 
 #misc
+pscircle --output-width=1920 --output-height=1080 --tree-radius-increment=125 --cpulist-show=false --memlist-show=false --output=/home/jaster/thing.png
 curl wttr.in
 curl -s "https://cht.sh/$argv"
 archlinux-java set java-8-jdk
