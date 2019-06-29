@@ -91,6 +91,7 @@ groff #markup language
 texlive-most #markup language
 
 #utility
+docker #use "cross" to cross compile stuff
 python-black #python linter
 python-pyfiglet
 dunst #notifications

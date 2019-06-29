@@ -11,6 +11,9 @@ config add installnote
 config add .xinitrc
 config add .Xmodmap
 config add .profile
+config add .zprofile
+config add .bash_profile
+config add .inputrc
 
 cd .config
 config add compton.conf
