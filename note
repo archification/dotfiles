@@ -91,9 +91,8 @@ groff #markup language
 texlive-most #markup language
 
 #utility
-docker #two strings in a box [required by cross]
-rustup #rust toolchain [required by cross]
-cross-git #cross compile stuff
+mutt-wizard-git #automate neomutt config
+docker #two strings in a box
 python-black #python linter
 python-pyfiglet
 dunst #notifications
