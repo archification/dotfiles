@@ -91,7 +91,9 @@ groff #markup language
 texlive-most #markup language
 
 #utility
-docker #use "cross" to cross compile stuff
+docker #two strings in a box [required by cross]
+rustup #rust toolchain [required by cross]
+cross-git #cross compile stuff
 python-black #python linter
 python-pyfiglet
 dunst #notifications
@@ -180,3 +182,4 @@ archlinux-java set java-8-jdk
 cargo install cargo-edit
 cargo add depo
 cargo doc --open
+cross build --target x86_64-pc-windows-gnu
