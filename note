@@ -166,7 +166,7 @@ asciinema play filename.cast
 swfmill swf2xml something.swf something.xml
 
 #switch gitlab to ssl certs
-git remote set-url origin git@gitlab.com:archification/dotfiles.git
+git remote set-url origin git@gitlab.com:archification/thing.git
 
 #remove dup photos
 fdupes -rd /home/jaster/stuff/
