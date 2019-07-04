@@ -1,4 +1,5 @@
 #web links
+https://www.youtube.com/watch?v=zF34dRivLOw&t=411s
 https://github.com/myst6re/hyne/releases
 https://www.youtube.com/watch?v=Mh5LY4Mz15o&list=PLMFoDoF5WCjivNyZjSOWfzjD4TyFbvqhu&index=346
 https://www.youtube.com/watch?v=vSFmDxn-cK8
@@ -183,4 +184,5 @@ archlinux-java set java-8-jdk
 cargo install cargo-edit
 cargo add depo
 cargo doc --open
+cargo build --release
 cross build --target x86_64-pc-windows-gnu
