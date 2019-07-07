@@ -113,6 +113,7 @@ fwupd #updating firmware
 go #google's programming language
 
 #programs
+remmina #remote desptop rpd/vnc
 hyne-git #ff8 save editor
 pscircle #process tree visualizer
 kdenlive #video editor
@@ -185,4 +186,3 @@ cargo install cargo-edit
 cargo add depo
 cargo doc --open
 cargo build --release
-cross build --target x86_64-pc-windows-gnu
