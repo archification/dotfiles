@@ -113,6 +113,8 @@ fwupd #updating firmware
 go #google's programming language
 
 #programs
+alacritty #gpu rust terminal window
+alacritty-terminfo #terminfo file for alacritty
 remmina #remote desptop rpd/vnc
 hyne-git #ff8 save editor
 pscircle #process tree visualizer
