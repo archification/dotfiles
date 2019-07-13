@@ -33,3 +33,5 @@ alias msfconsole="msfconsole --quiet -x \"db_connect msf@msf\""
 alias n='ncpamixer'
 alias p='pianobar | lolcat'
 alias rr='cargo run'
+alias ru='rustup update && cargo update'
+alias r='cd /home/jaster/wut/rs/thing && cargo run'

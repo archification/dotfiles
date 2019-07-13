@@ -1,5 +1,7 @@
 #web links
 #
+#intellectualist website
+https://www.opinion-lounge.com/
 #ff8 save editor
 https://github.com/myst6re/hyne/releases
 #japan
@@ -32,6 +34,8 @@ https://www.fileformat.info/info/unicode/utf8test.htm
 https://crates.io/crates/crossterm
 #rust crash course
 https://www.youtube.com/watch?v=zF34dRivLOw&t=411s
+#rust http
+https://crates.io/crates/hyper
 
 #packages
 #
