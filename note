@@ -1,5 +1,7 @@
 #web links
 #
+#game
+https://www.sharemygame.com/share/b2b6d6e8-46d4-4056-9f8c-498228366efc?fbclid=IwAR21mzg_KPJbnANZLKIOBE4edqnsTTkHJ72WbWfjw8OQ8kz4fHcufH_c4fk
 #redteam script
 https://github.com/d4rk007/RedGhost
 #freelance
@@ -116,6 +118,7 @@ groff #markup language
 texlive-most #markup language
 
 #utility
+words #dictionary files in /usr/share/dict/
 mutt-wizard-git #automate neomutt config
 docker #two strings in a box
 python-black #python linter
