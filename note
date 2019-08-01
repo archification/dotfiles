@@ -118,6 +118,9 @@ groff #markup language
 texlive-most #markup language
 
 #utility
+packer #create machine images
+vagrant #build virtual environment (metasploitable 3)
+openvpn #virtual private network hackthebox.eu
 words #dictionary files in /usr/share/dict/
 mutt-wizard-git #automate neomutt config
 docker #two strings in a box
