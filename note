@@ -58,6 +58,7 @@ xonsh #python + bash
 elvish #another shell with different syntax
 
 #security
+sherlock.lv2 #find online accounts
 metasploit
 armitage
 postgresql
@@ -118,6 +119,7 @@ groff #markup language
 texlive-most #markup language
 
 #utility
+openmmm #openmw mod manager
 packer #create machine images
 vagrant #build virtual environment (metasploitable 3)
 openvpn #virtual private network hackthebox.eu
