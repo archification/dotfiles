@@ -58,7 +58,7 @@ xonsh #python + bash
 elvish #another shell with different syntax
 
 #security
-sherlock.lv2 #find online accounts
+dirsearch
 metasploit
 armitage
 postgresql
