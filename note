@@ -119,6 +119,7 @@ groff #markup language
 texlive-most #markup language
 
 #utility
+xoreos #bioware engine kotor 2 modding tool
 openmmm #openmw mod manager
 packer #create machine images
 vagrant #build virtual environment (metasploitable 3)
