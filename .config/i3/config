@@ -107,6 +107,7 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
+exec_always --no-startup-id dunst
 exec_always --no-startup-id "$HOME/.config/scripts/polybar.sh"
 exec_always --no-startup-id feh --bg-scale $HOME/wallpaper/archwhisp.jpg
 exec_always --no-startup-id "killall -q compton; compton --config ~/.config/compton.conf"

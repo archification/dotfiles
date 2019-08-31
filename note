@@ -123,6 +123,7 @@ groff #markup language
 texlive-most #markup language
 
 #utility
+dunst #notification daemon
 openmmm #openmw mod manager
 packer #create machine images
 openvpn #virtual private network hackthebox.eu
@@ -147,6 +148,9 @@ fwupd #updating firmware
 go #google's programming language
 
 #programs
+sxiv #x image viewer
+transmission-cli #terminal torrent client
+transmission-remote-cli-git #more features
 remmina #remote desptop rpd/vnc
 hyne-git #ff8 save editor
 pscircle #process tree visualizer

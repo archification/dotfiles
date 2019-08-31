@@ -39,6 +39,10 @@ cd termite
 config add config
 cd ..
 
+cd dunst
+config add dunstrc
+cd ..
+
 cd asciinema
 config add config
 cd ..
@@ -61,6 +65,8 @@ cd ..
 cd ..
 
 cd scripts
+config add transadd
+config add rssadd
 config add lock.sh
 config add dotgit.sh
 config add update.sh
@@ -72,7 +78,15 @@ config add graburl.sh
 config add compiler.sh
 config add opout.sh
 config add texclear.sh
-cd ..
+cd
+
+cd $HOME/.local/share/applications
+config add img.desktop
+config add mail.desktop
+config add pdf.desktop
+config add rss.desktop
+config add text.desktop
+config add torrent.desktop
 
 config commit -m 'scripted commit'
 config push -u origin master
