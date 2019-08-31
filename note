@@ -70,6 +70,7 @@ db_connect msf@msf
 db_rebuild_cache
 
 #terminal apps
+pkgtop #manage installed packages
 cdrtools #make iso files and stuff
 nethogs #network process viewer
 tmux #connect, disconnect, reconnect, multiplexer
