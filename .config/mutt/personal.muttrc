@@ -1,3 +1,0 @@
-macro index,pager i1 '<sync-mailbox><enter-command>source "/home/jaster/.config/mutt"/accounts/archification.muttrc<enter><change-folder>!<enter>;<check-stats>'
-source /home/jaster/.config/mutt/accounts/archification.muttrc
-macro index,pager i2 '<sync-mailbox><enter-command>source "/home/jaster/.config/mutt"/accounts/archification.muttrc<enter><change-folder>!<enter>;<check-stats>'

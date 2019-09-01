@@ -70,6 +70,7 @@ db_connect msf@msf
 db_rebuild_cache
 
 #terminal apps
+w3m #web stuff in terminal
 pkgtop #manage installed packages
 cdrtools #make iso files and stuff
 nethogs #network process viewer
