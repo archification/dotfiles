@@ -101,6 +101,7 @@ indentline
 vaxe
 
 #terminal toys
+bonsai.sh-git #bonsai tree in ascii
 gource #git development visualization
 tty-clock #clock
 asciiquarium #animated aquarium in ascii
@@ -124,6 +125,7 @@ groff #markup language
 texlive-most #markup language
 
 #utility
+bleachbit #system cleaning
 dunst #notification daemon
 openmmm #openmw mod manager
 packer #create machine images
