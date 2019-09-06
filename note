@@ -60,13 +60,14 @@ xonsh #python + bash
 elvish #another shell with different syntax
 
 #security
-dirsearch
-metasploit
-armitage
-postgresql
-sudo systemctl start postgresql.service
-msfconsole
-db_connect msf@msf
+dirbuster #search web dirs
+dirsearch #search web dirs
+metasploit #thing
+armitage #gui for thing
+postgresql #database for thing
+sudo systemctl start postgresql.service #start database for thing
+msfconsole #terminal prompt for thing
+db_connect msf@msf #connect to thing in thing
 db_rebuild_cache
 
 #terminal apps
@@ -125,6 +126,8 @@ groff #markup language
 texlive-most #markup language
 
 #utility
+hplip #hp printer drivers
+foomatic-db-ppds #printer drivers
 bleachbit #system cleaning
 dunst #notification daemon
 openmmm #openmw mod manager
@@ -151,6 +154,7 @@ fwupd #updating firmware
 go #google's programming language
 
 #programs
+system-config-printer #gtk gui for cups
 sxiv #x image viewer
 transmission-cli #terminal torrent client
 transmission-remote-cli-git #more features
