@@ -154,6 +154,7 @@ fwupd #updating firmware
 go #google's programming language
 
 #programs
+libreoffice-fresh #office software
 system-config-printer #gtk gui for cups
 sxiv #x image viewer
 transmission-cli #terminal torrent client
