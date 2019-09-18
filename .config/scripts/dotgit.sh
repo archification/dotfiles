@@ -58,10 +58,6 @@ cd ..
 
 cd mutt
 config add muttrc
-config add personal.muttrc
-cd accounts
-config add archification.muttrc
-cd ..
 cd ..
 
 cd scripts
