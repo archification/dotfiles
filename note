@@ -231,5 +231,7 @@ curl -s "https://cht.sh/$argv"
 archlinux-java set java-8-jdk
 cargo install cargo-edit
 cargo add depo
+cargo rm
+cargo list
 cargo doc --open
 cargo build --release
