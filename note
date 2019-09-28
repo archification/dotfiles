@@ -72,7 +72,7 @@ db_rebuild_cache
 
 #terminal apps
 w3m #web stuff in terminal
-pkgtop #manage installed packages
+pkgtop-git #manage installed packages
 cdrtools #make iso files and stuff
 nethogs #network process viewer
 tmux #connect, disconnect, reconnect, multiplexer
