@@ -61,6 +61,7 @@ config add muttrc
 cd ..
 
 cd scripts
+config add tordone
 config add transadd
 config add rssadd
 config add lock.sh
