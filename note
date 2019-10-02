@@ -54,7 +54,7 @@ dash #faster bash /bin/sh link
 checkbashisms #check for bashisms before linking dash
 zsh #the shell itself
 zsh-syntax-highlighting #zsh highlight commands
-zsh-theme-powerlevel9k #zsh theming
+zsh-theme-powerlevel10k-git #zsh theming
 cht.sh #crazy code helper thing
 xonsh #python + bash
 elvish #another shell with different syntax
