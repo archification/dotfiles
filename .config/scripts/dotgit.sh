@@ -6,6 +6,7 @@ alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 cd $HOME
 config add .bashrc
 config add .zshrc
+config add .p10k.zsh
 config add note
 config add installnote
 config add .xinitrc
