@@ -60,6 +60,7 @@ xonsh #python + bash
 elvish #another shell with different syntax
 
 #security
+tor #anonymize traffic
 dirbuster #search web dirs
 dirsearch #search web dirs
 metasploit #thing
