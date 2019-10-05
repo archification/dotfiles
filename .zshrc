@@ -7,7 +7,7 @@ HISTSIZE=250
 SAVEHIST=250
 bindkey -v
 
-export FLASK_APP=$HOME/thing/thing.py
+export FLASK_APP=$HOME/flaskweb/thing.py
 # export FLASK_DEBUG=1
 
 alias update='/home/jaster/.config/scripts/update.sh'

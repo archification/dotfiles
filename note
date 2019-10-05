@@ -226,6 +226,7 @@ fdupes -rd /home/jaster/stuff/
 imv -t int ~/stuff
 
 #misc
+org.cups.cupsd.service
 p10k configure
 pscircle --output-width=1920 --output-height=1080 --tree-radius-increment=125 --cpulist-show=false --memlist-show=false --output=/home/jaster/thing.png
 curl wttr.in
