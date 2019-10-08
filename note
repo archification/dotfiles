@@ -213,9 +213,6 @@ ctrl+d
 asciinema rec -c "zsh -l"
 asciinema play filename.cast
 
-#swfmill
-swfmill swf2xml something.swf something.xml
-
 #switch gitlab to ssl certs
 git remote set-url origin git@gitlab.com:archification/thing.git
 
@@ -238,3 +235,10 @@ cargo rm
 cargo list
 cargo doc --open
 cargo build --release
+cargo +nightly run
+rustup component add rls rust-analysis rust-src
+#nvim youcompleteme
+aur/python2-pynvim
+community/python-pynvim
+python3 -m pip install --user --upgrade pynvim
+python2 -m pip install --user --upgrade pynvim
