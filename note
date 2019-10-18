@@ -128,6 +128,7 @@ groff #markup language
 texlive-most #markup language
 
 #utility
+yarn #trying to build vortex
 hplip #hp printer drivers
 foomatic-db-ppds #printer drivers
 bleachbit #system cleaning
