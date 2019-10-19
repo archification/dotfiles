@@ -79,6 +79,7 @@ nethogs #network process viewer
 tmux #connect, disconnect, reconnect, multiplexer
 nvtop #htop for nvidia gpu
 proton-git #better than wine?
+wine-valve-git #required by proton-git
 protontricks-git #winetricks for proton
 vulscan #nmap vulnerability scanner
 swfmill #decompile swf
