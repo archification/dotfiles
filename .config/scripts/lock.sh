@@ -7,3 +7,4 @@ $SCREENSHOT
 convert $IMAGE -blur $BLURTYPE $IMAGE
 i3lock -i $IMAGE
 rm $IMAGE
+echo "welcome back commander" | festival --tts
