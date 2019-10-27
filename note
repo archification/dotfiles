@@ -129,6 +129,7 @@ groff #markup language
 texlive-most #markup language
 
 #utility
+espeak-ng #text to speech
 festival #text to speech
 festival-us #voices for festival
 yarn #trying to build vortex
