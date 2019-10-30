@@ -1,5 +1,7 @@
 #web links
 #
+#ls colors generator
+https://geoff.greer.fm/lscolors/
 #debug tool
 https://github.com/simoniz0r/troubleshooter/tree/7a688dfd4c0cad80059159e847914b57c8c2ad81
 #game
@@ -129,6 +131,9 @@ groff #markup language
 texlive-most #markup language
 
 #utility
+lscolors-git #ls color coding
+julia #programming language
+julia-docs #julia documentation and examples
 espeak-ng #text to speech
 festival #text to speech
 festival-us #voices for festival
