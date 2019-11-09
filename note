@@ -131,6 +131,8 @@ groff #markup language
 texlive-most #markup language
 
 #utility
+alacritty #terminal emulator in rust
+alacritty-terminfo #terminfo
 lscolors-git #ls color coding
 julia #programming language
 julia-docs #julia documentation and examples
