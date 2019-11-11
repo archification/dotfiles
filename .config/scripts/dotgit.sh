@@ -9,7 +9,6 @@ config add .zshrc
 config add .alias
 config add .p10k.zsh
 config add note
-config add installnote
 config add .xinitrc
 config add .Xmodmap
 config add .profile
