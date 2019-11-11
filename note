@@ -1,5 +1,7 @@
 #web links
 #
+#termion Rust documentation
+http://ticki.github.io/blog/making-terminal-applications-in-rust-with-termion/
 #ls colors generator
 https://geoff.greer.fm/lscolors/
 #debug tool
