@@ -76,6 +76,11 @@ config add graburl.sh
 config add compiler.sh
 config add opout.sh
 config add texclear.sh
+cd ..
+
+cd sounds
+config add thing.mp3
+config add upgradecomplete.mp3
 cd
 
 cd $HOME/.local/share/applications
