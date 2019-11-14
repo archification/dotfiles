@@ -1,5 +1,7 @@
 #web links
 #
+#mr robot hacking music
+https://www.youtube.com/watch?v=XMEXPkPmmq0
 #termion Rust documentation
 http://ticki.github.io/blog/making-terminal-applications-in-rust-with-termion/
 #ls colors generator
@@ -250,6 +252,7 @@ cargo list
 cargo doc --open
 cargo build --release
 cargo +nightly run
+cargo doc --open --offline --document-private-items
 rustup component add rls rust-analysis rust-src
 #nvim youcompleteme
 aur/python2-pynvim
