@@ -223,6 +223,12 @@ o #next pane
 } #move current pane right
 :break-pane #make pane its own window
 
+#discord markup stuff
+#
+#sed edit
+avocado
+s/avocado/guacamole
+
 #asciinema
 asciinema rec
 ctrl+d
