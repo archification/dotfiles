@@ -136,7 +136,7 @@ texlive-most #markup language
 
 #utility
 lscolors-git #ls color coding
-julia #programming language
+julia #matlab language
 julia-docs #julia documentation and examples
 espeak-ng #text to speech
 festival #text to speech
@@ -167,9 +167,10 @@ chromium-widevine #needed browser plugin for netflix
 youtube-dl #downloads youtube videos
 compton #compositor
 fwupd #updating firmware
-go #google's programming language
+go #google's  language
 
 #programs
+audacity #audio file editor
 evince #pdf editor
 libreoffice-fresh #office software
 system-config-printer #gtk gui for cups
