@@ -61,6 +61,10 @@ cd mutt
 config add muttrc
 cd ..
 
+cd qutebrowser
+config add config.py
+cd ..
+
 cd scripts
 config add tordone
 config add transadd
