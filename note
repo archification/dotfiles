@@ -8,8 +8,6 @@ http://ticki.github.io/blog/making-terminal-applications-in-rust-with-termion/
 https://geoff.greer.fm/lscolors/
 #debug tool
 https://github.com/simoniz0r/troubleshooter/tree/7a688dfd4c0cad80059159e847914b57c8c2ad81
-#game
-https://www.sharemygame.com/share/b2b6d6e8-46d4-4056-9f8c-498228366efc?fbclid=IwAR21mzg_KPJbnANZLKIOBE4edqnsTTkHJ72WbWfjw8OQ8kz4fHcufH_c4fk
 #redteam script
 https://github.com/d4rk007/RedGhost
 #freelance
@@ -193,6 +191,9 @@ qdirstat #visualize storage space
 utox #chat client
 hardinfo #show hardware
 mpv #video player
+
+#games
+supertuxkart
 
 #icons
 papirus-icon-theme
