@@ -133,6 +133,7 @@ groff #markup language
 texlive-most #markup language
 
 #utility
+wasm-pack #wasm with Rust
 gforth #procedural language
 vlang #language similar to Rust
 lscolors-git #ls color coding
@@ -265,6 +266,16 @@ cargo build --release
 cargo +nightly run
 cargo doc --open --offline --document-private-items
 rustup component add rls rust-analysis rust-src
+
+#Rust webasm
+npm install &npm@current -g
+cargo install cargo-generate #needed for wasm
+cargo generate --git https://github.com/rustwasm/wasm-pack-template
+wasm-pack build #cycle
+npm init wasm-app www
+cd www && npm install
+npm run start
+
 #nvim youcompleteme
 aur/python2-pynvim
 community/python-pynvim
