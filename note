@@ -133,6 +133,7 @@ groff #markup language
 texlive-most #markup language
 
 #utility
+vlang #language similar to Rust
 lscolors-git #ls color coding
 julia #matlab language
 julia-docs #julia documentation and examples
