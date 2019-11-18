@@ -120,6 +120,3 @@ bindsym $mod+g exec bash -c "cd /home/jaster/latex && pdflatex thing.tex"
 # screengrab
 bindsym $mod+x exec grabimage.sh
 bindsym $mod+c exec graburl.sh
-
-#lutris origin
-for_window [instance="origin.exe"] floating enable
