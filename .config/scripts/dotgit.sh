@@ -40,6 +40,10 @@ cd termite
 config add config
 cd ..
 
+cd alacritty
+config add alacritty.yml
+cd ..
+
 cd dunst
 config add dunstrc
 cd ..
