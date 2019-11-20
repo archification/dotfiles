@@ -173,6 +173,7 @@ fwupd #updating firmware
 go #google's  language
 
 #programs
+sourcetrail #visualize codebases
 alacritty
 alacritty-terminfo
 kdenlive #video editor
