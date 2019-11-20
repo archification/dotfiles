@@ -33,7 +33,7 @@ config add transadd
 cd ..
 cd commands
 config add grabimage.sh
-config add gramurl.sh
+config add graburl.sh
 config add pastefile.sh
 
 cd $HOME/.config
