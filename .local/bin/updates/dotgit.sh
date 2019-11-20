@@ -1,6 +1,6 @@
 #!/bin/env sh
 
-shopt -s expand_aliases
+#shopt -s expand_aliases
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 cd $HOME
