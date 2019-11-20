@@ -1,10 +1,6 @@
 #!/bin/sh
-# This script will compile or run another finishing operation on a document. I
-# have this script run via vim.
 #
 # Compiles .tex. groff (.mom, .ms), .rmd, .md.
-# Opens .sent files as sent presentations.
-# Runs scripts based on extention or shebang
 
 file=$(readlink -f "$1")
 dir=$(dirname "$file")

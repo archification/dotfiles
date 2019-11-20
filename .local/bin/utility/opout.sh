@@ -1,6 +1,6 @@
-#!/bin/sh
-# opout: "open output": A general handler for opening a file's intended output.
-# I find this useful especially running from vim.
+#!/usr/bin/env sh
+# opout: "open output": Handler for opening a file's intended output.
+# Useful running from vim.
 
 basename="$(echo "$1" | sed 's/\.[^\/.]*$//')"
 

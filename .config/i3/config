@@ -2,7 +2,7 @@ set $mod Mod4
 
 new_window none
 font pango:Mononaki Nerd Font 10
-bindsym $mod+Shift+x exec "$HOME/.config/scripts/lock.sh"
+bindsym $mod+Shift+x exec lock.sh
 
 # gaps
 smart_gaps on
@@ -108,7 +108,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 exec_always --no-startup-id dunst
-exec_always --no-startup-id "$HOME/.config/scripts/polybar.sh"
+exec_always --no-startup-id "polybar.sh"
 exec_always --no-startup-id feh --bg-scale $HOME/wallpaper/redforest.jpg
 exec_always --no-startup-id "killall -q compton; compton --config ~/.config/compton.conf"
 exec --no-startup-id unclutter

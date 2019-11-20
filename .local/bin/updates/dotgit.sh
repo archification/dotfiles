@@ -16,7 +16,27 @@ config add .zprofile
 config add .bash_profile
 config add .inputrc
 
-cd .config
+cd .local/bin/updates
+config add dotgit.sh
+config add update.sh
+cd ..
+cd utility
+config add compiler.sh
+config add lock.sh
+config add open.sh
+config add opout.sh
+config add polybar.sh
+config add rssadd
+config add texclear.sh
+config add tordone
+config add transadd
+cd ..
+cd commands
+config add grabimage.sh
+config add gramurl.sh
+config add pastefile.sh
+
+cd $HOME/.config
 config add compton.conf
 config add libao.conf
 
@@ -69,24 +89,7 @@ cd qutebrowser
 config add config.py
 cd ..
 
-cd scripts
-config add tordone
-config add transadd
-config add rssadd
-config add lock.sh
-config add dotgit.sh
-config add update.sh
-config add pastefile.sh
-config add polybar.sh
-config add open.sh
-config add grabimage.sh
-config add graburl.sh
-config add compiler.sh
-config add opout.sh
-config add texclear.sh
-cd ..
-
-cd sounds
+cd $HOME/.local/bin/sounds
 config add thing.mp3
 config add upgradecomplete.mp3
 cd
