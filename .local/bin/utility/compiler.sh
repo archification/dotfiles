@@ -1,6 +1,4 @@
-#!/bin/sh
-#
-# Compiles .tex. groff (.mom, .ms), .rmd, .md.
+#!/bin/env sh
 
 file=$(readlink -f "$1")
 dir=$(dirname "$file")

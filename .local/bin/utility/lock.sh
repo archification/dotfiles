@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env sh
 
 IMAGE=/tmp/i3lock.png
 SCREENSHOT="scrot $IMAGE"

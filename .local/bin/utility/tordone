@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/env sh
 
 # * TR_APP_VERSION
 # * TR_TIME_LOCALTIME

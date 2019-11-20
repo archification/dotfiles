@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env sh
 
 open_imv(){
     curl $1 | imv -

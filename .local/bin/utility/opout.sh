@@ -1,6 +1,4 @@
-#!/usr/bin/env sh
-# opout: "open output": Handler for opening a file's intended output.
-# Useful running from vim.
+#!/bin/env sh
 
 basename="$(echo "$1" | sed 's/\.[^\/.]*$//')"
 
