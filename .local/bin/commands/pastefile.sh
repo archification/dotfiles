@@ -16,4 +16,4 @@ $(< $1)
 \`\`\`
 stuff
 
-mpv "$HOME/.config/sounds/thing.mp3" &>/dev/null &
+mpv "thing.mp3" &>/dev/null &
