@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env sh
 
 shopt -s expand_aliases
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
