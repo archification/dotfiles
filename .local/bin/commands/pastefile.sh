@@ -16,5 +16,4 @@ $(< $1)
 \`\`\`
 stuff
 
-mpv "$HOME/.local/bin/sounds/thing.mp3" &
-disown && exit
+mpv "$HOME/.local/bin/sounds/thing.mp3"
