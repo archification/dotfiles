@@ -137,6 +137,7 @@ groff #markup language
 texlive-most #markup language
 
 #utility
+hub #git api commands and stuff
 wpscan #vulnerability scanner for wordpress
 pulseaudio-ctl #terminal commands volume control
 lscolors-git #ls color coding
@@ -248,6 +249,17 @@ asciinema play filename.cast
 
 #switch gitlab to ssl certs
 git remote set-url origin git@gitlab.com:archification/thing.git
+
+#generate pull request with hub
+git clone https://githuborlab.com/user/thing
+cd thing
+hub fork
+git clone https://githuborlab.com/archification/thing
+edit things in thing
+git add
+git commit -m ""
+git push
+hub pull-request --base Owner:branch --head archification:branch
 
 #remove dup photos
 fdupes -rd /home/jaster/stuff/
