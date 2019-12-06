@@ -300,3 +300,6 @@ community/python-pynvim
 python3 -m pip install --user --upgrade pynvim
 python2 -m pip install --user --upgrade pynvim
 python3 install.py --cs-completer --go-completer --rust-completer --java-completer
+
+#npm packages
+npm install -g artillery
