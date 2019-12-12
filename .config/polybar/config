@@ -156,6 +156,8 @@ label = %percentage:2%%
 [module/temperature]
 type = internal/temperature
 thermal-zone = 0
+hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon2/temp1_input
+base-temperature = 20
 warn-temperature = 60
 format = <ramp> <label>
 format-underline = #f50a4d
@@ -164,9 +166,9 @@ format-warn-underline = ${self.format-underline}
 label = %temperature-c%
 label-warn = %temperature-c%
 label-warn-foreground = ${colors.secondary}
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
+ramp-0 = A
+ramp-1 = B
+ramp-2 = C
 ramp-foreground = ${colors.foreground}
 
 [settings]
