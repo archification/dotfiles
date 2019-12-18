@@ -284,6 +284,7 @@ cargo build --release
 cargo +nightly run
 cargo doc --open --offline --document-private-items
 rustup component add rls rust-analysis rust-src
+pacman -Qi
 
 #Rust webasm
 npm install &npm@current -g
