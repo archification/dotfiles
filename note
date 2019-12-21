@@ -173,6 +173,7 @@ youtube-dl #downloads youtube videos
 compton #compositor
 fwupd #updating firmware
 go #google's  language
+sherlock-git #social username enumeration
 
 #programs
 sourcetrail #visualize codebases
