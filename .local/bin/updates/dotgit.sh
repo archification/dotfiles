@@ -35,6 +35,7 @@ cd commands
 config add grabimage.sh
 config add graburl.sh
 config add pastefile.sh
+config add scregcp
 
 cd $HOME/.config
 config add compton.conf
