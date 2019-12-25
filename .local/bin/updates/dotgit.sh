@@ -32,7 +32,6 @@ config add tordone
 config add transadd
 cd ..
 cd commands
-config add grabimage.sh
 config add graburl.sh
 config add pastefile.sh
 config add scregcp
