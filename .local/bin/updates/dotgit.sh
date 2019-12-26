@@ -89,6 +89,10 @@ cd qutebrowser
 config add config.py
 cd ..
 
+cd flameshot
+config add flameshot.conf
+cd ..
+
 cd $HOME/.local/bin/sounds
 config add thing.mp3
 config add upgradecomplete.mp3
