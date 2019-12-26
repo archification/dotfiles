@@ -118,5 +118,5 @@ bindsym $mod+b exec qutebrowser
 bindsym $mod+g exec bash -c "cd /home/jaster/guide && pdflatex guide.tex"
 
 # screengrab
-bindsym --release $mod+x exec "scregcp -s /home/jaster/pictures/screenshots/"
+bindsym --release $mod+x exec "scregcp"
 bindsym $mod+c exec graburl.sh
