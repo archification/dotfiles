@@ -89,6 +89,10 @@ cd qutebrowser
 config add config.py
 cd ..
 
+cd mpv
+config add mpv.conf
+cd ..
+
 cd flameshot
 config add flameshot.conf
 cd ..

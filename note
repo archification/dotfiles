@@ -307,3 +307,4 @@ python3 install.py --cs-completer --go-completer --rust-completer --java-complet
 
 #flameshot
 ctrl+c #clipboard
+ctrl+s #save as file
