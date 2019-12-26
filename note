@@ -137,6 +137,8 @@ groff #markup language
 texlive-most #markup language
 
 #utility
+flameshot #screenshots
+copyq #clipboard for screenshot commands
 hub #git api commands and stuff
 wpscan #vulnerability scanner for wordpress
 pulseaudio-ctl #terminal commands volume control

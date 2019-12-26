@@ -111,7 +111,7 @@ exec_always --no-startup-id dunst
 exec_always --no-startup-id "polybar.sh"
 exec_always --no-startup-id feh --bg-scale $HOME/wallpaper/forrest.jpg
 exec_always --no-startup-id "killall -q compton; compton --config ~/.config/compton.conf"
-exec_always --no-startup-id flameshot
+exec_always --no-startup-id copyq
 exec --no-startup-id unclutter
 
 # apps
@@ -119,6 +119,5 @@ bindsym $mod+b exec qutebrowser
 bindsym $mod+g exec bash -c "cd /home/jaster/guide && pdflatex guide.tex"
 
 # screengrab
-bindsym --release $mod+z exec "flameshot full -c"
-bindsym --release $mod+x exec "flameshot gui -p $HOME/pictures/screenshots"
+bindsym --release $mod+x exec "grabimage.sh"
 bindsym --release $mod+c exec "graburl.sh"

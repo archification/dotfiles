@@ -16,4 +16,4 @@ $(< $1)
 \`\`\`
 stuff
 
-mpv "$HOME/.local/bin/sounds/thing.mp3"
+# mpv "$HOME/.local/bin/sounds/thing.mp3"
