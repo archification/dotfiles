@@ -89,6 +89,10 @@ cd qutebrowser
 config add config.py
 cd ..
 
+cd next
+config add init.lisp
+cd ..
+
 cd mpv
 config add mpv.conf
 cd ..

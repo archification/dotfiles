@@ -11,7 +11,7 @@ open() {
         *.png|*.jpeg|*.gif*|*.jpg) feh -B black --title open-float -. "$1";;  # feh -. = opens to fit window.
         #*.png|*.jpeg|*.gif*|*.jpg) open_imv "$1" || surf "$1";;
         #*) qutebrowser $1 &>$HOME/qutebrowser.log;  # For everything else.;
-        *) vimb $1;  # For everything else.;
+        *) next $1;  # For everything else.;
     esac
 }
 
