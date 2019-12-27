@@ -1,8 +1,6 @@
 #!/bin/env sh
 
-date=$(date +%Y\-%m\-%d\_%H.%M.%S)
 maim -s -l -c 0,0.5,0.5,0.3 -u --format png /dev/stdout \
-    | tee >$HOME/pictures/screenshots/${date}.png \
     | copyq copy image/png -
 notify-send -u low \
     "screenshot" \
