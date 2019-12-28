@@ -300,6 +300,10 @@ npm init wasm-app www
 cd www && npm install
 npm run start
 
+#nushell
+cargo build --all --features=stable
+$HOME is empty
+
 #nvim youcompleteme
 aur/python2-pynvim
 community/python-pynvim

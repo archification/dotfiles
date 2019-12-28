@@ -16,10 +16,15 @@ config add .zprofile
 config add .bash_profile
 config add .inputrc
 
+cd wallpaper
+config add forrest.jpg
+cd ..
+
 cd .local/bin/updates
 config add dotgit.sh
 config add update.sh
 cd ..
+
 cd utility
 config add compiler.sh
 config add lock.sh
@@ -31,6 +36,7 @@ config add texclear.sh
 config add tordone
 config add transadd
 cd ..
+
 cd commands
 config add grabimage.sh
 config add graburl.sh

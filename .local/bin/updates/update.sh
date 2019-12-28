@@ -2,6 +2,7 @@
 
 yay -Syu
 dotgit.sh
+rustup update
 cd $HOME/.config/nvim/bundle
 find . -maxdepth 1 -name .git -type d \
     | rev \
