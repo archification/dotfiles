@@ -16,4 +16,5 @@ $(< $1)
 \`\`\`
 stuff
 
-# mpv "$HOME/.local/bin/sounds/thing.mp3"
+mpv --volume 50 --really-quiet "$HOME/.local/bin/sounds/thing.mp3" &
+disown && exit
