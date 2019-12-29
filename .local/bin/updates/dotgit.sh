@@ -103,6 +103,10 @@ cd mpv
 config add mpv.conf
 cd ..
 
+cd zathura
+config add zathurarc
+cd ..
+
 cd $HOME/.local/bin/sounds
 config add thing.mp3
 config add upgradecomplete.mp3
