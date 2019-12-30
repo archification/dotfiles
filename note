@@ -180,6 +180,7 @@ go #google's  language
 sherlock-git #social username enumeration
 
 #programs
+pianobar #terminal pandora client
 next-browser #keyboard browser in lisp
 teamviewer #remote assistence
 sourcetrail #visualize codebases
