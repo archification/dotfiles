@@ -82,6 +82,8 @@ db_connect msf@msf #connect to thing in thing
 db_rebuild_cache
 
 #terminal apps
+bandwhich-bin #view bandwidth use > written in Rust
+pianobar #pandora client
 w3m #web stuff in terminal
 pkgtop-git #manage installed packages
 cdrtools #make iso files and stuff
@@ -180,7 +182,6 @@ go #google's  language
 sherlock-git #social username enumeration
 
 #programs
-pianobar #terminal pandora client
 next-browser #keyboard browser in lisp
 teamviewer #remote assistence
 sourcetrail #visualize codebases
