@@ -1,6 +1,7 @@
 #!/bin/env sh
 
 yay -Syu
+echo
 dotgit.sh
 vimgit.sh
 rustup update
