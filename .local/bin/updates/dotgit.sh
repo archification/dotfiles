@@ -22,6 +22,7 @@ cd ..
 
 cd .local/bin/updates
 config add dotgit.sh
+config add vimgit.sh
 config add update.sh
 cd ..
 
