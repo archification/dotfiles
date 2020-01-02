@@ -1,5 +1,6 @@
 #!/bin/env sh
 
+echo
 cd $HOME/.config/nvim/bundle
 dirs=`ls -1d */`
 for d in $dirs
