@@ -1,9 +1,9 @@
 #!/bin/env sh
 
 yay -Syu
+rustup update
 dotgit.sh
 vimgit.sh
-rustup update
 notify-send -u low \
     "updates" \
     "They're done." \
