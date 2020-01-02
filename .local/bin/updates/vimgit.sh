@@ -6,6 +6,7 @@ dirs=`ls -1d */`
 for d in $dirs
 do
     echo $d
+    git config --get remote.origin.url
     IFS=$'\n' lines=($(cd $d; git pull))
     for l in $lines
     do
