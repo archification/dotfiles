@@ -3,8 +3,8 @@
 yay -Syu
 dotgit.sh
 rustup update
-cd $HOME/.config/nvim/bundle
-find . -maxdepth 1 -type d -exec git --git-dir={}/.git --work-tree=$PWD/{} pull origin master \;
+#cd $HOME/.config/nvim/bundle
+find $HOME/.config/nvim/bundle/ -maxdepth 1 -type d -exec git --git-dir={}/.git --work-tree=$PWD/{} pull origin master \;
 #find . -maxdepth 1 -name .git -type d \
 #    | rev \
 #    | cut -c 6- \
