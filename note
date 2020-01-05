@@ -318,3 +318,17 @@ python3 install.py --cs-completer --go-completer --rust-completer --java-complet
 #flameshot
 ctrl+c #clipboard
 ctrl+s #save as file
+
+#reboot broken system without errors
+#sysrq
+cat /proc/sys/kernel/sysrq
+#temporary
+su root
+echo "1" > /proc/sys/kernel/sysrq
+exit
+#persistant
+su root
+echo "kernel.sysrq = 1" >> /etc/sysctl.d/99-sysctl.conf
+exit
+#hotkeys
+alt + sysrq + [r,e,i,s,u,b]
