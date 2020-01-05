@@ -141,6 +141,7 @@ groff #markup language
 texlive-most #markup language
 
 #utility
+virtualbox-ext-oracle #vbox extension pack
 pv #view progress of stuff piped through it
 copyq #clipboard for screenshot commands
 hub #git api commands and stuff
