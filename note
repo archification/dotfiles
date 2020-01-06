@@ -156,6 +156,7 @@ festival-us #voices for festival
 yarn #trying to build vortex
 hplip #hp printer drivers
 foomatic-db-ppds #printer drivers
+stacer #system cleaning
 bleachbit #system cleaning
 dunst #notification daemon
 openmmm #openmw mod manager
@@ -183,6 +184,7 @@ go #google's  language
 sherlock-git #social username enumeration
 
 #programs
+exercism-bin #for exercism.io testing
 syncthing #sync files between machines
 teamviewer #remote assistence
 sourcetrail #visualize codebases
@@ -333,3 +335,8 @@ echo "kernel.sysrq = 1" >> /etc/sysctl.d/99-sysctl.conf
 exit
 #hotkeys
 alt + sysrq + [r,e,i,s,u,b]
+
+#exercism
+exercism download --exercise=thing --track=rust
+cargo test
+exercism submit $HOME/exercism/rust/thing [/path/to/file2 ...]
