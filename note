@@ -269,12 +269,12 @@ asciinema play filename.cast
 git remote set-url origin git@gitlab.com:archification/thing.git
 
 #generate pull request with hub
-git clone https://githuborlab.com/user/thing
+git clone https://git(hub/lab).com/user/thing
 cd thing
 hub fork
-git clone https://githuborlab.com/archification/thing
+git clone https://git(hub/lab).com/archification/thing
 edit things in thing
-git add
+git add changes
 git commit -m ""
 git push
 hub pull-request --base <Owner>:<branch> --head archification:branch
