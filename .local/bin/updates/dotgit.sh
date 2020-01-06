@@ -1,6 +1,7 @@
 #!/bin/env sh
 
 echo
+echo dotgit.sh
 #shopt -s expand_aliases
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
@@ -25,7 +26,7 @@ cd .local/bin/updates
 config add dotgit.sh
 config add vimgit.sh
 config add update.sh
-config add website.sh
+config add webgit.sh
 cd ..
 
 cd utility
