@@ -277,7 +277,7 @@ edit things in thing
 git add
 git commit -m ""
 git push
-hub pull-request --base Owner:branch --head archification:branch
+hub pull-request --base <Owner>:<branch> --head archification:branch
 
 #remove dupe photos
 fdupes -rd /home/jaster/stuff/
