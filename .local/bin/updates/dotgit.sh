@@ -26,7 +26,6 @@ cd .local/bin/updates
 config add dotgit.sh
 config add vimgit.sh
 config add update.sh
-config add webgit.sh
 cd ..
 
 cd utility
@@ -97,10 +96,6 @@ cd ..
 
 cd qutebrowser
 config add config.py
-cd ..
-
-cd next
-config add init.lisp
 cd ..
 
 cd mpv

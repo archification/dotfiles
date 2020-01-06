@@ -347,5 +347,11 @@ exercism download --exercise=thing --track=rust
 cargo test
 exercism submit $HOME/exercism/rust/thing [/path/to/file2 ...]
 
+#web
+#
 #hugo
 hugo server -D
+hugo -D
+#lighttpd
+#/srv/http
+lighttpd -t -f $HOME/.config/lighttpd/lighttpd.conf
