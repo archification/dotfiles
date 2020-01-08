@@ -116,7 +116,6 @@ exec --no-startup-id unclutter
 
 # apps
 bindsym $mod+b exec qutebrowser
-bindsym $mod+m exec "qutebrowser http://localhost:19999/"
 bindsym $mod+g exec bash -c "cd /home/jaster/guide && pdflatex guide.tex"
 
 # screengrab

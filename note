@@ -189,7 +189,6 @@ go #google's  language
 sherlock-git #social username enumeration
 
 #programs
-hugo #markdown based static website builder in go
 exercism-bin #for exercism.io testing
 syncthing #sync files between machines
 teamviewer #remote assistence
@@ -346,12 +345,3 @@ alt + sysrq + [r,e,i,s,u,b]
 exercism download --exercise=thing --track=rust
 cargo test
 exercism submit $HOME/exercism/rust/thing [/path/to/file2 ...]
-
-#web
-#
-#hugo
-hugo server -D
-hugo -D
-#lighttpd
-#/srv/http
-lighttpd -t -f $HOME/.config/lighttpd/lighttpd.conf
