@@ -20,6 +20,7 @@ config add .inputrc
 
 cd wallpaper
 config add forrest.jpg
+config add flatwild.jpg
 cd ..
 
 cd .local/bin/updates

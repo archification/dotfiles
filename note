@@ -321,7 +321,15 @@ $HOME is empty
 #nvim
 #
 #commands
-
+#pipe output into vim
+grep -Hnri stuff * | vim -
+#sort lines in vim buffer
+:%!sort -u
+#remove lines containing stuff
+:%!grep -v stuff
+#remove lines containing stuff or STUFF
+:%!grep -vi stuff
+#
 #nvim youcompleteme
 aur/python2-pynvim
 community/python-pynvim
