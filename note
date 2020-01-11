@@ -39,9 +39,6 @@ https://www.youtube.com/watch?v=zF34dRivLOw&t=411s
 https://crates.io/crates/hyper
 #powerline symbols
 https://github.com/ryanoasis/powerline-extra-symbols
-#zsh plugins
-https://github.com/romkatv/powerlevel10k
-https://github.com/zsh-users/zsh-syntax-highlighting
 
 #packages
 #
@@ -54,7 +51,7 @@ zsh-theme-powerlevel10k-git #zsh theming
 cht.sh #crazy code helper thing
 xonsh #python + bash
 elvish #another shell with different syntax
-
+#
 #security
 tor #anonymize traffic
 dirbuster #search web dirs
@@ -66,7 +63,7 @@ sudo systemctl start postgresql.service #start database for thing
 msfconsole #terminal prompt for thing
 db_connect msf@msf #connect to thing in thing
 db_rebuild_cache
-
+#
 #terminal apps
 bandwhich-bin #view bandwidth use > written in Rust
 pianobar #pandora client
@@ -88,17 +85,7 @@ ncpamixer #pulse mixer
 fff #file manager
 gtop #resource monitor
 scanmem #memory injection
-
-#vim plugins
-cheat.sh-vim
-syntastic
-vim-colors-solarized
-vim-airline
-vim-airline-themes
-vim-surround
-indentline
-vaxe
-
+#
 #terminal toys
 bonsai.sh-git #bonsai tree in ascii
 gource #git development visualization
@@ -117,12 +104,12 @@ lolcat #use | for rainbow
 vitetris #tetris with vi controls
 edex-ui #hollywood movie terminal in electron
 cowsay #what does the cow say?
-
+#
 #pdf
 zathura #pdf viewer
 groff #markup language
 texlive-most #markup language
-
+#
 #utility
 virtualbox-ext-oracle #vbox extension pack
 pv #view progress of stuff piped through it
@@ -166,7 +153,7 @@ compton #compositor
 fwupd #updating firmware
 go #google's  language
 sherlock-git #social username enumeration
-
+#
 #programs
 exercism-bin #for exercism.io testing
 syncthing #sync files between machines
@@ -197,12 +184,50 @@ qdirstat #visualize storage space
 utox #chat client
 hardinfo #show hardware
 mpv #video player
-
+#
 #games
 supertuxkart
-
+#
 #icons
 papirus-icon-theme
+
+#vim plugins
+#auto-pairs/
+https://github.com/jiangmiao/auto-pairs
+#cheat.sh-vim/
+https://github.com/dbeniamine/cheat.sh-vim.git
+#indentline/
+https://github.com/yggdroot/indentline.git
+#ion-vim/
+https://gitlab.redox-os.org/redox-os/ion-vim.git
+#julia-vim/
+git://github.com/JuliaEditorSupport/julia-vim.git
+#molokai/
+https://github.com/tomasr/molokai
+#neomake/
+https://github.com/neomake/neomake.git
+#nerdtree/
+https://github.com/scrooloose/nerdtree.git
+#vaxe/
+https://github.com/jdonaldson/vaxe.git
+#vim-airline/
+https://github.com/vim-airline/vim-airline.git
+#vim-airline-themes/
+https://github.com/vim-airline/vim-airline-themes.git
+#vim-better-whitespace/
+https://github.com/ntpeters/vim-better-whitespace.git
+#vim-colors-solarized/
+https://github.com/altercation/vim-colors-solarized.git
+#vim-polyglot/
+https://github.com/sheerun/vim-polyglot
+#youcompleteme/
+https://github.com/valloric/youcompleteme
+#
+#zsh plugins
+#powerlevel10k/
+https://github.com/romkatv/powerlevel10k
+#zsh-syntax-highlighting/
+https://github.com/zsh-users/zsh-syntax-highlighting
 
 #commands
 #
