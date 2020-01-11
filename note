@@ -1,5 +1,7 @@
 #web links
 #
+#peer-to-peer mentorship and learning
+https://codebuddies.org/welcome
 #site load-time benchmark
 https://gtmetrix.com/
 #cloud native computing foundation open software
@@ -8,12 +10,10 @@ https://landscape.cncf.io/format=card-mode&grouping=no&sort=stars
 https://www.gnu.org/software/bash/manual/html_node/Bash-POSIX-Mode.html
 #Don't ask to ask
 https://sol.gfxile.net/dontask.html
+#ask questions the smart way
+http://www.catb.org/esr/faqs/smart-questions.html
 #typing test
 https://typings.gg/
-#mr robot hacking music
-https://www.youtube.com/watch?v=XMEXPkPmmq0
-#termion Rust documentation
-http://ticki.github.io/blog/making-terminal-applications-in-rust-with-termion/
 #ls colors generator
 https://geoff.greer.fm/lscolors/
 #debug tool
@@ -24,16 +24,6 @@ https://github.com/d4rk007/RedGhost
 https://hypelance.com/
 #intellectualist website
 https://www.opinion-lounge.com/
-#ff8 save editor
-https://github.com/myst6re/hyne/releases
-#japan
-https://www.youtube.com/watch?v=Mh5LY4Mz15o&list=PLMFoDoF5WCjivNyZjSOWfzjD4TyFbvqhu&index=346
-#cyberpunk music mix
-https://www.youtube.com/watch?v=vSFmDxn-cK8
-#discord-linux bot
-https://blargbot.xyz/
-#epic music animation (string theory)
-https://www.youtube.com/watch?v=SZzehktUeko
 #pacman -Syu vs -Syyu
 https://gist.github.com/Brottweiler/952c8b0de0afc01c6c8ef18b5a1a5294
 #github work search
@@ -41,25 +31,17 @@ https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+archived%3Afalse
 https://github.com/explore
 #source code explorer
 godbolt.org
-#ask questions the smart way
-http://www.catb.org/esr/faqs/smart-questions.html
-#carrier phone number finder
-https://freecarrierlookup.com
-#phone number name lookup
-https://www.zlookup.com/phone-number-lookup
+#font completion test
+https://www.fileformat.info/info/unicode/utf8test.htm
+#rust crash course
+https://www.youtube.com/watch?v=zF34dRivLOw&t=411s
+#rust http
+https://crates.io/crates/hyper
 #powerline symbols
 https://github.com/ryanoasis/powerline-extra-symbols
 #zsh plugins
 https://github.com/romkatv/powerlevel10k
 https://github.com/zsh-users/zsh-syntax-highlighting
-#testing for font completion
-https://www.fileformat.info/info/unicode/utf8test.htm
-#rust terminal crate
-https://crates.io/crates/crossterm
-#rust crash course
-https://www.youtube.com/watch?v=zF34dRivLOw&t=411s
-#rust http
-https://crates.io/crates/hyper
 
 #packages
 #
