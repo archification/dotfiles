@@ -3,7 +3,6 @@
 yay -Syu
 dotgit.sh
 vimgit.sh
-webgit.sh
 echo
 rustup update
 notify-send -u low \
