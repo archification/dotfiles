@@ -65,7 +65,6 @@ db_connect msf@msf #connect to thing in thing
 db_rebuild_cache
 #
 #terminal apps
-bandwhich-bin #view bandwidth use > written in Rust
 pianobar #pandora client
 w3m #web stuff in terminal
 pkgtop-git #manage installed packages
@@ -152,7 +151,6 @@ youtube-dl #downloads youtube videos
 compton #compositor
 fwupd #updating firmware
 go #google's  language
-sherlock-git #social username enumeration
 #
 #programs
 exercism-bin #for exercism.io testing
@@ -320,16 +318,16 @@ npm run start
 cargo build --all --features=stable
 $HOME is empty
 
+#nvim
+#
+#commands
+
 #nvim youcompleteme
 aur/python2-pynvim
 community/python-pynvim
 python3 -m pip install --user --upgrade pynvim
 python2 -m pip install --user --upgrade pynvim
 python3 install.py --cs-completer --go-completer --rust-completer --java-completer
-
-#flameshot
-ctrl+c #clipboard
-ctrl+s #save as file
 
 #reboot broken system without errors
 #sysrq
