@@ -118,9 +118,5 @@ config add rss.desktop
 config add text.desktop
 config add torrent.desktop
 
-cd $HOME/latex
-config add thing.pdf
-config add thing.tex
-
 config commit -m 'scripted commit'
 config push -u origin master
