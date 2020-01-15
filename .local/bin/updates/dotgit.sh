@@ -105,12 +105,10 @@ cd ..
 
 cd zathura
 config add zathurarc
-cd ..
 
 cd $HOME/.local/bin/sounds
 config add thing.mp3
 config add upgradecomplete.mp3
-cd
 
 cd $HOME/.local/share/applications
 config add img.desktop
@@ -119,6 +117,9 @@ config add pdf.desktop
 config add rss.desktop
 config add text.desktop
 config add torrent.desktop
+
+cd $HOME/latex
+config add thing.pdf
 
 config commit -m 'scripted commit'
 config push -u origin master
