@@ -115,6 +115,8 @@ groff #markup language
 texlive-most #markup language
 #
 #utility
+rsync #sync files on lan
+rclone #sync files to online service
 lighttpd #web server
 pandoc #convert markup to other markup
 discourse #modern forum software
