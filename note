@@ -274,7 +274,7 @@ ctrl+d
 asciinema rec -c "zsh -l"
 asciinema play filename.cast
 
-#switch gitlab to ssl certs
+#switch gitlab to ssh keys
 git remote set-url origin git@gitlab.com:archification/thing.git
 
 #generate pull request with hub
