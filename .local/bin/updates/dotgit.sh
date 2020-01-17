@@ -120,3 +120,4 @@ config add torrent.desktop
 
 config commit -m 'scripted commit'
 config push -u origin master
+config push -u github master
