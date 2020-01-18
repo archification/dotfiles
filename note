@@ -25,8 +25,6 @@ https://geoff.greer.fm/lscolors/
 https://github.com/simoniz0r/troubleshooter/tree/7a688dfd4c0cad80059159e847914b57c8c2ad81
 #redteam script
 https://github.com/d4rk007/RedGhost
-#freelance
-https://hypelance.com/
 #intellectualist website
 https://www.opinion-lounge.com/
 #pacman -Syu vs -Syyu
@@ -289,6 +287,12 @@ git add changes
 git commit -m ""
 git push
 hub pull-request --base <Owner>:<branch> --head archification:branch
+#keep fork updated
+git clone git@github.com:archification/myfork.git
+cd myfork
+git remote add upstream git://github.com/owner/thing.git
+git fetch upstream
+git pull upstream master
 
 #remove dupe photos
 fdupes -rd /home/jaster/stuff/
@@ -360,6 +364,9 @@ echo "kernel.sysrq = 1" >> /etc/sysctl.d/99-sysctl.conf
 exit
 #hotkeys
 alt + sysrq + [r,e,i,s,u,b]
+
+#rclone
+rclone config
 
 #exercism
 exercism download --exercise=thing --track=rust
