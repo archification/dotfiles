@@ -309,8 +309,10 @@ pscircle --output-width=1920 --output-height=1080 --tree-radius-increment=125 --
 curl wttr.in
 curl -s "https://cht.sh/$argv"
 archlinux-java set java-8-jdk
+
+#Rust
 cargo install cargo-edit
-cargo add depo
+cargo add
 cargo rm
 cargo list
 cargo doc --open
@@ -328,10 +330,6 @@ wasm-pack build #cycle
 npm init wasm-app www
 cd www && npm install
 npm run start
-
-#nushell
-cargo build --all --features=stable
-$HOME is empty
 
 #nvim
 #
