@@ -284,7 +284,7 @@ git remote set-url origin git@gitlab.com:archification/thing.git
 git clone https://git(hub/lab).com/user/thing
 cd thing
 hub fork
-git clone https://git(hub/lab).com/archification/thing
+git clone https://git(hub||lab).com/archification/thing
 edit things in thing
 git add changes
 git commit -m ""
