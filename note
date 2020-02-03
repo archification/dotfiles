@@ -277,9 +277,14 @@ ctrl+d
 asciinema rec -c "zsh -l"
 asciinema play filename.cast
 
-#switch gitlab to ssh keys
+#git
+#
+#use github and gitlab
+cd project
+git remote add github https://github.com/user/repo.git
+git remote set-url --add origin https://github.com/user/repo.git
+#switch to ssh keys
 git remote set-url origin git@gitlab.com:archification/thing.git
-
 #generate pull request with hub
 git clone https://git(hub/lab).com/user/thing
 cd thing
