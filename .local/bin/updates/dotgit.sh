@@ -39,12 +39,15 @@ config add rssadd
 config add texclear.sh
 config add tordone
 config add transadd
+config add emoji
 cd ..
 
 cd commands
 config add grabimage.sh
 config add graburl.sh
 config add pastefile.sh
+config add hastebin
+config add emoji.sh
 
 cd $HOME/.config
 config add compton.conf
