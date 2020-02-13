@@ -117,6 +117,7 @@ groff #markup language
 texlive-most #markup language
 #
 #utility
+python-future #required by youcompleteme vim plugin
 rsync #sync files on lan
 rclone #sync files to online service
 lighttpd #web server
