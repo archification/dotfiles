@@ -52,6 +52,8 @@ https://github.com/ryanoasis/powerline-extra-symbols
 #packages
 #
 #shell
+ion-git #shell of redox-os in Rust
+starship #prompt required by ion
 dash #faster bash /bin/sh link
 checkbashisms #check for bashisms before linking dash
 zsh #the shell itself
@@ -119,6 +121,7 @@ groff #markup language
 texlive-most #markup language
 #
 #utility
+ripgrep #replacement for grep in Rust
 python-future #required by youcompleteme vim plugin
 rsync #sync files on lan
 rclone #sync files to online service

@@ -1,5 +1,6 @@
 alias update='update.sh'
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias grep='rg'
 alias ls='lsd'
 alias h='htop'
 alias H='htop'

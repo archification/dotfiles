@@ -50,8 +50,13 @@ config add hastebin
 config add emoji.sh
 
 cd $HOME/.config
+config add starship.toml
 config add compton.conf
 config add libao.conf
+
+cd ion
+config add initrc
+cd ..
 
 cd rofi
 config add rofi.rasi
@@ -79,6 +84,7 @@ cd ..
 
 cd dunst
 config add dunstrc
+config add starship.toml
 cd ..
 
 cd asciinema
