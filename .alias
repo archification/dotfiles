@@ -15,7 +15,7 @@ alias mine='cd $HOME/mine && java -jar server.jar nogui'
 alias share='pastefile.sh'
 alias f='flask run --host=0.0.0.0'
 alias z='nmap -sV --script=vulscan/vulscan.nse'
-alias msfconsole="msfconsole --quiet -x \"db_connect msf@msf\""
+alias msfconsole='msfconsole --quiet -x \"db_connect msf@msf\"'
 alias n='ncpamixer'
 alias p='pianobar | lolcat'
 alias rr='cargo run'

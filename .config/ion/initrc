@@ -1,4 +1,3 @@
 eval $(/usr/bin/starship init ion)
 
-alias update='update.sh'
-alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+source $HOME/.alias
