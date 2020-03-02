@@ -3,6 +3,8 @@
 
 #web links
 #
+#static site generator written in Rust
+https://github.com/getzola/zola
 #transfer files
 http://filebin.net/
 #nocode
