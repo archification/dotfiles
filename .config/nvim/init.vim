@@ -68,6 +68,13 @@ let g:NERDTreeIndicatorMapCustom = {
     \ "Unknown"   : "?"
     \ }
 
+" undotree
+nnoremap <silent> <Leader>u :UndotreeToggle<cr>
+if has("persistent_undo")
+    set undodir=$HOME/.undodir
+    set undofile
+endif
+
 " splits
 set splitbelow
 set splitright
