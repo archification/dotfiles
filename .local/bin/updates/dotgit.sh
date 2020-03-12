@@ -84,7 +84,6 @@ cd ..
 
 cd dunst
 config add dunstrc
-config add starship.toml
 cd ..
 
 cd asciinema
