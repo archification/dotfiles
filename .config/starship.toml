@@ -1,9 +1,0 @@
-add_newline = false
-
-[rust]
-symbol = "R "
-
-[character]
-
-[package]
-
