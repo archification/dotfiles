@@ -126,6 +126,6 @@ config add rss.desktop
 config add text.desktop
 config add torrent.desktop
 
-config commit -m 'scripted commit' -u
+config commit -m 'scripted commit'
 config push -u origin master
 config push -u github master
