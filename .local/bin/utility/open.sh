@@ -1,27 +1,15 @@
 #!/bin/env sh
 
-open_imv(){
-    curl $1 | imv -
-}
+[ -z "$1" ] && { "$BROWSER"; exit; }
 
-open() {
-    echo $1
-    case "$1" in
-        *youtube.com/watch?v=*|*youtu.be*|*.webm*|*.mp4*|*.avi) mpv "$1" --fs --title="open-float";;
-        *.png|*.jpeg|*.gif*|*.jpg) feh -B black --title open-float -. "$1";;  # feh -. = opens to fit window.
-        #*.png|*.jpeg|*.gif*|*.jpg) open_imv "$1" || surf "$1";;
-        #*) qutebrowser $1 &>$HOME/qutebrowser.log;  # For everything else.;
-        *) qutebrowser $1;  # For everything else.;
-    esac
-}
-
-for url; do
-    case "$url" in
-        *bombch.us*)
-            open "$(curl -w "%{url_effective}\n" -I -L -s -S $1 -o /dev/null)"
-        ;;
-        *)
-        open "$url"
-        ;;
-    esac
-done
+case "$1" in
+    *mkv|*webm|*mp4|*youtube.com/watch*|*youtube.com/playlist*|*youtu.be*|*hooktube.com*|*bitchute.com*)
+        setsid mpv --input-ipc-server=/tmp/mpvsoc$(date +%s) -quiet "$1" >/dev/null 2>&1 & ;;
+    *png|*jpg|*jpe|*jpeg|*gif)
+        curl -sL "$1" > "/tmp/$(echo "$1" | sed "s/.*\///")" && sxiv -a "/tmp/$(echo "$1" | sed "s/.*\///")" >/dev/null 2>&1 & ;;
+    *mp3|*flac|*opus|*mp3?source*)
+        setsid tsp curl -LO "$1" >/dev/null 2>&1 & ;;
+    *)
+        if [ -f "$1" ]; then "$TERMINAL" -e "$EDITOR $1"
+        else setsid $BROWSER "$1" >/dev/null 2>&1 & fi ;;
+esac
