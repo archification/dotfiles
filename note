@@ -5,6 +5,8 @@
 #
 https://0x00sec.org/
 https://github.com/trustedsec
+#teaching ctf
+https://picoctf.com/
 #static site generator written in Rust
 https://github.com/getzola/zola
 #transfer files
@@ -82,6 +84,7 @@ db_connect msf@msf #connect to thing in thing
 db_rebuild_cache
 #
 #terminal apps
+zola-bin #static site generator
 pianobar #pandora client
 w3m #web stuff in terminal
 pkgtop-git #manage installed packages
