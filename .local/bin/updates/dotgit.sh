@@ -51,6 +51,7 @@ config add emoji.sh
 config add cross.sh
 
 cd $HOME/.config
+config add mimeapps.list
 config add starship.toml
 config add compton.conf
 config add libao.conf
@@ -120,6 +121,7 @@ config add thing.mp3
 config add upgradecomplete.mp3
 
 cd $HOME/.local/share/applications
+config add url.desktop
 config add img.desktop
 config add mail.desktop
 config add pdf.desktop

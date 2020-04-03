@@ -1,0 +1,12 @@
+[Default Applications]
+x-scheme-handler/magnet=torrent.desktop;
+text/plain=text.desktop;
+text/x-shellscript=text.desktop;
+application/pdf=pdf.desktop
+image/png=img.desktop;
+image/jpeg=img.desktop;
+image/gif=img.desktop;
+application/rss+xml=rss.desktop;
+x-scheme-handler/http=url.desktop;
+x-scheme-handler/https=url.desktop;
+x-scheme-handler/discord-610508934456934412=discord-610508934456934412.desktop;
