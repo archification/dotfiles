@@ -129,6 +129,16 @@ zathura #pdf viewer
 groff #markup language
 texlive-most #markup language
 #
+#virtualization
+kvm #hypervisor as a kernel module
+qemu #machine emulator and virtualizer
+libvirt #manage virtual machines
+virt-manager #gui for managing vms
+lxsession #authentication manager > required for virt-manager
+ebtables #networking for qemu
+dnsmasq #required for networking in virt-manager
+sudo systemctl enable libvirtd
+sudo systemctl start libvirtd
 #utility
 uwsgi-plugin-python
 ripgrep #replacement for grep in Rust
@@ -348,6 +358,8 @@ cargo doc --open --offline --document-private-items
 rustup component add rls rust-analysis rust-src
 pacman -Qi
 
+#cross-compile
+cargo build --release --target "x86_64-pc-windows-gnu" --verbose
 #Rust webasm
 npm install &npm@current -g
 cargo install cargo-generate #needed for wasm
