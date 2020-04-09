@@ -16,7 +16,7 @@ bindsym $mod+Shift+y gaps inner current set 0; gaps outer current set 0
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec termite
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+q kill
