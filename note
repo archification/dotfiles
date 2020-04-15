@@ -134,12 +134,12 @@ kvm #hypervisor as a kernel module
 qemu #machine emulator and virtualizer
 libvirt #manage virtual machines
 virt-manager #gui for managing vms
-lxsession #authentication manager > required for virt-manager
 ebtables #networking for qemu
-dnsmasq #required for networking in virt-manager
 sudo systemctl enable libvirtd
 sudo systemctl start libvirtd
+sudo usermod -G libvirtd -a jaster
 #utility
+lxsession #login manager for applications
 uwsgi-plugin-python
 ripgrep #replacement for grep in Rust
 python-future #required by youcompleteme vim plugin
