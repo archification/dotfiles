@@ -325,8 +325,6 @@ git commit -m ""
 git push
 hub pull-request --push --base <Owner>:<branch> --head archification:<branch>
 #keep fork updated
-git clone git@github.com:archification/myfork.git
-cd myfork
 git remote add upstream git://github.com/owner/thing.git
 git fetch upstream
 git pull upstream master
