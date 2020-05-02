@@ -17,9 +17,9 @@ RUSTFLAGS="-C linkger=x86_64-w64-mingw32-gcc" \
 #wget -nc https://s3.dockerproject.org/darwin/v2/MacOSX10.10.sdk.tar.xz
 #mv MacOSX10.10.sdk.tar.xz tarballs/
 #UNATTENDED=yes OSX_VERSION_MIN=10.7 ./build.sh
-PATH="$HOME/osxcross/target/bin:$PATH" \
-    CC=o64-clang \
-    CXX=o64-clang++ \
-    LIBZ_SYS_STATIC=1 \
-    RUSTFLAGS="-C linker=x86_64-apple-darwin14-clang" \
-    cargo build --release --target x86_64-apple-darwin
+#PATH="$HOME/osxcross/target/bin:$PATH" \
+#    CC=o64-clang \
+#    CXX=o64-clang++ \
+#    LIBZ_SYS_STATIC=1 \
+#    RUSTFLAGS="-C linker=x86_64-apple-darwin14-clang" \
+#    cargo build --release --target x86_64-apple-darwin

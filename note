@@ -5,6 +5,8 @@
 #
 https://0x00sec.org/
 https://github.com/trustedsec
+#dns
+https://namecheap.com/
 #teaching ctf
 https://picoctf.com/
 #static site generator written in Rust
@@ -102,6 +104,7 @@ mps-youtube (mpsyt) #youtube
 ncpamixer #pulse mixer
 fff #file manager
 gtop #resource monitor
+bashtop #resource monitor
 scanmem #memory injection
 #
 #terminal toys
@@ -139,6 +142,8 @@ sudo systemctl enable libvirtd
 sudo systemctl start libvirtd
 sudo usermod -G libvirtd -a jaster
 #utility
+mono-msbuild #required by YCM C# completion
+miraclecast-git #screen mirroring to roku "mirracast"
 lxsession #login manager for applications
 uwsgi-plugin-python
 ripgrep #replacement for grep in Rust
