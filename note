@@ -335,7 +335,7 @@ git fetch upstream
 git pull upstream master
 
 #remove dupe photos
-fdupes -rd /home/jaster/stuff/
+fdupes -r /home/jaster/stuff/
 
 #slideshow
 imv -t int ~/stuff
