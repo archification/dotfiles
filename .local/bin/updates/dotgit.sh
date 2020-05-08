@@ -53,7 +53,7 @@ config add cross.sh
 cd $HOME/.config
 config add mimeapps.list
 config add starship.toml
-config add compton.conf
+config add picom.conf
 config add libao.conf
 
 cd ion
