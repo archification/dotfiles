@@ -1,5 +1,5 @@
 #!/bin/env sh
 
-pgrep -x transmission-da >/dev/null || (transmission-daemon && notify-send "Starting transmission daemon...")
+pidof transmission-daemon >/dev/null || (transmission-daemon && notify-send "Starting transmission daemon...")
 
 transmission-remote -a "$@" && notify-send "🔽 Torrent added."

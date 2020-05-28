@@ -210,7 +210,7 @@ libreoffice-fresh #office software
 system-config-printer #gtk gui for cups
 sxiv #x image viewer
 transmission-cli #terminal torrent client
-transmission-remote-cli-git #more features
+stig-git #tui interface for transmission
 remmina #remote desptop rpd/vnc
 hyne-git #ff8 save editor
 pscircle #process tree visualizer
