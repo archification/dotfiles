@@ -3,14 +3,15 @@
 
 #web links
 #
+#remote support
+https://remotedesktop.google.com/support
+#security
 https://0x00sec.org/
 https://github.com/trustedsec
 #dns
 https://namecheap.com/
 #teaching ctf
 https://picoctf.com/
-#static site generator written in Rust
-https://github.com/getzola/zola
 #transfer files
 http://filebin.net/
 #nocode
@@ -86,7 +87,6 @@ db_connect msf@msf #connect to thing in thing
 db_rebuild_cache
 #
 #terminal apps
-zola-bin #static site generator
 pianobar #pandora client
 w3m #web stuff in terminal
 pkgtop-git #manage installed packages
@@ -142,6 +142,7 @@ sudo systemctl enable libvirtd
 sudo systemctl start libvirtd
 sudo usermod -G libvirtd -a jaster
 #utility
+mtools #utilities to access ms-dos disks
 mono-msbuild #required by YCM C# completion
 miraclecast-git #screen mirroring to roku "mirracast"
 lxsession #login manager for applications
@@ -168,6 +169,7 @@ festival-us #voices for festival
 yarn #trying to build vortex
 hplip #hp printer drivers
 foomatic-db-ppds #printer drivers
+rmlint #detect and remove dead files in target dir
 netdata #system cleaning
 stacer #system cleaning
 bleachbit #system cleaning

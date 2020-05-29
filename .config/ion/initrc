@@ -1,3 +1,4 @@
 eval $(/usr/bin/starship init ion)
 
 source $HOME/.alias
+source $HOME/.profile
