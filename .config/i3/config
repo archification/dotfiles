@@ -118,7 +118,7 @@ exec --no-startup-id unclutter
 # apps
 bindsym $mod+b exec qutebrowser
 bindsym $mod+v exec emoji.sh
-bindsym $mod+g exec bash -c "cd /home/jaster/guide && pdflatex guide.tex"
+bindsym $mod+g exec bash -c "cd /home/jaster/guide && pandoc aboutme.txt --pdf-engine=xelatex -o guide.pdf"
 
 # screengrab
 bindsym --release $mod+x exec "grabimage.sh"
