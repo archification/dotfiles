@@ -142,6 +142,8 @@ sudo systemctl enable libvirtd
 sudo systemctl start libvirtd
 sudo usermod -G libvirtd -a jaster
 #utility
+droidcam
+android-tools
 hydrus
 mtools #utilities to access ms-dos disks
 mono-msbuild #required by YCM C# completion
