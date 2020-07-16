@@ -49,6 +49,7 @@ config add pastefile.sh
 config add hastebin
 config add emoji.sh
 config add cross.sh
+config add ydl
 
 cd $HOME/.config
 config add mimeapps.list

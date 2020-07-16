@@ -87,6 +87,7 @@ db_connect msf@msf #connect to thing in thing
 db_rebuild_cache
 #
 #terminal apps
+cmus #play music
 pianobar #pandora client
 w3m #web stuff in terminal
 pkgtop-git #manage installed packages

@@ -1,0 +1,6 @@
+#!/bin/env sh
+
+cd $HOME/music
+youtube-dl -x --embed-thumbnail --audio-format mp3 $1 >> /dev/null
+mpv --volume=50 --really-quiet "$HOME/.local/bin/sounds/thing.mp3" &
+disown && exit
