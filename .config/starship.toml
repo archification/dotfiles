@@ -4,6 +4,9 @@ add_newline = false
 symbol = "R "
 
 [character]
+symbol = "❯"
+vicmd_symbol = "❮"
+style_success = "bold green"
+style_failure = "bold red"
 
 [package]
-
