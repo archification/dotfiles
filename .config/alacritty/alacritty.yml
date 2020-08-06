@@ -75,7 +75,7 @@ colors:
   #dim:
   indexed_colors: []
 
-visual_bell:
+bell:
   animation: EaseOutExpo
   duration: 0
   color: '0xffffff'
@@ -97,7 +97,7 @@ selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>"
   save_to_clipboard: false
 
-dynamic_title: true
+window.dynamic_title: true
 
 cursor:
   style: Block
