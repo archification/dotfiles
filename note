@@ -146,6 +146,7 @@ sudo systemctl enable libvirtd
 sudo systemctl start libvirtd
 sudo usermod -G libvirtd -a jaster
 #utility
+android-file-transfer
 chromium-widevine #browser extension for netflix
 hydrus #image downloader and tagger
 mtools #utilities to access ms-dos disks
