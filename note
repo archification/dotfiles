@@ -3,6 +3,8 @@
 
 #web links
 #
+#text stuff
+https://text-symbols.com/upside-down/
 #don't use vpns
 https://gist.github.com/joepie91/5a9909939e6ce7d09e29
 #remote support
@@ -146,7 +148,8 @@ sudo systemctl enable libvirtd
 sudo systemctl start libvirtd
 sudo usermod -G libvirtd -a jaster
 #utility
-android-file-transfer
+smartmonctl #check hdd health
+android-file-transfer #transfer files with android phone and pc
 chromium-widevine #browser extension for netflix
 hydrus #image downloader and tagger
 mtools #utilities to access ms-dos disks
@@ -421,3 +424,7 @@ rclone config
 exercism download --exercise=thing --track=rust
 cargo test
 exercism submit $HOME/exercism/rust/thing [/path/to/file2 ...]
+
+#drive health
+sudo smartctl -t short /dev/sda
+sudo smartctl -H /dev/sda
