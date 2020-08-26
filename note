@@ -208,6 +208,7 @@ fwupd #updating firmware
 go #google's language
 #
 #programs
+android-studio #develop android app
 remacs-git #text editor in Rust
 exercism-bin #for exercism.io testing
 syncthing #sync files between machines
