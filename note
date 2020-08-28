@@ -148,6 +148,10 @@ sudo systemctl enable libvirtd
 sudo systemctl start libvirtd
 sudo usermod -G libvirtd -a jaster
 #utility
+thunar-archive-plugin
+breeze-blue-cursor-theme
+breeze-hacked-cursor-theme
+breeze-obsidian-cursor-theme
 smartmonctl #check hdd health
 android-file-transfer #transfer files with android phone and pc
 chromium-widevine #browser extension for netflix
@@ -363,18 +367,24 @@ curl -s "https://cht.sh/$argv"
 archlinux-java set java-8-jdk
 
 #Rust
+#install tool to easily handle adding and removing crates in projects
 cargo install cargo-edit
-cargo add
-cargo rm
+#add and remove crates inside project
+cargo add crateName
+cargo rm crateName
+#list all cargo commands currently installed
 cargo list
+#generate and/or open docs
 cargo doc --open
-cargo build --release
-cargo +nightly run
 cargo doc --open --offline --document-private-items
+#build for release
+cargo build --release
+#run project using rust nightly
+cargo +nightly run
+#add common components
 rustup component add rls rust-analysis rust-src
 pacman -Qi
-
-#cross-compile
+#cross-compile from linux to windows
 cargo build --release --target "x86_64-pc-windows-gnu" --verbose
 #Rust webasm
 npm install &npm@current -g
