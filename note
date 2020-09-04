@@ -72,7 +72,7 @@ dash #faster bash /bin/sh link
 checkbashisms #check for bashisms before linking dash
 zsh #the shell itself
 zsh-syntax-highlighting #zsh highlight commands
-zsh-theme-powerlevel10k-git #zsh theming
+zsh-theme-powerlevel10k-git #zsh prompt
 cht.sh #crazy code helper thing
 xonsh #python + bash
 elvish #another shell with different syntax
@@ -148,7 +148,7 @@ sudo systemctl enable libvirtd
 sudo systemctl start libvirtd
 sudo usermod -G libvirtd -a jaster
 #utility
-thunar-archive-plugin
+mingw-w64-sdl2 #required for cross-compiling sdl apps
 breeze-blue-cursor-theme
 breeze-hacked-cursor-theme
 breeze-obsidian-cursor-theme
@@ -385,6 +385,7 @@ cargo +nightly run
 rustup component add rls rust-analysis rust-src
 pacman -Qi
 #cross-compile from linux to windows
+rustup target add x86_64-pc-windows-gnu
 cargo build --release --target "x86_64-pc-windows-gnu" --verbose
 #Rust webasm
 npm install &npm@current -g
