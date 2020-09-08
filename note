@@ -155,7 +155,6 @@ breeze-obsidian-cursor-theme
 smartmonctl #check hdd health
 android-file-transfer #transfer files with android phone and pc
 chromium-widevine #browser extension for netflix
-hydrus #image downloader and tagger
 mtools #utilities to access ms-dos disks
 mono-msbuild #required by YCM C# completion
 miraclecast-git #screen mirroring to roku "mirracast"
