@@ -44,6 +44,11 @@ augroup my_neomake_cmds
 	autocmd BufWritePost *.rs Neomake! cargo
 augroup END
 
+" YouCompleteMe
+let g:ycm_semantic_triggers = {
+    \'elm' : ['.'],
+    \}
+
 " indentline
 let g:indentLine_setColors = 0
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']

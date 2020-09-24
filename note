@@ -148,6 +148,7 @@ sudo systemctl enable libvirtd
 sudo systemctl start libvirtd
 sudo usermod -G libvirtd -a jaster
 #utility
+elm-platform-bin #elm language
 mingw-w64-sdl2 #required for cross-compiling sdl apps
 breeze-blue-cursor-theme
 breeze-hacked-cursor-theme
@@ -439,3 +440,6 @@ exercism submit $HOME/exercism/rust/thing [/path/to/file2 ...]
 #drive health
 sudo smartctl -t short /dev/sda
 sudo smartctl -H /dev/sda
+
+#pandoc markdown to pdf
+pandoc thing.txt --pdf-engine=xelatex -o thing.pdf
