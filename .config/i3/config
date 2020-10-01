@@ -110,7 +110,6 @@ bindsym $mod+r mode "resize"
 exec_always --no-startup-id dunst
 exec_always --no-startup-id "polybar.sh"
 exec_always --no-startup-id feh --bg-scale $HOME/wallpaper/flatwild.jpg
-exec_always --no-startup-id "killall -q picom; picom --config ~/.config/picom.conf"
 exec_always --no-startup-id copyq
 exec_always --no-startup-id lxsession
 exec --no-startup-id unclutter
