@@ -207,6 +207,7 @@ python-flask #build websites in python
 tk #gui in python
 chromium-widevine #needed browser plugin for netflix
 youtube-dl #downloads youtube videos
+flashfocus-git #window focus indicator
 picom #Arch repos moved from compton to picom
 fwupd #updating firmware
 go #google's language

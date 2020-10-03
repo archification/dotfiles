@@ -2,6 +2,8 @@ set $mod Mod4
 
 new_window none
 font pango:Mononoki Nerd Font 10
+
+#lock screen
 bindsym $mod+Shift+x exec lock.sh
 
 # gaps
@@ -79,11 +81,12 @@ bindsym $mod+Shift+0 move container to workspace $ws8
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
-# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+# restart i3
 bindsym $mod+Shift+r restart
-# exit i3 (logs you out of your X session)
+# exit i3
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
+set $cyan                #003232
 set $bg-color 	         #2f343f
 set $inactive-bg-color   #2f343f
 set $text-color          #f3f4f5
@@ -92,10 +95,10 @@ set $urgent-bg-color     #E53935
 
 # window colors
 #                       border              background         text                 indicator
-client.focused          $bg-color           $bg-color          $text-color          #00ff00
-client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color #00ff00
-client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #00ff00
-client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #00ff00
+client.focused          $cyan               $bg-color          $text-color          #00aaaa
+client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color #00aaaa
+client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #00aaaa
+client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #00aaaa
 
 # resize window
 mode "resize" {
@@ -107,12 +110,15 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
+# startup
 exec_always --no-startup-id dunst
 exec_always --no-startup-id "polybar.sh"
 exec_always --no-startup-id feh --bg-scale $HOME/wallpaper/flatwild.jpg
 exec_always --no-startup-id copyq
 exec_always --no-startup-id lxsession
 exec --no-startup-id unclutter
+exec_always --no-startup-id picom -b
+exec_always --no-startup-id flashfocus
 
 # apps
 bindsym $mod+b exec qutebrowser
