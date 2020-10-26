@@ -114,6 +114,7 @@ bashtop #resource monitor
 scanmem #memory injection
 #
 #terminal toys
+chafa #convert image to text
 tmatrix-git
 bonsai.sh-git #bonsai tree in ascii
 gource #git development visualization
