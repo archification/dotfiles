@@ -1,3 +1,11 @@
+#nvidia kernel 5.9 bullshit
+pacman -S linux-lts
+pacman -S linux-headers-lts
+pacman -S nvidia-lts
+#arch.conf
+linux /vmlinuz-linux-lts
+initrd /initramfs-linux-lts.img
+
 (╯°□°）╯︵ ┻━┻
 ┳━┳ ノ( ゜-゜ノ)
 
