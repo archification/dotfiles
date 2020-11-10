@@ -86,13 +86,14 @@ xonsh #python + bash
 elvish #another shell with different syntax
 #
 #security
-social-engineer-toolkit
+rustscan #nmap but written in rust
+social-engineer-toolkit #social engineering on a lan
 tor #anonymize traffic
 vulscan #nmap vulnerability scanner
 dirbuster #search web dirs
 dirsearch #search web dirs
-metasploit #thing
-armitage #gui for thing
+metasploit #exploit database tool
+armitage #gui for metasploit
 postgresql #database for thing
 sudo systemctl start postgresql.service #start database for thing
 msfconsole #terminal prompt for thing
