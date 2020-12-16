@@ -2,19 +2,18 @@
 
 if [ -z "$1" ]
 then
-	echo "usage: $0 [ filename ]" && exit
+    echo "usage: $0 [ filename ]" && exit 1
 elif [ ! -f "$1" ]
 then
-	echo "\$0: File '${1}' not found." && exit
+    echo "\$0: File '${1}' not found." && exit 1
 fi
 
-filetype=$(sed 's/^.*\.//' <<< $1)
+filetype=$(echo "$1" | sed 's/^.*\.//')
 
 xsel -ib <<stuff
 \`\`\`$filetype
-$(< $1)
+"$(cat "$1")"
 \`\`\`
 stuff
 
 mpv --volume=50 --really-quiet "$HOME/.local/bin/sounds/thing.mp3" &
-disown && exit
