@@ -89,10 +89,6 @@ cd dunst
 config add dunstrc
 cd ..
 
-cd picom
-config add picom.conf
-cd ..
-
 cd flashfocus
 config add flashfocus.yml
 cd ..
