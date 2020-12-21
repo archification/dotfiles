@@ -1,3 +1,6 @@
+#personality
+INTJ-A
+
 #nvidia kernel 5.9 bullshit
 pacman -S linux-lts
 pacman -S linux-headers-lts
@@ -454,3 +457,10 @@ sudo smartctl -H /dev/sda
 
 #pandoc markdown to pdf
 pandoc thing.txt --pdf-engine=xelatex -o thing.pdf
+
+#encoding tools
+https://gchq.github.io/CyberChef
+https://tech.pookey.co.uk/non-wp/encoder-decoder.php
+
+#how to exit vim
+:!ps ax | grep vim | grep -v grep | awk '{print $1}' | xargs -n1 kill -9
