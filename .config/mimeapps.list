@@ -11,5 +11,5 @@ x-scheme-handler/http=url.desktop;
 x-scheme-handler/https=url.desktop;
 x-scheme-handler/discord-610508934456934412=discord-610508934456934412.desktop;
 x-scheme-handler/discord-589393213723246592=discord-589393213723246592.desktop
-x-scheme-handler/nxm=modorganizer2-nxm-handler.desktop
+x-scheme-handler/nxm=vortex-downloads-handler.desktop
 x-scheme-handler/nxm-protocol=vortex-downloads-handler.desktop
