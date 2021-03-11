@@ -1,6 +1,6 @@
 #!/bin/env sh
 
-yay -Syu
+paru -Syu
 dotgit.sh
 vimgit.sh
 echo
