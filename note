@@ -104,6 +104,7 @@ db_connect msf@msf #connect to thing in thing
 db_rebuild_cache
 #
 #terminal apps
+sherlock-git #investigate social media
 gdrive #google drive terminal sync
 cmus #play music
 pianobar #pandora client
