@@ -466,3 +466,7 @@ https://tech.pookey.co.uk/non-wp/encoder-decoder.php
 
 #how to exit vim
 :!ps ax | grep vim | grep -v grep | awk '{print $1}' | xargs -n1 kill -9
+
+#mumble for voice - backup for when discord and tox break
+mumble
+murmur
