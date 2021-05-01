@@ -89,7 +89,6 @@ xonsh #python + bash
 elvish #another shell with different syntax
 #
 #security
-rustscan #nmap but written in rust
 social-engineer-toolkit #social engineering on a lan
 tor #anonymize traffic
 vulscan #nmap vulnerability scanner
@@ -402,6 +401,7 @@ rustup component add rls rust-analysis rust-src
 pacman -Qi
 #cross-compile from linux to windows
 rustup target add x86_64-pc-windows-gnu
+rustup toolchain install stable-x86_64-pc-windows-gnu
 cargo build --release --target "x86_64-pc-windows-gnu" --verbose
 #Rust webasm
 npm install &npm@current -g

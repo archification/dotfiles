@@ -35,7 +35,7 @@ set laststatus=2
 set clipboard=unnamedplus
 
 " neomake
-call neomake#configure#automake('nrwi', 500)
+" call neomake#configure#automake('nrwi', 500)
 let g:neomake_open_list = 2
 let g:neomake_python_flake8_maker = { 'args': ['--ignore=E501'], }
 noremap wr :Neomake cargo<CR>
