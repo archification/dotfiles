@@ -259,6 +259,7 @@ hardinfo #show hardware
 mpv #video player
 #
 #games
+citro-qt-git #ds emulator
 supertuxkart #cartoony cart racing game
 wesnoth #turn-based tiles strategy
 xonotic #quake3 engine fps
