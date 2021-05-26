@@ -162,6 +162,7 @@ sudo systemctl enable libvirtd
 sudo systemctl start libvirtd
 sudo usermod -G libvirtd -a jaster
 #utility
+ds4drv-git #ps5 controller xinput support?
 elm-platform-bin #elm language
 mingw-w64-sdl2 #required for cross-compiling sdl apps
 breeze-blue-cursor-theme
