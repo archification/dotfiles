@@ -88,10 +88,6 @@ mouse:
   double_click: { threshold: 300 }
   triple_click: { threshold: 300 }
   hide_when_typing: false
-  url:
-    launcher:
-      program: open.sh
-    modifiers: None
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>"

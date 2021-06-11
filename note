@@ -103,6 +103,9 @@ db_connect msf@msf #connect to thing in thing
 db_rebuild_cache
 #
 #terminal apps
+mtr #interactive traceroute
+radare2 #analyze binary files
+volatility #analyze memory dumps
 sherlock-git #investigate social media
 gdrive #google drive terminal sync
 cmus #play music
