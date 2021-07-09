@@ -12,7 +12,7 @@ filetype=$(echo "$1" | sed 's/^.*\.//')
 
 xsel -ib <<stuff
 \`\`\`$filetype
-"$(cat "$1")"
+$(cat "$1")
 \`\`\`
 stuff
 

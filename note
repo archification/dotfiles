@@ -93,6 +93,7 @@ social-engineer-toolkit #social engineering on a lan
 tor #anonymize traffic
 vulscan #nmap vulnerability scanner
 dirbuster #search web dirs
+dirbuster-wordlists #default path lists
 dirsearch #search web dirs
 metasploit #exploit database tool
 armitage #gui for metasploit
