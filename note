@@ -14,63 +14,63 @@ initrd /initramfs-linux-lts.img
 
 #web links
 #
+
 #text stuff
 https://text-symbols.com/upside-down/
+
 #don't use vpns
 https://gist.github.com/joepie91/5a9909939e6ce7d09e29
+
 #remote support
 https://remotedesktop.google.com/support
-#security
-https://0x00sec.org/
-https://github.com/trustedsec
-#dns
-https://namecheap.com/
-#teaching ctf
-https://picoctf.com/
+
 #transfer files
 http://filebin.net/
+
 #nocode
 https://github.com/kelseyhightower/nocode
+
 #crop and resize images
 https://resizeimage.net/
-#manjaro sucks
-https://github.com/vizs/manjarno
-#peer-to-peer mentorship and learning
-https://codebuddies.org/welcome
-#site load-time benchmark
-https://gtmetrix.com/
+
 #cloud native computing foundation open software
 https://landscape.cncf.io/format=card-mode&grouping=no&sort=stars
+
 #bash POSIX mode
 https://www.gnu.org/software/bash/manual/html_node/Bash-POSIX-Mode.html
+
 #Don't ask to ask
 https://sol.gfxile.net/dontask.html
+
 #ask questions the smart way
 http://www.catb.org/esr/faqs/smart-questions.html
+
 #typing test
 https://www.keybr.com/
 https://typings.gg/
-#ls colors generator
-https://geoff.greer.fm/lscolors/
+
 #debug tool
 https://github.com/simoniz0r/troubleshooter/tree/7a688dfd4c0cad80059159e847914b57c8c2ad81
+
 #redteam script
 https://github.com/d4rk007/RedGhost
-#intellectualist website
-https://www.opinion-lounge.com/
+
 #pacman -Syu vs -Syyu
 https://gist.github.com/Brottweiler/952c8b0de0afc01c6c8ef18b5a1a5294
+
 #github work search
 https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+archived%3Afalse+label%3Ahelp-wanted
 https://github.com/explore
+
 #source code explorer
 godbolt.org
+
 #font completion test
 https://www.fileformat.info/info/unicode/utf8test.htm
+
 #rust crash course
 https://www.youtube.com/watch?v=zF34dRivLOw&t=411s
-#rust http
-https://crates.io/crates/hyper
+
 #powerline symbols
 https://github.com/ryanoasis/powerline-extra-symbols
 
@@ -85,8 +85,6 @@ zsh #the shell itself
 zsh-syntax-highlighting #zsh highlight commands
 zsh-theme-powerlevel10k-git #zsh prompt
 cht.sh #crazy code helper thing
-xonsh #python + bash
-elvish #another shell with different syntax
 #
 #security
 social-engineer-toolkit #social engineering on a lan
@@ -95,13 +93,6 @@ vulscan #nmap vulnerability scanner
 dirbuster #search web dirs
 dirbuster-wordlists #default path lists
 dirsearch #search web dirs
-metasploit #exploit database tool
-armitage #gui for metasploit
-postgresql #database for thing
-sudo systemctl start postgresql.service #start database for thing
-msfconsole #terminal prompt for thing
-db_connect msf@msf #connect to thing in thing
-db_rebuild_cache
 #
 #terminal apps
 mtr #interactive traceroute
@@ -167,7 +158,6 @@ sudo systemctl start libvirtd
 sudo usermod -G libvirtd -a jaster
 #utility
 ds4drv-git #ps5 controller xinput support?
-elm-platform-bin #elm language
 mingw-w64-sdl2 #required for cross-compiling sdl apps
 breeze-blue-cursor-theme
 breeze-hacked-cursor-theme
@@ -194,20 +184,15 @@ hub #git api commands and stuff
 wpscan #vulnerability scanner for wordpress
 pulseaudio-ctl #terminal commands volume control
 lscolors-git #ls color coding
-julia #matlab language
-julia-docs #julia documentation and examples
 espeak-ng #text to speech
 festival #text to speech
 festival-us #voices for festival
-yarn #trying to build vortex
 hplip #hp printer drivers
 foomatic-db-ppds #printer drivers
 rmlint #detect and remove dead files in target dir
 netdata #system cleaning
-stacer #system cleaning
 bleachbit #system cleaning
 dunst #notification daemon
-openmmm #openmw mod manager
 packer #create machine images
 openvpn #virtual private network hackthebox.eu
 words #dictionary files in /usr/share/dict/
@@ -223,7 +208,6 @@ dialog #mutt-wizard menu
 offlineimap #mutt offline mail
 msmtp #mutt smtp
 python-flask #build websites in python
-tk #gui in python
 chromium-widevine #needed browser plugin for netflix
 youtube-dl #downloads youtube videos
 flashfocus-git #window focus indicator
@@ -232,8 +216,6 @@ fwupd #updating firmware
 go #google's language
 #
 #programs
-android-studio #develop android app
-remacs-git #text editor in Rust
 exercism-bin #for exercism.io testing
 syncthing #sync files between machines
 teamviewer #remote assistence
