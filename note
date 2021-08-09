@@ -125,7 +125,6 @@ scanmem #memory injection
 chafa #convert image to text
 2048 #numbered tile game
 tmatrix-git
-bonsai.sh-git #bonsai tree in ascii
 gource #git development visualization
 tty-clock #clock
 asciiquarium #animated aquarium in ascii
