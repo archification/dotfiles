@@ -19,6 +19,7 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec alacritty
+bindsym $mod+backslash exec termite
 
 # kill focused window
 bindsym $mod+q kill
@@ -121,7 +122,7 @@ exec_always --no-startup-id picom -b
 exec_always --no-startup-id flashfocus
 
 # apps
-bindsym $mod+b exec firefox
+bindsym $mod+b exec qutebrowser
 bindsym $mod+v exec emoji.sh
 
 # screengrab

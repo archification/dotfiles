@@ -12,9 +12,13 @@ initrd /initramfs-linux-lts.img
 (╯°□°）╯︵ ┻━┻
 ┳━┳ ノ( ゜-゜ノ)
 
+#flamegraph
+cargo flamegraph
+requires system perf
+cargo install flamegraph
+
 #web links
 #
-
 #text stuff
 https://text-symbols.com/upside-down/
 
