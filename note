@@ -99,6 +99,7 @@ dirbuster-wordlists #default path lists
 dirsearch #search web dirs
 #
 #terminal apps
+iotop #disk usage
 mtr #interactive traceroute
 radare2 #analyze binary files
 volatility #analyze memory dumps
