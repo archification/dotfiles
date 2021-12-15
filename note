@@ -344,6 +344,7 @@ git remote add github https://github.com/user/repo.git
 git remote set-url --add origin https://github.com/user/repo.git
 #switch to ssh keys
 git remote set-url origin git@gitlab.com:archification/thing.git
+check .git/config
 #generate pull request with hub
 git clone https://git(hub/lab).com/user/thing
 cd thing
