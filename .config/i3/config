@@ -114,7 +114,7 @@ bindsym $mod+r mode "resize"
 # startup
 exec_always --no-startup-id dunst
 exec_always --no-startup-id "polybar.sh"
-exec_always --no-startup-id feh --bg-scale $HOME/wallpaper/archmetal.jpg
+exec_always --no-startup-id feh --bg-scale $HOME/wallpaper/solarized.jpg
 exec_always --no-startup-id copyq
 exec_always --no-startup-id lxsession
 exec --no-startup-id unclutter
@@ -131,3 +131,5 @@ bindsym --release $mod+c exec "graburl.sh"
 
 # ip address
 bindsym --release $mod+g exec "guac"
+
+for_window [class="worldedit.exe" instance="worldedit.exe"] floating enable
