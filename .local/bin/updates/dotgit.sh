@@ -46,7 +46,6 @@ cd commands
 config add grabimage.sh
 config add graburl.sh
 config add pastefile.sh
-config add hastebin
 config add emoji.sh
 config add cross.sh
 config add ydl
