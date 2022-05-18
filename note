@@ -1,3 +1,18 @@
+tmux new-session -d -n minecraft /var/minecraft/bin/server_nogui.sh
+tmux send-keys -t minecraft "stop^M"
+tmux attach-session -t name
+
+tmux
+ctrl+b $ #rename session
+ctrl+b d #detach
+tmux -ls #list sessions - unknown option s?
+tmux attach-session -t name #reattach
+
+screen -S name
+ctrl+a+d #detach
+screen -ls #list sessions
+screen -r name #reattach
+
 #personality
 INTJ-A
 
