@@ -8,6 +8,7 @@ ctrl+b d #detach
 tmux -ls #list sessions - unknown option s?
 tmux attach-session -t name #reattach
 
+#minecraft
 screen -S name
 ctrl+a+d #detach
 screen -ls #list sessions
