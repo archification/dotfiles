@@ -132,4 +132,8 @@ bindsym --release $mod+c exec "graburl.sh"
 # ip address
 bindsym --release $mod+g exec "guac"
 
+# audio
+#bindsym $mod+t exec amixer set Capture nocap
+#bindsym $mod+shift+t exec amixer set Capture cap
+
 for_window [class="worldedit.exe" instance="worldedit.exe"] floating enable
