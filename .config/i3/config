@@ -14,6 +14,10 @@ bindsym $mod+Shift+s gaps inner current minus 5
 bindsym $mod+y gaps inner current set 10; gaps outer current set 0
 bindsym $mod+Shift+y gaps inner current set 0; gaps outer current set 0
 
+#default border
+default_border none
+default_floating_border none
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -114,7 +118,7 @@ bindsym $mod+r mode "resize"
 # startup
 exec_always --no-startup-id dunst
 exec_always --no-startup-id "polybar.sh"
-exec_always --no-startup-id feh --bg-scale $HOME/wallpaper/solarized.jpg
+exec_always --no-startup-id feh --bg-scale $HOME/wallpaper/subglacial2k221_M.png
 exec_always --no-startup-id copyq
 exec_always --no-startup-id lxsession
 exec --no-startup-id unclutter
@@ -122,7 +126,7 @@ exec_always --no-startup-id picom -b
 exec_always --no-startup-id flashfocus
 
 # apps
-bindsym $mod+b exec qutebrowser
+bindsym $mod+b exec firefox
 bindsym $mod+v exec emoji.sh
 
 # screengrab
@@ -132,8 +136,6 @@ bindsym --release $mod+c exec "graburl.sh"
 # ip address
 bindsym --release $mod+g exec "guac"
 
-# audio
-#bindsym $mod+t exec amixer set Capture nocap
-#bindsym $mod+shift+t exec amixer set Capture cap
-
-for_window [class="worldedit.exe" instance="worldedit.exe"] floating enable
+#title fix
+for_window [all] default_border none
+for_window [all] border none

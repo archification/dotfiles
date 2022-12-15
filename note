@@ -1,3 +1,13 @@
+https://mynoise.net/
+windy.com
+
+
+file.jpg - view exif data
+
+identify --verbose file.jpg
+
+sudo smartctl -t short -a /dev/nvme0n1p2
+
 tmux new-session -d -n minecraft /var/minecraft/bin/server_nogui.sh
 tmux send-keys -t minecraft "stop^M"
 tmux attach-session -t name
@@ -358,29 +368,32 @@ https://tech.pookey.co.uk/non-wp/encoder-decoder.php
 #how to exit vim
 :!ps ax | grep vim | grep -v grep | awk '{print $1}' | xargs -n1 kill -9
 
-#windows
+# windows
 #
-#windows ame custom iso
+# custom windows 10 iso with most tracking and bloat removed
 https://ameliorated.info/
 username: user
 password: malte
 #
-#install drivers
+# gui desktop widgets and shortcut organization
+https://www.stardock.com/products/fences/
+#
+# install drivers
 https://sdi-tool.org/download/
 #
-#install multiple programs
+# install multiple common programs quickly
 https://ninite.com/
 #
-#windows cli package manager
+# windows cli package manager for installing common software
 https://github.com/microsoft/winget-cli
 #
-#clean reg, tmp, bloat
+# clean registry, tmp files, bloat
+-probably should disable service in ccleaner settings
 https://www.ccleaner.com/
 https://github.com/Sycnex/Windows10Debloater
 #
 # rainmeter resource monitors
 https://www.rainmeter.net/
-https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer
 #
 # spec watchers
 https://www.cpuid.com/softwares/hwmonitor.html#install
@@ -390,5 +403,15 @@ https://www.msi.com/page/afterburner
 #
 # utilities
 https://github.com/microsoft/PowerToys
-#software install
+# software install
 https://spinel.ovh/
+# more detailed process information than task manager
+https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer
+# software for optimizing ryzen cpus
+https://www.amd.com/en/technologies/ryzen-master
+#
+# generic windows product keys
+https://www.tenforums.com/tutorials/95922-generic-product-keys-install-windows-10-editions.html
+#
+# WSL Arch
+https://github.com/yuk7/ArchWSL

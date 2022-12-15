@@ -56,10 +56,6 @@ config add starship.toml
 config add picom.conf
 config add libao.conf
 
-cd ion
-config add initrc
-cd ..
-
 cd rofi
 config add rofi.rasi
 cd ..
@@ -99,14 +95,6 @@ cd ..
 cd newsboat
 config add config
 config add urls
-cd ..
-
-cd pianobar
-config add config
-cd ..
-
-cd mutt
-config add muttrc
 cd ..
 
 cd qutebrowser
