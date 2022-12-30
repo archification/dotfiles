@@ -126,8 +126,11 @@ exec_always --no-startup-id picom -b
 exec_always --no-startup-id flashfocus
 
 # apps
-bindsym $mod+b exec firefox
+bindsym $mod+b exec chromium
 bindsym $mod+v exec emoji.sh
+
+#nsfw
+bindsym $mod+mod2+KP_1 exec surf https://scrolller.com/?tab=following
 
 # screengrab
 bindsym --release $mod+x exec "grabimage.sh"
