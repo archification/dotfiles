@@ -388,8 +388,6 @@ https://ninite.com/
 https://github.com/microsoft/winget-cli
 #
 # clean registry, tmp files, bloat
--probably should disable service in ccleaner settings
-https://www.ccleaner.com/
 https://github.com/Sycnex/Windows10Debloater
 #
 # rainmeter resource monitors
@@ -397,7 +395,6 @@ https://www.rainmeter.net/
 #
 # spec watchers
 https://www.cpuid.com/softwares/hwmonitor.html#install
-https://www.ccleaner.com/speccy
 https://www.techpowerup.com/download/techpowerup-gpu-z/
 https://www.msi.com/page/afterburner
 #

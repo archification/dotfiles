@@ -52,6 +52,8 @@ let g:ycm_semantic_triggers = {
 " indentline
 let g:indentLine_setColors = 0
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+let g:indentLine_setConceal = 2
+let g:indentLine_concealcursor = ""
 
 " nerdtree
 noremap <silent> <Leader>v :NERDTreeFind<CR>
