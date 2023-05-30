@@ -22,6 +22,7 @@ application/x-extension-shtml=firefox.desktop
 application/xhtml+xml=firefox.desktop
 application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
+application/x-spss-sav=7zFM.desktop
 
 [Added Associations]
 x-scheme-handler/tg=userapp-Telegram Desktop-AT02W0.desktop;userapp-Telegram Desktop-UC3HT1.desktop;
@@ -39,3 +40,4 @@ application/x-bittorrent=torrent.desktop;
 image/gif=feh.desktop;userapp-open.sh-JAIJV1.desktop;userapp-mpv --volume=50-12D0V1.desktop;
 image/jpeg=feh.desktop;
 image/png=feh.desktop;
+application/x-spss-sav=7zFM.desktop;
