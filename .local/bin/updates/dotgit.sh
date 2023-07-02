@@ -88,10 +88,6 @@ cd flashfocus
 config add flashfocus.yml
 cd ..
 
-cd asciinema
-config add config
-cd ..
-
 cd newsboat
 config add config
 config add urls
