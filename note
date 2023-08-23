@@ -274,7 +274,7 @@ cd project
 git remote add github https://github.com/user/repo.git
 git remote set-url --add origin https://github.com/user/repo.git
 #switch to ssh keys
-git remote set-url origin git@gitlab.com:archification/thing.git
+git remote set-url origin git@gitlab.com:ownername/projname.git
 check .git/config
 #generate pull request with hub
 git clone https://git(hub/lab).com/user/thing
@@ -362,7 +362,7 @@ sudo smartctl -t short /dev/sda
 sudo smartctl -H /dev/sda
 
 #pandoc markdown to pdf
-pandoc thing.txt --pdf-engine=xelatex -o thing.pdf
+pandoc guide.md --pdf-engine=xelatex -o guide.pdf
 
 #encoding tools
 https://gchq.github.io/CyberChef
