@@ -1,3 +1,5 @@
+xnviewmp - view dds files in starfield mods
+
 xrestop
 nvidia-bug-report.sh
 dust
@@ -28,6 +30,7 @@ screen -S name
 ctrl+a+d #detach
 screen -ls #list sessions
 screen -r name #reattach
+exit #kill screen instance
 
 #personality
 INTJ-A
