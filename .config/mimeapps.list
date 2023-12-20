@@ -11,7 +11,7 @@ x-scheme-handler/http=firefox.desktop
 x-scheme-handler/https=firefox.desktop
 x-scheme-handler/discord-610508934456934412=discord-610508934456934412.desktop;
 x-scheme-handler/discord-589393213723246592=discord-589393213723246592.desktop
-x-scheme-handler/tg=userapp-Telegram Desktop-UC3HT1.desktop
+x-scheme-handler/tg=org.telegram.desktop.desktop
 x-scheme-handler/chrome=firefox.desktop
 text/html=firefox.desktop
 application/x-extension-htm=firefox.desktop
@@ -25,7 +25,7 @@ x-scheme-handler/discord-537047684993777686=discord-537047684993777686.desktop
 x-scheme-handler/nxm=modorganizer2-nxm-handler.desktop
 
 [Added Associations]
-x-scheme-handler/tg=userapp-Telegram Desktop-AT02W0.desktop;userapp-Telegram Desktop-UC3HT1.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-AT02W0.desktop;userapp-Telegram Desktop-UC3HT1.desktop;org.telegram.desktop.desktop;
 x-scheme-handler/http=url.desktop;firefox.desktop;
 x-scheme-handler/https=url.desktop;firefox.desktop;
 x-scheme-handler/chrome=url.desktop;firefox.desktop;
