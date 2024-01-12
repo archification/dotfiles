@@ -16,6 +16,7 @@ window:
   startup_mode: Windowed
   #title: Alacritty
   #class: Alacritty
+  opacity: 0.9
 
 scrolling:
   history: 10000
@@ -79,9 +80,6 @@ bell:
   animation: EaseOutExpo
   duration: 0
   color: '0xffffff'
-
-window:
-  opacity: 0.9
 
 mouse_bindings:
   - { mouse: Middle, action: PasteSelection }
