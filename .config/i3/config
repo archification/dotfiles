@@ -129,7 +129,7 @@ exec_always --no-startup-id flashfocus
 bindsym $mod+b exec thorium-browser
 bindsym $mod+v exec emoji.sh
 
-#nsfw
+# nsfw
 bindsym $mod+z  exec surf https://scrolller.com/?tab=following
 
 # screengrab
@@ -139,6 +139,9 @@ bindsym --release $mod+c exec "graburl.sh"
 # ip address
 bindsym --release $mod+g exec "guac"
 
-#title fix
+# title fix
 for_window [all] default_border none
 for_window [all] border none
+
+# mute mic
+bindsym $mod+Shift+m exec --no-startup-id pactl set-source-mute alsa_input.usb-Logitech_PRO_X_000000000000-00.mono-fallback toggle

@@ -82,7 +82,7 @@ tmux attach-session -t name #reattach
 #minecraft
 https://cassiofernando.netlify.app/blog/minecraft-java-arguments
 https://www.spigotmc.org/threads/guide-optimizing-spigot-remove-lag-fix-tps-improve-performance.21726/page-10#post-1055873
-screen -S name
+screen -S name #create
 ctrl+a+d #detach
 screen -ls #list sessions
 screen -r name #reattach
