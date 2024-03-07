@@ -1,5 +1,7 @@
 https://puma6.ayufan.dev/
 
+7z a -tzip -mx=9 archive.zip *
+
 yt-dlp
 youtube-dl
 
@@ -474,3 +476,6 @@ https://www.tenforums.com/tutorials/95922-generic-product-keys-install-windows-1
 #
 # WSL Arch
 https://github.com/yuk7/ArchWSL
+
+People who were seduced by their parents are easier to seduce
+Cannot be seduced unless you're vulnerable
