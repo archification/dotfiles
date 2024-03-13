@@ -11,8 +11,6 @@ config add .zshrc
 config add .alias
 config add .p10k.zsh
 config add note
-config add .xinitrc
-config add .Xmodmap
 config add .profile
 config add .zprofile
 config add .bash_profile
@@ -49,7 +47,6 @@ config add ydl
 
 cd $HOME/.config
 config add mimeapps.list
-config add starship.toml
 config add picom.conf
 config add libao.conf
 
@@ -77,18 +74,11 @@ config add dunstrc
 cd ../flashfocus
 config add flashfocus.yml
 
-cd ../newsboat
-config add config
-config add urls
-
 cd ../qutebrowser
 config add config.py
 
 cd ../mpv
 config add mpv.conf
-
-cd ../zathura
-config add zathurarc
 
 cd $HOME/.local/bin/sounds
 config add thing.mp3
