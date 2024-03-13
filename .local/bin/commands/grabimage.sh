@@ -6,5 +6,5 @@ notify-send -u low \
     "screenshot" \
     "it's done" \
     -i $HOME/pictures/avatars/arch.png
-mpv --volume=50 --really-quiet "$HOME/.local/bin/sounds/thing.mp3" &
+mpv --volume=25 --really-quiet "$HOME/.local/bin/sounds/thing.mp3" &
 disown && exit

@@ -18,18 +18,16 @@ config add .zprofile
 config add .bash_profile
 config add .inputrc
 
-cd wallpaper
+cd Pictures/wallpaper
 config add forrest.jpg
 config add flatwild.jpg
-cd ..
 
-cd .local/bin/updates
+cd $HOME/.local/bin/updates
 config add dotgit.sh
 config add vimgit.sh
 config add update.sh
-cd ..
 
-cd utility
+cd ../utility
 config add compiler.sh
 config add lock.sh
 config add open.sh
@@ -40,9 +38,8 @@ config add texclear.sh
 config add tordone
 config add transadd
 config add emoji
-cd ..
 
-cd commands
+cd ../commands
 config add grabimage.sh
 config add graburl.sh
 config add pastefile.sh
@@ -58,64 +55,44 @@ config add libao.conf
 
 cd rofi
 config add rofi.rasi
-cd ..
 
-cd nvim
+cd ../nvim
 config add init.vim
-cd ..
 
-cd polybar
+cd ../polybar
 config add config
-cd ..
 
-cd i3
+cd ../i3
 config add config
-cd ..
 
-cd termite
+cd ../termite
 config add config
-cd ..
 
-cd alacritty
+cd ../alacritty
 config add alacritty.yml
-cd ..
 
-cd dunst
+cd ../dunst
 config add dunstrc
-cd ..
 
-cd flashfocus
+cd ../flashfocus
 config add flashfocus.yml
-cd ..
 
-cd newsboat
+cd ../newsboat
 config add config
 config add urls
-cd ..
 
-cd qutebrowser
+cd ../qutebrowser
 config add config.py
-cd ..
 
-cd mpv
+cd ../mpv
 config add mpv.conf
-cd ..
 
-cd zathura
+cd ../zathura
 config add zathurarc
 
 cd $HOME/.local/bin/sounds
 config add thing.mp3
 config add upgradecomplete.mp3
-
-cd $HOME/.local/share/applications
-config add url.desktop
-config add img.desktop
-config add mail.desktop
-config add pdf.desktop
-config add rss.desktop
-config add text.desktop
-config add torrent.desktop
 
 config commit -m 'scripted commit'
 config push -u origin master
