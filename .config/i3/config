@@ -126,7 +126,7 @@ exec_always --no-startup-id picom -b
 exec_always --no-startup-id flashfocus
 
 # apps
-bindsym $mod+b exec thorium-browser
+bindsym $mod+b exec firefox
 bindsym $mod+v exec emoji.sh
 
 # nsfw
