@@ -15,8 +15,6 @@ config add .profile
 config add .zprofile
 config add .bash_profile
 config add .inputrc
-git rm wallpaper/flatwild.jpg
-git rm wallpaper/forrest.jpg
 
 cd $HOME/.local/bin/updates
 config add dotgit.sh
@@ -47,13 +45,6 @@ cd $HOME/.config
 config add mimeapps.list
 config add picom.conf
 config add libao.conf
-git rm asciinema/config
-git rm ion/initrc
-git rm mutt/muttrc
-git rm newsboat/config
-git rm newsboat/urls
-git rm pianobar/config
-git rm zathura/zathurarc
 
 cd rofi
 config add rofi.rasi
