@@ -14,7 +14,6 @@ config add note
 config add .profile
 config add .zprofile
 config add .bash_profile
-config add .inputrc
 
 cd $HOME/.local/bin/updates
 config add dotgit.sh
