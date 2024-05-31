@@ -4,6 +4,7 @@ vim.o.expandtab = true
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.smartindent = true
+vim.o.clipboard = "unnamedplus"
 
 vim.api.nvim_set_keymap('n', '<Up>', '<NOP>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<Down>', '<NOP>', { noremap = true, silent = true })
