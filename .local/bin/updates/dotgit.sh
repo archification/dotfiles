@@ -4,6 +4,7 @@ echo
 echo dotgit.sh
 #shopt -s expand_aliases
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+config remote remove origin
 config remote -v
 
 cd $HOME

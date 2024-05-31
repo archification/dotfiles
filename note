@@ -35,7 +35,7 @@ screen -ls #list sessions
 screen -r name #reattach
 exit #kill screen instance
 
-#arch.conf
+# arch.conf
 linux /vmlinuz-linux-lts
 initrd /initramfs-linux-lts.img
 
