@@ -6,16 +6,6 @@ echo dotgit.sh
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 config remote -v
 
-cd $HOME/.config/
-config rm -r asciinema
-config rm -r ion
-config rm -r mutt
-config rm -r newsboat
-config rm -r pianobar
-config rm -r zathura/zathurarc
-config rm wallpaper/flatwild.jpg
-config rm wallpaper/forrest.jpg
-
 cd $HOME
 config add .bashrc
 config add .zshrc
