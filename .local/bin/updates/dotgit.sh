@@ -50,9 +50,19 @@ cd rofi
 config add rofi.rasi
 
 cd ../nvim
-config add init.vim
+config add init.lua
+config add lazy-lock.json
+cd lua/archification
+config add core.lua
+config add lazy.lua
+cd plugins
+config add autopair.lua
+config add init.lua
+config add linting.lua
+config add treesitter.lua
+config add undotree.lua
 
-cd ../polybar
+cd ../../../../polybar
 config add config
 
 cd ../i3
