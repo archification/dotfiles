@@ -17,7 +17,6 @@ config add .bash_profile
 
 cd $HOME/.local/bin/updates
 config add dotgit.sh
-config add vimgit.sh
 config add update.sh
 
 cd ../utility
