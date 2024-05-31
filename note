@@ -4,8 +4,350 @@ https://puma6.ayufan.dev/
 
 7z a -tzip -mx=9 archive.zip *
 
+# youtube videos
 yt-dlp
 youtube-dl
+
+# better du
+dust
+
+# view exif data
+identify --verbose file.jpg
+
+# drive health
+sudo smartctl -t short -a /dev/nvme0n1p2
+sudo smartctl -t short /dev/sda
+sudo smartctl -H /dev/sda
+
+# tmux
+tmux new-session -d -n minecraft /var/minecraft/bin/server_nogui.sh
+tmux send-keys -t minecraft "stop^M"
+tmux attach-session -t name
+ctrl+b $ #rename session
+ctrl+b d #detach
+tmux -ls #list sessions - unknown option s?
+tmux attach-session -t name #reattach
+
+# screen
+screen -S name #create
+ctrl+a+d #detach
+screen -ls #list sessions
+screen -r name #reattach
+exit #kill screen instance
+
+#arch.conf
+linux /vmlinuz-linux-lts
+initrd /initramfs-linux-lts.img
+
+(╯°□°）╯︵ ┻━┻
+┳━┳ ノ( ゜-゜ノ)
+
+# flamegraph
+cargo flamegraph
+requires system perf
+cargo install flamegraph
+
+#packages
+#
+# shell
+zsh #the shell itself
+zsh-syntax-highlighting #zsh highlight commands
+zsh-theme-powerlevel10k-git #zsh prompt
+cht.sh #crazy code helper thing
+#
+# security
+vulscan #nmap vulnerability scanner
+dirbuster #search web dirs
+dirbuster-wordlists #default path lists
+wpscan #vulnerability scanner for wordpress
+#
+# terminal apps
+mtr #interactive traceroute
+radare2 #analyze binary files
+volatility3 #analyze memory dumps
+pianobar #pandora client
+w3m #web stuff in terminal
+pkgtop-git #manage installed packages
+nethogs #network process viewer
+nvtop #htop for nvidia gpu
+lsd #better ls
+neomutt #email
+newsboat #rss feeds
+asciinema #terminal recorder
+ncpamixer #pulse mixer
+gtop #resource monitor
+bashtop #resource monitor
+scanmem #memory injection
+#
+# terminal toys
+chafa #convert image to text
+jp2a #convert jpg to ascii
+tmatrix-git
+gource #git development visualization
+asciiquarium #animated aquarium in ascii
+doge #doge meme generator
+pipes.sh #procedural pipes animation
+lolcat #use | for rainbow
+edex-ui #hollywood movie terminal in electron
+#
+# pdf
+zathura #pdf viewer
+groff #markup language
+texlive-most #markup language
+md4c #C markdown parser
+python-markdown
+pandoc #convert markup to other markup
+evince #pdf editor
+#
+# virtualization
+kvm #hypervisor as a kernel module
+qemu #machine emulator and virtualizer
+libvirt #manage virtual machines
+virt-manager #gui for managing vms
+ebtables #networking for qemu
+sudo systemctl enable libvirtd
+sudo systemctl start libvirtd
+sudo usermod -G libvirtd -a jaster
+#
+# utility
+mingw-w64-sdl2 #required for cross-compiling sdl apps
+breeze-blue-cursor-theme
+breeze-hacked-cursor-theme
+breeze-obsidian-cursor-theme
+smartmonctl #check hdd health
+android-file-transfer #transfer files with android phone and pc
+chromium-widevine #browser extension for netflix
+mtools #utilities to access ms-dos disks
+mono-msbuild #required by YCM C# completion
+lxsession #login manager for applications
+uwsgi-plugin-python
+ripgrep #replacement for grep in Rust
+python-future #required by youcompleteme vim plugin
+rsync #sync files on lan
+rclone #sync files to online service
+pv #view progress of stuff piped through it
+copyq #clipboard for screenshot commands
+hub #git api commands and stuff
+pulseaudio-ctl #terminal commands volume control
+lscolors-git #ls color coding
+hplip #hp printer drivers
+foomatic-db-ppds #printer drivers
+rmlint #detect and remove dead files in target dir
+bleachbit #system cleaning
+dunst #notification daemon
+packer #create machine images
+openvpn #virtual private network hackthebox.eu
+words #dictionary files in /usr/share/dict/
+mutt-wizard-git #automate neomutt config
+docker #two strings in a box
+python-black #python linter
+python-pyfiglet
+unclutter #hide the mouse on delay
+perl-file-mimeinfo #mime types without desktop environment
+dialog #mutt-wizard menu
+offlineimap #mutt offline mail
+msmtp #mutt smtp
+flashfocus-git #window focus indicator
+picom #Arch repos moved from compton to picom
+fwupd #updating firmware
+go #google's language
+#
+# programs
+btop #task manager
+exercism-bin #for exercism.io testing
+sourcetrail #visualize codebases
+alacritty #terminal app built in Rust
+alacritty-terminfo #terminfo file for alacritty
+audacity #audio file editor
+libreoffice-fresh #office software
+system-config-printer #gtk gui for cups
+sxiv #x image viewer
+transmission-cli #terminal torrent client
+stig-git #tui interface for transmission
+remmina #remote desptop rpd/vnc
+pscircle #process tree visualizer
+kdenlive #video editor
+frei0r-plugins #optional for kdenlive
+breeze-icons #optional for kdenlive
+terrafirma #terraria world viewer
+abiword #gui text editor (rtf)
+surf #minimal browser
+krita #edit images
+qdirstat #visualize storage space
+utox #chat client
+hardinfo #show hardware
+mpv #video player
+#
+# games
+citro-qt-git #ds emulator
+supertuxkart #cartoony cart racing game
+wesnoth #turn-based tiles strategy
+xonotic #quake3 engine fps
+hyne-git #ff8 save editor
+#
+# icons
+papirus-icon-theme
+
+#vim plugins
+# auto-pairs/
+https://github.com/jiangmiao/auto-pairs
+# cheat.sh-vim/
+https://github.com/dbeniamine/cheat.sh-vim.git
+# indentline/
+https://github.com/yggdroot/indentline.git
+# molokai/
+https://github.com/tomasr/molokai
+# neomake/
+https://github.com/neomake/neomake.git
+# nerdtree/
+https://github.com/scrooloose/nerdtree.git
+# vaxe/
+https://github.com/jdonaldson/vaxe.git
+# vim-airline/
+https://github.com/vim-airline/vim-airline.git
+# vim-airline-themes/
+https://github.com/vim-airline/vim-airline-themes.git
+# vim-better-whitespace/
+https://github.com/ntpeters/vim-better-whitespace.git
+# vim-colors-solarized/
+https://github.com/altercation/vim-colors-solarized.git
+# vim-polyglot/
+https://github.com/sheerun/vim-polyglot
+# youcompleteme/
+https://github.com/valloric/youcompleteme
+#
+#zsh plugins
+# powerlevel10k/
+https://github.com/romkatv/powerlevel10k
+# zsh-syntax-highlighting/
+https://github.com/zsh-users/zsh-syntax-highlighting
+
+#commands
+#
+#hotkeys
+c #create window
+d #detach current client from session
+l #previously selected window
+p #previous
+n #next
+w #list windows
+number #switch to that number window
+& #kill current window
+, #rename current window
+q #show pane numbers for switching
+o #next pane
+% #split vertically
+:split-window #split horizontally
+{ #move current pane left
+} #move current pane right
+:break-pane #make pane its own window
+
+# asciinema
+asciinema rec
+ctrl+d
+asciinema rec -c "zsh -l"
+asciinema play filename.cast
+
+#git
+#
+# use ssh keys
+git remote set-url origin git@github.com:ownername/projname.git
+check .git/config
+# keep fork updated
+git remote add upstream git://github.com/owner/thing.git
+git fetch upstream
+git pull upstream master
+
+# misc
+swapoff -a; swapon -a
+org.cups.cupsd.service
+p10k configure
+pscircle --output-width=1920 --output-height=1080 --tree-radius-increment=125 --cpulist-show=false --memlist-show=false --output=/home/jaster/thing.png
+curl wttr.in
+curl -s "https://cht.sh/$argv"
+archlinux-java set java-8-jdk
+
+# Rust
+#
+# tool to easily add and remove crates
+cargo install cargo-edit
+cargo add crateName
+cargo rm crateName
+#
+# list all crates currently installed
+cargo list
+#
+# generate or open docs
+cargo doc --open
+cargo doc --open --offline --document-private-items
+#
+# run project using rust nightly
+cargo +nightly run
+#
+# add common components
+rustup component add rls rust-analysis rust-src
+pacman -Qi
+#
+# cross-compile from linux to windows
+rustup target add x86_64-pc-windows-gnu
+rustup toolchain install stable-x86_64-pc-windows-gnu
+cargo build --release --target "x86_64-pc-windows-gnu" --verbose
+
+#pandoc markdown to pdf
+pandoc guide.md --pdf-engine=xelatex -o guide.pdf
+
+#encoding tools
+https://gchq.github.io/CyberChef
+https://tech.pookey.co.uk/non-wp/encoder-decoder.php
+
+#how to exit vim
+:!ps ax | grep vim | grep -v grep | awk '{print $1}' | xargs -n1 kill -9
+
+# windows
+#
+# custom windows 10 iso with most tracking and bloat removed
+https://ameliorated.info/
+username: user
+password: malte
+#
+# gui desktop widgets and shortcut organization
+https://www.stardock.com/products/fences/
+#
+# install drivers
+https://sdi-tool.org/download/
+#
+# install multiple common programs quickly
+https://ninite.com/
+#
+# windows cli package manager for installing common software
+https://github.com/microsoft/winget-cli
+#
+# clean registry, tmp files, bloat
+https://github.com/Sycnex/Windows10Debloater
+#
+# rainmeter resource monitors
+https://www.rainmeter.net/
+#
+# spec watchers
+https://www.cpuid.com/softwares/hwmonitor.html#install
+https://www.techpowerup.com/download/techpowerup-gpu-z/
+https://www.msi.com/page/afterburner
+#
+# utilities
+#
+https://github.com/microsoft/PowerToys
+#
+# software install
+https://spinel.ovh/
+#
+# more detailed process information than task manager
+https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer
+#
+# software for optimizing ryzen cpus
+https://www.amd.com/en/technologies/ryzen-master
+#
+# WSL Arch
+https://github.com/yuk7/ArchWSL
 
 laws of power
 https://www.youtube.com/watch?v=Su36tpkuo1I
@@ -57,427 +399,3 @@ https://www.youtube.com/watch?v=Su36tpkuo1I
 46. Never appear too perfect
 47. Do not go past the mark you aimed for. In victory, learn when to stop.
 48. Assume formlessness
-
-xnviewmp - view dds files in starfield mods
-
-xrestop
-nvidia-bug-report.sh
-dust
-
-https://mynoise.net/
-windy.com
-
-file.jpg - view exif data
-
-identify --verbose file.jpg
-
-sudo smartctl -t short -a /dev/nvme0n1p2
-
-tmux new-session -d -n minecraft /var/minecraft/bin/server_nogui.sh
-tmux send-keys -t minecraft "stop^M"
-tmux attach-session -t name
-
-tmux
-ctrl+b $ #rename session
-ctrl+b d #detach
-tmux -ls #list sessions - unknown option s?
-tmux attach-session -t name #reattach
-
-#minecraft
-https://cassiofernando.netlify.app/blog/minecraft-java-arguments
-https://www.spigotmc.org/threads/guide-optimizing-spigot-remove-lag-fix-tps-improve-performance.21726/page-10#post-1055873
-screen -S name #create
-ctrl+a+d #detach
-screen -ls #list sessions
-screen -r name #reattach
-exit #kill screen instance
-
-#personality
-INTJ-A
-
-#arch.conf
-linux /vmlinuz-linux-lts
-initrd /initramfs-linux-lts.img
-
-(╯°□°）╯︵ ┻━┻
-┳━┳ ノ( ゜-゜ノ)
-
-#flamegraph
-cargo flamegraph
-requires system perf
-cargo install flamegraph
-
-#how to ask
-https://sol.gfxile.net/dontask.html
-http://www.catb.org/esr/faqs/smart-questions.html
-
-#typing test
-https://www.keybr.com/
-https://typings.gg/
-
-#github work search
-https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+archived%3Afalse+label%3Ahelp-wanted
-https://github.com/explore
-
-#font completion test
-https://www.fileformat.info/info/unicode/utf8test.htm
-
-#packages
-#
-#shell
-zsh #the shell itself
-zsh-syntax-highlighting #zsh highlight commands
-zsh-theme-powerlevel10k-git #zsh prompt
-cht.sh #crazy code helper thing
-#
-#security
-vulscan #nmap vulnerability scanner
-dirbuster #search web dirs
-dirbuster-wordlists #default path lists
-wpscan #vulnerability scanner for wordpress
-#
-#terminal apps
-mtr #interactive traceroute
-radare2 #analyze binary files
-volatility3 #analyze memory dumps
-pianobar #pandora client
-w3m #web stuff in terminal
-pkgtop-git #manage installed packages
-nethogs #network process viewer
-nvtop #htop for nvidia gpu
-lsd #better ls
-neomutt #email
-newsboat #rss feeds
-asciinema #terminal recorder
-ncpamixer #pulse mixer
-gtop #resource monitor
-bashtop #resource monitor
-scanmem #memory injection
-#
-#terminal toys
-chafa #convert image to text
-jp2a #convert jpg to ascii
-tmatrix-git
-gource #git development visualization
-asciiquarium #animated aquarium in ascii
-doge #doge meme generator
-pipes.sh #procedural pipes animation
-lolcat #use | for rainbow
-edex-ui #hollywood movie terminal in electron
-#
-#pdf
-zathura #pdf viewer
-groff #markup language
-texlive-most #markup language
-md4c #C markdown parser
-python-markdown
-pandoc #convert markup to other markup
-evince #pdf editor
-#
-#virtualization
-kvm #hypervisor as a kernel module
-qemu #machine emulator and virtualizer
-libvirt #manage virtual machines
-virt-manager #gui for managing vms
-ebtables #networking for qemu
-sudo systemctl enable libvirtd
-sudo systemctl start libvirtd
-sudo usermod -G libvirtd -a jaster
-#utility
-mingw-w64-sdl2 #required for cross-compiling sdl apps
-breeze-blue-cursor-theme
-breeze-hacked-cursor-theme
-breeze-obsidian-cursor-theme
-smartmonctl #check hdd health
-android-file-transfer #transfer files with android phone and pc
-chromium-widevine #browser extension for netflix
-mtools #utilities to access ms-dos disks
-mono-msbuild #required by YCM C# completion
-lxsession #login manager for applications
-uwsgi-plugin-python
-ripgrep #replacement for grep in Rust
-python-future #required by youcompleteme vim plugin
-rsync #sync files on lan
-rclone #sync files to online service
-pv #view progress of stuff piped through it
-copyq #clipboard for screenshot commands
-hub #git api commands and stuff
-pulseaudio-ctl #terminal commands volume control
-lscolors-git #ls color coding
-hplip #hp printer drivers
-foomatic-db-ppds #printer drivers
-rmlint #detect and remove dead files in target dir
-bleachbit #system cleaning
-dunst #notification daemon
-packer #create machine images
-openvpn #virtual private network hackthebox.eu
-words #dictionary files in /usr/share/dict/
-mutt-wizard-git #automate neomutt config
-docker #two strings in a box
-python-black #python linter
-python-pyfiglet
-unclutter #hide the mouse on delay
-perl-file-mimeinfo #mime types without desktop environment
-dialog #mutt-wizard menu
-offlineimap #mutt offline mail
-msmtp #mutt smtp
-python-flask #build websites in python
-youtube-dl #downloads youtube videos
-flashfocus-git #window focus indicator
-picom #Arch repos moved from compton to picom
-fwupd #updating firmware
-go #google's language
-#
-#programs
-btop #task manager
-exercism-bin #for exercism.io testing
-sourcetrail #visualize codebases
-alacritty #terminal app built in Rust
-alacritty-terminfo #terminfo file for alacritty
-audacity #audio file editor
-libreoffice-fresh #office software
-system-config-printer #gtk gui for cups
-sxiv #x image viewer
-transmission-cli #terminal torrent client
-stig-git #tui interface for transmission
-remmina #remote desptop rpd/vnc
-pscircle #process tree visualizer
-kdenlive #video editor
-frei0r-plugins #optional for kdenlive
-breeze-icons #optional for kdenlive
-terrafirma #terraria world viewer
-abiword #gui text editor (rtf)
-surf #minimal browser
-krita #edit images
-qdirstat #visualize storage space
-utox #chat client
-hardinfo #show hardware
-mpv #video player
-#
-#games
-citro-qt-git #ds emulator
-supertuxkart #cartoony cart racing game
-wesnoth #turn-based tiles strategy
-xonotic #quake3 engine fps
-hyne-git #ff8 save editor
-#
-#icons
-papirus-icon-theme
-
-#vim plugins
-#auto-pairs/
-https://github.com/jiangmiao/auto-pairs
-#cheat.sh-vim/
-https://github.com/dbeniamine/cheat.sh-vim.git
-#indentline/
-https://github.com/yggdroot/indentline.git
-#molokai/
-https://github.com/tomasr/molokai
-#neomake/
-https://github.com/neomake/neomake.git
-#nerdtree/
-https://github.com/scrooloose/nerdtree.git
-#vaxe/
-https://github.com/jdonaldson/vaxe.git
-#vim-airline/
-https://github.com/vim-airline/vim-airline.git
-#vim-airline-themes/
-https://github.com/vim-airline/vim-airline-themes.git
-#vim-better-whitespace/
-https://github.com/ntpeters/vim-better-whitespace.git
-#vim-colors-solarized/
-https://github.com/altercation/vim-colors-solarized.git
-#vim-polyglot/
-https://github.com/sheerun/vim-polyglot
-#youcompleteme/
-https://github.com/valloric/youcompleteme
-#
-#zsh plugins
-#powerlevel10k/
-https://github.com/romkatv/powerlevel10k
-#zsh-syntax-highlighting/
-https://github.com/zsh-users/zsh-syntax-highlighting
-
-#commands
-#
-#hotkeys
-c #create window
-d #detach current client from session
-l #previously selected window
-p #previous
-n #next
-w #list windows
-number #switch to that number window
-& #kill current window
-, #rename current window
-q #show pane numbers for switching
-o #next pane
-% #split vertically
-:split-window #split horizontally
-{ #move current pane left
-} #move current pane right
-:break-pane #make pane its own window
-
-#discord markup stuff
-#
-#sed edit
-avocado
-s/avocado/guacamole
-
-#asciinema
-asciinema rec
-ctrl+d
-asciinema rec -c "zsh -l"
-asciinema play filename.cast
-
-#git
-#
-#use github and gitlab
-cd project
-git remote add github https://github.com/user/repo.git
-git remote set-url --add origin https://github.com/user/repo.git
-#switch to ssh keys
-git remote set-url origin git@github.com:ownername/projname.git
-check .git/config
-#generate pull request with hub
-git clone https://git(hub/lab).com/user/thing
-cd thing
-hub fork
-git clone https://git(hub||lab).com/archification/thing
-edit things in thing
-git add changes
-git commit -m ""
-git push
-hub pull-request --push --base <Owner>:<branch> --head archification:<branch>
-#keep fork updated
-git remote add upstream git://github.com/owner/thing.git
-git fetch upstream
-git pull upstream master
-
-#remove dupe photos
-fdupes -r /home/jaster/stuff/
-
-#slideshow
-imv -t int ~/stuff
-
-#misc
-swapoff -a; swapon -a
-org.cups.cupsd.service
-p10k configure
-pscircle --output-width=1920 --output-height=1080 --tree-radius-increment=125 --cpulist-show=false --memlist-show=false --output=/home/jaster/thing.png
-curl wttr.in
-curl -s "https://cht.sh/$argv"
-archlinux-java set java-8-jdk
-
-#Rust
-#install tool to easily handle adding and removing crates in projects
-https://www.youtube.com/watch?v=zF34dRivLOw&t=411s
-cargo install cargo-edit
-#add and remove crates inside project
-cargo add crateName
-cargo rm crateName
-#list all cargo commands currently installed
-cargo list
-#generate and/or open docs
-cargo doc --open
-cargo doc --open --offline --document-private-items
-#build for release
-cargo build --release
-#run project using rust nightly
-cargo +nightly run
-#add common components
-rustup component add rls rust-analysis rust-src
-pacman -Qi
-#cross-compile from linux to windows
-rustup target add x86_64-pc-windows-gnu
-rustup toolchain install stable-x86_64-pc-windows-gnu
-cargo build --release --target "x86_64-pc-windows-gnu" --verbose
-#Rust webasm
-npm install &npm@current -g
-cargo install cargo-generate #needed for wasm
-cargo generate --git https://github.com/rustwasm/wasm-pack-template
-wasm-pack build #cycle
-npm init wasm-app www
-cd www && npm install
-npm run start
-
-#nvim
-#
-#commands
-#pipe output into vim
-grep -Hnri stuff * | vim -
-#sort lines in vim buffer
-:%!sort -u
-#remove lines containing stuff
-:%!grep -v stuff
-#remove lines containing stuff or STUFF
-:%!grep -vi stuff
-#
-#nvim youcompleteme
-aur/python2-pynvim
-community/python-pynvim
-python3 -m pip install --user --upgrade pynvim
-python2 -m pip install --user --upgrade pynvim
-python3 install.py --cs-completer --go-completer --rust-completer --java-completer
-
-#drive health
-sudo smartctl -t short /dev/sda
-sudo smartctl -H /dev/sda
-
-#pandoc markdown to pdf
-pandoc guide.md --pdf-engine=xelatex -o guide.pdf
-
-#encoding tools
-https://gchq.github.io/CyberChef
-https://tech.pookey.co.uk/non-wp/encoder-decoder.php
-
-#how to exit vim
-:!ps ax | grep vim | grep -v grep | awk '{print $1}' | xargs -n1 kill -9
-
-# windows
-#
-# custom windows 10 iso with most tracking and bloat removed
-https://ameliorated.info/
-username: user
-password: malte
-#
-# gui desktop widgets and shortcut organization
-https://www.stardock.com/products/fences/
-#
-# install drivers
-https://sdi-tool.org/download/
-#
-# install multiple common programs quickly
-https://ninite.com/
-#
-# windows cli package manager for installing common software
-https://github.com/microsoft/winget-cli
-#
-# clean registry, tmp files, bloat
-https://github.com/Sycnex/Windows10Debloater
-#
-# rainmeter resource monitors
-https://www.rainmeter.net/
-#
-# spec watchers
-https://www.cpuid.com/softwares/hwmonitor.html#install
-https://www.techpowerup.com/download/techpowerup-gpu-z/
-https://www.msi.com/page/afterburner
-#
-# utilities
-https://github.com/microsoft/PowerToys
-# software install
-https://spinel.ovh/
-# more detailed process information than task manager
-https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer
-# software for optimizing ryzen cpus
-https://www.amd.com/en/technologies/ryzen-master
-#
-# generic windows product keys
-https://www.tenforums.com/tutorials/95922-generic-product-keys-install-windows-10-editions.html
-#
-# WSL Arch
-https://github.com/yuk7/ArchWSL
-
-People who were seduced by their parents are easier to seduce
-Cannot be seduced unless you're vulnerable
