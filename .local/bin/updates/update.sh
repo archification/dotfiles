@@ -2,7 +2,6 @@
 
 paru -Syu
 dotgit.sh
-vimgit.sh
 echo
 rustup update
 notify-send -u low \

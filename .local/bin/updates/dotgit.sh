@@ -6,6 +6,9 @@ echo dotgit.sh
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 config remote -v
 
+cd $HOME/.local/bin/updates
+config rm vimgit.sh
+
 cd $HOME
 config add .bashrc
 config add .zshrc
