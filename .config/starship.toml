@@ -1,0 +1,52 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+scan_timeout = 10
+add_newline = true
+
+format = """
+[\uE0B6](fg:#002b36)\
+[$directory](bg:#002b36)\
+[\uE0B0](fg:#002b36 bg:#073642)\
+$git_branch\
+[\uE0B0](fg:#073642 bg:#0b4a58)\
+$git_status\
+[\uE0B0](#0b4a58 bg:#106b79)\
+[\uE0B0](#106b79 bg:none)
+[$character](fg:cyan) """
+#$time\
+
+[character]
+success_symbol = '[❯](bold #859900)'
+error_symbol = '[❯](bold #dc322f)'
+
+[directory]
+style = "bg:#002b36 fg:cyan"
+
+[git_branch]
+format = "[ $symbol$branch ]($style)"
+style = "bg:#073642 fg:cyan"
+
+[git_status]
+format = "[ $all_status$ahead_behind ]($style)"
+style = "bg:#0b4a58 fg:cyan"
+
+#[time]
+#disabled = false
+#format = "[ $time ]($style)"
+#style = "bg:#106b79 fg:cyan"
+
+#$base03:    #002b36;
+#$base02:    #073642;
+#$base01:    #586e75;
+#$base00:    #657b83;
+#$base0:     #839496;
+#$base1:     #93a1a1;
+#$base2:     #eee8d5;
+#$base3:     #fdf6e3;
+#$yellow:    #b58900;
+#$orange:    #cb4b16;
+#$red:       #dc322f;
+#$magenta:   #d33682;
+#$violet:    #6c71c4;
+#$blue:      #268bd2;
+#$cyan:      #2aa198;
+#$green:     #859900;

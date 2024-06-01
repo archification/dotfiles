@@ -9,7 +9,7 @@ cd $HOME
 config add .bashrc
 config add .zshrc
 config add .alias
-config add .p10k.zsh
+config rm .p10k.zsh
 config add note
 config add .profile
 config add .zprofile
@@ -43,6 +43,7 @@ cd $HOME/.config
 config add mimeapps.list
 config add picom.conf
 config add libao.conf
+config add starship.toml
 
 cd rofi
 config add rofi.rasi
@@ -70,7 +71,6 @@ cd ../termite
 config add config
 
 cd ../alacritty
-config rm alacritty.yml
 config add alacritty.toml
 
 cd ../dunst

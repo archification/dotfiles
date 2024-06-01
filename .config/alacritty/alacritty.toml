@@ -51,7 +51,7 @@ render_timer = false
 size = 11.0
 
 [font.bold]
-family = "Mononoki Nerd Font"
+family = "Hack Nerd Font"
 style = "Bold"
 
 [font.glyph_offset]
@@ -59,11 +59,11 @@ x = 0
 y = 0
 
 [font.italic]
-family = "Mononoki Nerd Font"
+family = "Hack Nerd Font"
 style = "Italic"
 
 [font.normal]
-family = "Mononoki Nerd Font"
+family = "Hack Nerd Font"
 
 [font.offset]
 x = 0
