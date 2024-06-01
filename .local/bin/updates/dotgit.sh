@@ -56,8 +56,10 @@ config add core.lua
 config add lazy.lua
 cd plugins
 config add autopair.lua
-config add init.lua
+config add colorscheme.lua
+config rm init.lua
 config add linting.lua
+config add status.lua
 config add treesitter.lua
 config add undotree.lua
 
