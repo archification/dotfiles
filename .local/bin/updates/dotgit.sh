@@ -9,7 +9,6 @@ cd $HOME
 config add .bashrc
 config add .zshrc
 config add .alias
-config rm .p10k.zsh
 config add note
 config add .profile
 config add .zprofile
@@ -57,7 +56,6 @@ config add lazy.lua
 cd plugins
 config add autopair.lua
 config add colorscheme.lua
-config rm init.lua
 config add linting.lua
 config add status.lua
 config add treesitter.lua
