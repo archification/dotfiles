@@ -70,7 +70,8 @@ cd ../termite
 config add config
 
 cd ../alacritty
-config add alacritty.yml
+config rm alacritty.yml
+config add alacritty.toml
 
 cd ../dunst
 config add dunstrc
