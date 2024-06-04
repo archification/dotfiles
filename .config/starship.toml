@@ -11,8 +11,31 @@ $git_branch\
 $git_status\
 [\uE0B0](#0b4a58 bg:#106b79)\
 [\uE0B0](#106b79 bg:none)
-[$character](fg:cyan) """
-#$time\
+[$character](fg:cyan)\
+"""
+
+#$violet:    #6c71c4;
+#$blue:      #268bd2;
+#$cyan:      #2aa198;
+#$green:     #859900;
+#$yellow:    #b58900;
+#$orange:    #cb4b16;
+#$red:       #dc322f;
+#$magenta:   #d33682;
+right_format = """
+[\uE0B2](fg:#d33682 bg:none)\
+[\uE0B2](fg:#dc322f bg:#d33682)\
+[\uE0B2](fg:#cb4b16 bg:#dc322f)\
+[\uE0B2](fg:#b58900 bg:#cb4b16)\
+[\uE0B2](fg:#859900 bg:#b58900)\
+[\uE0B2](fg:#2aa198 bg:#859900)\
+[\uE0B2](fg:#268bd2 bg:#2aa198)\
+[\uE0B2](fg:#6c71c4 bg:#268bd2)\
+[\uE0B2](fg:#002b36 bg:#6c71c4)\
+$time\
+[\uE0B4](fg:#002b36)\
+"""
+#[$package$rust](bg:#073642)\
 
 [character]
 success_symbol = '[❯](bold #859900)'
@@ -29,10 +52,10 @@ style = "bg:#073642 fg:cyan"
 format = "[ $all_status$ahead_behind ]($style)"
 style = "bg:#0b4a58 fg:cyan"
 
-#[time]
-#disabled = false
-#format = "[ $time ]($style)"
-#style = "bg:#106b79 fg:cyan"
+[time]
+disabled = false
+format = "[ $time ]($style)"
+style = "bg:#002b36 fg:cyan"
 
 #$base03:    #002b36;
 #$base02:    #073642;
