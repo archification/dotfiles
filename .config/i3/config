@@ -144,4 +144,8 @@ for_window [all] default_border none
 for_window [all] border none
 
 # mute mic
-bindsym $mod+Shift+m exec --no-startup-id pactl set-source-mute alsa_input.usb-Logitech_PRO_X_000000000000-00.mono-fallback toggle
+#bindsym $mod+Shift+m exec --no-startup-id pactl set-source-mute alsa_input.usb-Logitech_PRO_X_000000000000-00.mono-fallback toggle
+bindsym $mod+Shift+m exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && \
+    notify-send -u low \
+    "mic toggled" \
+    -i $HOME/pictures/avatars/mic.png
