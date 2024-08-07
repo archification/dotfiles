@@ -144,7 +144,13 @@ for_window [all] default_border none
 for_window [all] border none
 
 # mute mic
-#bindsym $mod+Shift+m exec --no-startup-id pactl set-source-mute alsa_input.usb-Logitech_PRO_X_000000000000-00.mono-fallback toggle
+bindsym $mod+Shift+n exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && \
+    i3lock -i 5 -c 002222 --nofork && \
+    pactl set-source-mute @DEFAULT_SOURCE@ false && \
+    notify-send -u low \
+    "mic toggled & screen unlocked" \
+    -i $HOME/pictures/avatars/mic.png
+
 bindsym $mod+Shift+m exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && \
     notify-send -u low \
     "mic toggled" \
