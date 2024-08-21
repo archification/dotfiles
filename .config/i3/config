@@ -136,9 +136,6 @@ bindsym $mod+z  exec surf https://scrolller.com/?tab=following
 bindsym --release $mod+x exec "grabimage.sh"
 bindsym --release $mod+c exec "graburl.sh"
 
-# ip address
-bindsym --release $mod+g exec "guac"
-
 # title fix
 for_window [all] default_border none
 for_window [all] border none
