@@ -6,6 +6,7 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.smartindent = true
 vim.opt.termguicolors = true
+vim.opt.virtualedit = "block";
 
 vim.o.guifont = "Hack Nerd Font:h11"
 vim.g.neovide_cursor_vfx_mode = "pixiedust"
