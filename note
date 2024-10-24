@@ -1,3 +1,6 @@
+meld
+compare files/folders and see diffs
+
 cargo +nightly udeps
 
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout mykey.key -out mycert.crt
