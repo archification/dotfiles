@@ -90,4 +90,4 @@ config add thing.mp3
 config add upgradecomplete.mp3
 
 config commit -m 'scripted commit'
-config push -u github master
+config push
