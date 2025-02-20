@@ -24,6 +24,10 @@ application/x-spss-sav=7zFM.desktop
 x-scheme-handler/discord-537047684993777686=discord-537047684993777686.desktop
 x-scheme-handler/nxm=modorganizer2-nxm-handler.desktop
 x-scheme-handler/nxm-protocol=ModOrganizer-steamtinkerlaunch-dl.desktop
+inode/directory=thunar.desktop
+application/x-gnome-saved-search=thunar.desktop
+x-scheme-handler/discord-719647875465871400=discord-719647875465871400.desktop
+x-scheme-handler/discord-1222229231367487539=discord-1222229231367487539.desktop
 
 [Added Associations]
 x-scheme-handler/tg=userapp-Telegram Desktop-AT02W0.desktop;userapp-Telegram Desktop-UC3HT1.desktop;org.telegram.desktop.desktop;
